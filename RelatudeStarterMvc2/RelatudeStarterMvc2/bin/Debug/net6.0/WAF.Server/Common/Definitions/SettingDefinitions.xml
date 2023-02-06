@@ -1,0 +1,1782 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingDescriptions>
+  <Description For="ContentClass">
+    <Condition Property="ContentClassType.Value" Value="ContentClass">
+      <StringSettingInfo Key="Color" DefaultValue="" IsEditable="True" Title="Color of class in UI" Description="" Link="" />
+      <BooleanSettingInfo Key="UseRevisions" DefaultValue="False" IsEditable="True" Title="Use revisions" Description="" Link="" />
+      <BooleanSettingInfo Key="DynamicPropertyVisibility" DefaultValue="False" IsEditable="True" Title="Dynamic property visibility" Description="" Link="" />
+      <BooleanSettingInfo Key="DefaultHidden" DefaultValue="False" IsEditable="True" Title="Default hidden" Description="" Link="" />
+      <StringSettingInfo Key="DefaultModuleName" DefaultValue="content" IsEditable="True" Title="Default module name" Description="" Link="" />
+      <StringSettingInfo Key="CategoryName" DefaultValue="" IsEditable="True" Title="Category name" Description="" Link="" />
+      <IntSettingInfo Key="CreateDialogueGroupId" DefaultValue="0" IsEditable="True" Title="Create dialogue group id" Description="" Link="" />
+      <IntSettingInfo Key="CreateAccessGroupId" DefaultValue="0" IsEditable="True" Title="Create access group id" Description="" Link="" />
+      <IntSettingInfo Key="DefaultReadAccessGroupId" DefaultValue="0" IsEditable="True" Title="Default read access group id" Description="" Link="" />
+      <IntSettingInfo Key="DefaultEditAccessGroupId" DefaultValue="0" IsEditable="True" Title="Default edit access group id" Description="" Link="" />
+      <IntSettingInfo Key="DefaultPublishAccessGroupId" DefaultValue="0" IsEditable="True" Title="Default publish access group id" Description="" Link="" />
+      <IntSettingInfo Key="DefaultTemplateId" DefaultValue="0" IsEditable="True" Title="Default template id" Description="" Link="" />
+      <StringSettingInfo Key="DefaultModuleName" DefaultValue="content" IsEditable="True" Title="Default module name" Description="" Link="" />
+      <BooleanSettingInfo Key="CreateAsPreliminaryBySystem" DefaultValue="False" IsEditable="True" Title="Create as preliminary by system" Description="" Link="" />
+      <BooleanSettingInfo Key="CreateAsPreliminaryFromWizard" DefaultValue="False" IsEditable="True" Title="Create as preliminary from wizard" Description="" Link="" />
+      <StringSettingInfo Key="LegalParents" DefaultValue="" IsEditable="True" Title="Legal parents" Description="" Link="" />
+      <IntSettingInfo Key="MinimumInstances" DefaultValue="0" IsEditable="True" Title="Minimum instances" Description="" Link="" />
+      <IntSettingInfo Key="MaximumInstances" DefaultValue="0" IsEditable="True" Title="Maximum instances" Description="" Link="" />
+      <BooleanSettingInfo Key="IncludedInPublicIndexed" DefaultValue="True" IsEditable="True" Title="Included in public indexed" Description="" Link="" />
+      <BooleanSettingInfo Key="IncludedInProtectedIndexed" DefaultValue="True" IsEditable="True" Title="Included in protected indexed" Description="" Link="" />
+      <StringSettingInfo Key="ProperyNameMetaDescription" DefaultValue="" IsEditable="True" Title="Propery name meta description" Description="" Link="" />
+      <BooleanSettingInfo Key="IndexLinks" DefaultValue="True" IsEditable="True" Title="Index links" Description="" Link="" />
+      <StringSettingInfo Key="ODataName" DefaultValue="" IsEditable="True" Title="OData endpoint name" Description="" Link="" />
+      <BooleanSettingInfo Key="ODataAllowRead" DefaultValue="False" IsEditable="True" Title="OData read access" Description="" Link="" />
+      <BooleanSettingInfo Key="ODataAllowWrite" DefaultValue="False" IsEditable="True" Title="OData write access" Description="" Link="" />
+      <StringSettingInfo Key="SchemaOrgMapping" DefaultValue="" IsEditable="True" Title="Schema.org type URI" Description="" Link="" />
+      <BooleanSettingInfo Key="AutoSetName" DefaultValue="False" IsEditable="True" Title="Auto set name" Description="" Link="" />
+      <StringSettingInfo Key="PropertyGroupsHidden" DefaultValue="" IsEditable="True" Title="Tabs hidden to some users" Description="" Link="" />
+      <IntSettingInfo Key="PropertyGroupsShowForGroupId" DefaultValue="0" IsEditable="True" Title="Usergroup that see optional tabs" Description="" Link="" />
+      <StringSettingInfo Key="PropertyGroupsAlwaysHide" DefaultValue="" IsEditable="True" Title="Tabs hidden for all" Description="" Link="" />
+    </Condition>
+    <Condition Property="ContentClassType.Value" Value="InnerContentClass">
+      <StringSettingInfo Key="Color" DefaultValue="" IsEditable="True" Title="Color of class in UI" Description="" Link="" />
+      <BooleanSettingInfo Key="UseRevisions" DefaultValue="False" IsEditable="True" Title="Use revisions" Description="" Link="" />
+      <BooleanSettingInfo Key="DefaultHidden" DefaultValue="False" IsEditable="True" Title="Default hidden" Description="" Link="" />
+      <IntSettingInfo Key="CreateDialogueGroupId" DefaultValue="0" IsEditable="True" Title="Create dialogue group id" Description="" Link="" />
+      <IntSettingInfo Key="CreateAccessGroupId" DefaultValue="0" IsEditable="True" Title="Create access group id" Description="" Link="" />
+      <IntSettingInfo Key="DefaultReadAccessGroupId" DefaultValue="0" IsEditable="True" Title="Default read access group id" Description="" Link="" />
+      <IntSettingInfo Key="DefaultEditAccessGroupId" DefaultValue="0" IsEditable="True" Title="Default edit access group id" Description="" Link="" />
+      <IntSettingInfo Key="DefaultPublishAccessGroupId" DefaultValue="0" IsEditable="True" Title="Default publish access group id" Description="" Link="" />
+      <IntSettingInfo Key="DefaultTemplateId" DefaultValue="0" IsEditable="True" Title="Default template id" Description="" Link="" />
+      <StringSettingInfo Key="DefaultModuleName" DefaultValue="content" IsEditable="True" Title="Default module name" Description="" Link="" />
+      <BooleanSettingInfo Key="CreateAsPreliminaryBySystem" DefaultValue="False" IsEditable="True" Title="Create as preliminary by system" Description="" Link="" />
+      <BooleanSettingInfo Key="CreateAsPreliminaryFromWizard" DefaultValue="False" IsEditable="True" Title="Create as preliminary from wizard" Description="" Link="" />
+      <StringSettingInfo Key="LegalParents" DefaultValue="" IsEditable="True" Title="Legal parents" Description="" Link="" />
+      <IntSettingInfo Key="MinimumInstances" DefaultValue="0" IsEditable="True" Title="Minimum instances" Description="" Link="" />
+      <IntSettingInfo Key="MaximumInstances" DefaultValue="0" IsEditable="True" Title="Maximum instances" Description="" Link="" />
+      <BooleanSettingInfo Key="IncludedInPublicIndexed" DefaultValue="True" IsEditable="True" Title="Included in public indexed" Description="" Link="" />
+      <BooleanSettingInfo Key="IncludedInProtectedIndexed" DefaultValue="True" IsEditable="True" Title="Included in protected indexed" Description="" Link="" />
+      <StringSettingInfo Key="ProperyNameMetaDescription" DefaultValue="" IsEditable="True" Title="Propery name meta description" Description="" Link="" />
+      <BooleanSettingInfo Key="IndexLinks" DefaultValue="True" IsEditable="True" Title="Index links" Description="" Link="" />
+      <StringSettingInfo Key="ODataName" DefaultValue="" IsEditable="True" Title="OData endpoint name" Description="" Link="" />
+      <BooleanSettingInfo Key="ODataAllowRead" DefaultValue="False" IsEditable="True" Title="OData read access" Description="" Link="" />
+      <BooleanSettingInfo Key="ODataAllowWrite" DefaultValue="False" IsEditable="True" Title="OData write access" Description="" Link="" />
+      <StringSettingInfo Key="SchemaOrgMapping" DefaultValue="" IsEditable="True" Title="Schema.org type URI" Description="" Link="" />
+      <BooleanSettingInfo Key="AutoSetName" DefaultValue="False" IsEditable="True" Title="Auto set name" Description="" Link="" />
+      <StringSettingInfo Key="PropertyGroupsHidden" DefaultValue="" IsEditable="True" Title="Tabs hidden to some users" Description="" Link="" />
+      <IntSettingInfo Key="PropertyGroupsShowForGroupId" DefaultValue="0" IsEditable="True" Title="Usergroup that see optional tabs" Description="" Link="" />
+      <StringSettingInfo Key="PropertyGroupsAlwaysHide" DefaultValue="" IsEditable="True" Title="Tabs hidden for all" Description="" Link="" />
+    </Condition>
+    <Condition Property="ContentClassType.Value" Value="AbstractClass">
+      <StringSettingInfo Key="Color" DefaultValue="" IsEditable="True" Title="Color of class in UI" Description="" Link="" />
+      <BooleanSettingInfo Key="UseRevisions" DefaultValue="False" IsEditable="True" Title="Use revisions" Description="" Link="" />
+      <BooleanSettingInfo Key="DefaultHidden" DefaultValue="False" IsEditable="True" Title="Default hidden" Description="" Link="" />
+      <IntSettingInfo Key="CreateDialogueGroupId" DefaultValue="0" IsEditable="True" Title="Create dialogue group id" Description="" Link="" />
+      <IntSettingInfo Key="CreateAccessGroupId" DefaultValue="0" IsEditable="True" Title="Create access group id" Description="" Link="" />
+      <IntSettingInfo Key="DefaultReadAccessGroupId" DefaultValue="0" IsEditable="True" Title="Default read access group id" Description="" Link="" />
+      <IntSettingInfo Key="DefaultEditAccessGroupId" DefaultValue="0" IsEditable="True" Title="Default edit access group id" Description="" Link="" />
+      <IntSettingInfo Key="DefaultPublishAccessGroupId" DefaultValue="0" IsEditable="True" Title="Default publish access group id" Description="" Link="" />
+      <IntSettingInfo Key="DefaultTemplateId" DefaultValue="0" IsEditable="True" Title="Default template id" Description="" Link="" />
+      <StringSettingInfo Key="DefaultModuleName" DefaultValue="content" IsEditable="True" Title="Default module name" Description="" Link="" />
+      <BooleanSettingInfo Key="CreateAsPreliminaryBySystem" DefaultValue="False" IsEditable="True" Title="Create as preliminary by system" Description="" Link="" />
+      <BooleanSettingInfo Key="CreateAsPreliminaryFromWizard" DefaultValue="False" IsEditable="True" Title="Create as preliminary from wizard" Description="" Link="" />
+      <StringSettingInfo Key="LegalParents" DefaultValue="" IsEditable="True" Title="Legal parents" Description="" Link="" />
+      <IntSettingInfo Key="MinimumInstances" DefaultValue="0" IsEditable="True" Title="Minimum instances" Description="" Link="" />
+      <IntSettingInfo Key="MaximumInstances" DefaultValue="0" IsEditable="True" Title="Maximum instances" Description="" Link="" />
+      <BooleanSettingInfo Key="IncludedInPublicIndexed" DefaultValue="True" IsEditable="True" Title="Included in public indexed" Description="" Link="" />
+      <BooleanSettingInfo Key="IncludedInProtectedIndexed" DefaultValue="True" IsEditable="True" Title="Included in protected indexed" Description="" Link="" />
+      <StringSettingInfo Key="ProperyNameMetaDescription" DefaultValue="" IsEditable="True" Title="Propery name meta description" Description="" Link="" />
+      <BooleanSettingInfo Key="IndexLinks" DefaultValue="True" IsEditable="True" Title="Index links" Description="" Link="" />
+      <StringSettingInfo Key="ODataName" DefaultValue="" IsEditable="True" Title="OData endpoint name" Description="" Link="" />
+      <BooleanSettingInfo Key="ODataAllowRead" DefaultValue="False" IsEditable="True" Title="OData read access" Description="" Link="" />
+      <BooleanSettingInfo Key="ODataAllowWrite" DefaultValue="False" IsEditable="True" Title="OData write access" Description="" Link="" />
+      <StringSettingInfo Key="SchemaOrgMapping" DefaultValue="" IsEditable="True" Title="Schema.org type URI" Description="" Link="" />
+      <BooleanSettingInfo Key="AutoSetName" DefaultValue="False" IsEditable="True" Title="Auto set name" Description="" Link="" />
+      <StringSettingInfo Key="PropertyGroupsHidden" DefaultValue="" IsEditable="True" Title="Tabs hidden to some users" Description="" Link="" />
+      <IntSettingInfo Key="PropertyGroupsShowForGroupId" DefaultValue="0" IsEditable="True" Title="Usergroup that see optional tabs" Description="" Link="" />
+      <StringSettingInfo Key="PropertyGroupsAlwaysHide" DefaultValue="" IsEditable="True" Title="Tabs hidden for all" Description="" Link="" />
+    </Condition>
+    <Condition Property="ContentClassType.Value" Value="InnerContentInterface">
+      <StringSettingInfo Key="Color" DefaultValue="" IsEditable="True" Title="Color of class in UI" Description="" Link="" />
+      <BooleanSettingInfo Key="UseRevisions" DefaultValue="False" IsEditable="True" Title="Use revisions" Description="" Link="" />
+      <BooleanSettingInfo Key="DefaultHidden" DefaultValue="False" IsEditable="True" Title="Default hidden" Description="" Link="" />
+      <IntSettingInfo Key="CreateDialogueGroupId" DefaultValue="0" IsEditable="True" Title="Create dialogue group id" Description="" Link="" />
+      <IntSettingInfo Key="CreateAccessGroupId" DefaultValue="0" IsEditable="True" Title="Create access group id" Description="" Link="" />
+      <IntSettingInfo Key="DefaultReadAccessGroupId" DefaultValue="0" IsEditable="True" Title="Default read access group id" Description="" Link="" />
+      <IntSettingInfo Key="DefaultEditAccessGroupId" DefaultValue="0" IsEditable="True" Title="Default edit access group id" Description="" Link="" />
+      <IntSettingInfo Key="DefaultPublishAccessGroupId" DefaultValue="0" IsEditable="True" Title="Default publish access group id" Description="" Link="" />
+      <IntSettingInfo Key="DefaultTemplateId" DefaultValue="0" IsEditable="True" Title="Default template id" Description="" Link="" />
+      <StringSettingInfo Key="DefaultModuleName" DefaultValue="content" IsEditable="True" Title="Default module name" Description="" Link="" />
+      <BooleanSettingInfo Key="CreateAsPreliminaryBySystem" DefaultValue="False" IsEditable="True" Title="Create as preliminary by system" Description="" Link="" />
+      <BooleanSettingInfo Key="CreateAsPreliminaryFromWizard" DefaultValue="False" IsEditable="True" Title="Create as preliminary from wizard" Description="" Link="" />
+      <StringSettingInfo Key="LegalParents" DefaultValue="" IsEditable="True" Title="Legal parents" Description="" Link="" />
+      <IntSettingInfo Key="MinimumInstances" DefaultValue="0" IsEditable="True" Title="Minimum instances" Description="" Link="" />
+      <IntSettingInfo Key="MaximumInstances" DefaultValue="0" IsEditable="True" Title="Maximum instances" Description="" Link="" />
+      <BooleanSettingInfo Key="IncludedInPublicIndexed" DefaultValue="True" IsEditable="True" Title="Included in public indexed" Description="" Link="" />
+      <BooleanSettingInfo Key="IncludedInProtectedIndexed" DefaultValue="True" IsEditable="True" Title="Included in protected indexed" Description="" Link="" />
+      <StringSettingInfo Key="ProperyNameMetaDescription" DefaultValue="" IsEditable="True" Title="Propery name meta description" Description="" Link="" />
+      <BooleanSettingInfo Key="IndexLinks" DefaultValue="True" IsEditable="True" Title="Index links" Description="" Link="" />
+      <StringSettingInfo Key="ODataName" DefaultValue="" IsEditable="True" Title="OData endpoint name" Description="" Link="" />
+      <BooleanSettingInfo Key="ODataAllowRead" DefaultValue="False" IsEditable="True" Title="OData read access" Description="" Link="" />
+      <BooleanSettingInfo Key="ODataAllowWrite" DefaultValue="False" IsEditable="True" Title="OData write access" Description="" Link="" />
+      <StringSettingInfo Key="SchemaOrgMapping" DefaultValue="" IsEditable="True" Title="Schema.org type URI" Description="" Link="" />
+      <BooleanSettingInfo Key="AutoSetName" DefaultValue="False" IsEditable="True" Title="Auto set name" Description="" Link="" />
+      <StringSettingInfo Key="PropertyGroupsHidden" DefaultValue="" IsEditable="True" Title="Tabs hidden to some users" Description="" Link="" />
+      <IntSettingInfo Key="PropertyGroupsShowForGroupId" DefaultValue="0" IsEditable="True" Title="Usergroup that see optional tabs" Description="" Link="" />
+      <StringSettingInfo Key="PropertyGroupsAlwaysHide" DefaultValue="" IsEditable="True" Title="Tabs hidden for all" Description="" Link="" />
+    </Condition>
+    <Condition Property="ContentClassType.Value" Value="Interface">
+      <StringSettingInfo Key="Color" DefaultValue="" IsEditable="True" Title="Color of class in UI" Description="" Link="" />
+      <BooleanSettingInfo Key="UseRevisions" DefaultValue="False" IsEditable="True" Title="Use revisions" Description="" Link="" />
+      <BooleanSettingInfo Key="DefaultHidden" DefaultValue="False" IsEditable="True" Title="Default hidden" Description="" Link="" />
+      <IntSettingInfo Key="CreateDialogueGroupId" DefaultValue="0" IsEditable="True" Title="Create dialogue group id" Description="" Link="" />
+      <IntSettingInfo Key="CreateAccessGroupId" DefaultValue="0" IsEditable="True" Title="Create access group id" Description="" Link="" />
+      <IntSettingInfo Key="DefaultReadAccessGroupId" DefaultValue="0" IsEditable="True" Title="Default read access group id" Description="" Link="" />
+      <IntSettingInfo Key="DefaultEditAccessGroupId" DefaultValue="0" IsEditable="True" Title="Default edit access group id" Description="" Link="" />
+      <IntSettingInfo Key="DefaultPublishAccessGroupId" DefaultValue="0" IsEditable="True" Title="Default publish access group id" Description="" Link="" />
+      <IntSettingInfo Key="DefaultTemplateId" DefaultValue="0" IsEditable="True" Title="Default template id" Description="" Link="" />
+      <StringSettingInfo Key="DefaultModuleName" DefaultValue="content" IsEditable="True" Title="Default module name" Description="" Link="" />
+      <BooleanSettingInfo Key="CreateAsPreliminaryBySystem" DefaultValue="False" IsEditable="True" Title="Create as preliminary by system" Description="" Link="" />
+      <BooleanSettingInfo Key="CreateAsPreliminaryFromWizard" DefaultValue="False" IsEditable="True" Title="Create as preliminary from wizard" Description="" Link="" />
+      <StringSettingInfo Key="LegalParents" DefaultValue="" IsEditable="True" Title="Legal parents" Description="" Link="" />
+      <IntSettingInfo Key="MinimumInstances" DefaultValue="0" IsEditable="True" Title="Minimum instances" Description="" Link="" />
+      <IntSettingInfo Key="MaximumInstances" DefaultValue="0" IsEditable="True" Title="Maximum instances" Description="" Link="" />
+      <BooleanSettingInfo Key="IncludedInPublicIndexed" DefaultValue="True" IsEditable="True" Title="Included in public indexed" Description="" Link="" />
+      <BooleanSettingInfo Key="IncludedInProtectedIndexed" DefaultValue="True" IsEditable="True" Title="Included in protected indexed" Description="" Link="" />
+      <StringSettingInfo Key="ProperyNameMetaDescription" DefaultValue="" IsEditable="True" Title="Propery name meta description" Description="" Link="" />
+      <BooleanSettingInfo Key="IndexLinks" DefaultValue="True" IsEditable="True" Title="Index links" Description="" Link="" />
+      <StringSettingInfo Key="ODataName" DefaultValue="" IsEditable="True" Title="OData endpoint name" Description="" Link="" />
+      <BooleanSettingInfo Key="ODataAllowRead" DefaultValue="False" IsEditable="True" Title="OData read access" Description="" Link="" />
+      <BooleanSettingInfo Key="ODataAllowWrite" DefaultValue="False" IsEditable="True" Title="OData write access" Description="" Link="" />
+      <StringSettingInfo Key="SchemaOrgMapping" DefaultValue="" IsEditable="True" Title="Schema.org type URI" Description="" Link="" />
+      <BooleanSettingInfo Key="AutoSetName" DefaultValue="False" IsEditable="True" Title="Auto set name" Description="" Link="" />
+      <StringSettingInfo Key="PropertyGroupsHidden" DefaultValue="" IsEditable="True" Title="Tabs hidden to some users" Description="" Link="" />
+      <IntSettingInfo Key="PropertyGroupsShowForGroupId" DefaultValue="0" IsEditable="True" Title="Usergroup that see optional tabs" Description="" Link="" />
+      <StringSettingInfo Key="PropertyGroupsAlwaysHide" DefaultValue="" IsEditable="True" Title="Tabs hidden for all" Description="" Link="" />
+    </Condition>
+  </Description>
+  <Description For="Property">
+    <Condition Property="PropertyClass.Value" Value="80d1b835-93b5-4491-86e0-8cba48f24ea6">
+      <IntSettingInfo Key="ReadGroupId" DefaultValue="0" IsEditable="True" Title="Read group id" Description="" Link="" />
+      <IntSettingInfo Key="WriteGroupId" DefaultValue="0" IsEditable="True" Title="Write group id" Description="" Link="" />
+      <BooleanSettingInfo Key="IncludedInPublicIndexed" DefaultValue="True" IsEditable="True" Title="Included in public indexed" Description="" Link="" />
+      <BooleanSettingInfo Key="IncludedInProtectedIndexed" DefaultValue="True" IsEditable="True" Title="Included in protected indexed" Description="" Link="" />
+      <BooleanSettingInfo Key="CreateCustomIndexField" DefaultValue="False" IsEditable="True" Title="Create custom index field" Description="" Link="" />
+      <BooleanSettingInfo Key="CreateAutoFacetForCustomIndexField" DefaultValue="False" IsEditable="True" Title="Create auto facet for custom index field" Description="" Link="" />
+      <StringSettingInfo Key="CustomIndexFieldName" DefaultValue="" IsEditable="True" Title="Custom index field name" Description="" Link="" />
+      <DimensionSettingInfo Key="Height" DefaultValue="" IsEditable="True" Title="Height" Description="" Link="" />
+      <DimensionSettingInfo Key="Width" DefaultValue="100%" IsEditable="True" Title="Width" Description="" Link="" />
+      <DimensionSettingInfo Key="TitleWidth" DefaultValue="" IsEditable="True" Title="Title width" Description="" Link="" />
+      <EnumerationSettingInfo Key="Layout" DefaultValue="TwoColumns" IsEditable="True" Title="Layout" Description="" Link="">
+        <ValueOptions>
+          <Value Name="TwoColumns" />
+          <Value Name="TwoRows" />
+          <Value Name="NoTitle" />
+        </ValueOptions>
+      </EnumerationSettingInfo>
+      <BooleanSettingInfo Key="Border" DefaultValue="False" IsEditable="True" Title="Border" Description="" Link="" />
+      <StringSettingInfo Key="Caption" DefaultValue="" IsEditable="True" Title="Caption" Description="" Link="" />
+      <BooleanSettingInfo Key="HideInEdit" DefaultValue="False" IsEditable="True" Title="Hide in edit" Description="" Link="" />
+      <BooleanSettingInfo Key="HideInVisit" DefaultValue="False" IsEditable="True" Title="Hide in visit" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControl" DefaultValue="" IsEditable="True" Title="Custom web control" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlEditModeWrite" DefaultValue="" IsEditable="True" Title="Custom web control edit mode write" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlEditModeRead" DefaultValue="" IsEditable="True" Title="Custom web control edit mode read" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlViewModeWrite" DefaultValue="" IsEditable="True" Title="Custom web control view mode write" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlViewModeRead" DefaultValue="" IsEditable="True" Title="Custom web control view mode read" Description="" Link="" />
+      <BooleanSettingInfo Key="Enabled" DefaultValue="True" IsEditable="True" Title="Enabled" Description="" Link="" />
+      <BooleanSettingInfo Key="Focus" DefaultValue="False" IsEditable="True" Title="Focus" Description="" Link="" />
+      <StringSettingInfo Key="ODataName" DefaultValue="" IsEditable="True" Title="OData endpoint name" Description="" Link="" />
+      <BooleanSettingInfo Key="ODataAllow" DefaultValue="False" IsEditable="True" Title="OData enabled" Description="" Link="" />
+      <StringSettingInfo Key="SchemaOrgMapping" DefaultValue="" IsEditable="True" Title="Schema.org property Uri" Description="" Link="" />
+      <StringSettingInfo Key="SchemaOrgEmbedPathPropMapping" DefaultValue="" IsEditable="True" Title="Schema.org embed prop path" Description="" Link="" />
+      <StringSettingInfo Key="SchemaOrgEmbedPathTypeMapping" DefaultValue="" IsEditable="True" Title="Schema.org embed type path" Description="" Link="" />
+      <BooleanSettingInfo Key="CultureIndependent" DefaultValue="False" IsEditable="True" Title="Culture independent" Description="" Link="" />
+    </Condition>
+    <Condition Property="PropertyClass.Value" Value="ccfc28fe-1edd-4296-9bd3-5776b202524e">
+      <EnumerationSettingInfo Key="DataValueType" DefaultValue="BooleanType" IsEditable="True" Title="Data value type" Description="" Link="">
+        <ValueOptions>
+          <Value Name="BooleanType" />
+          <Value Name="DateTimeType" />
+          <Value Name="FloatType" />
+          <Value Name="IntegerType" />
+          <Value Name="ShortStringType" />
+          <Value Name="LongStringType" />
+          <Value Name="InnerContentsType" />
+          <Value Name="RelationType" />
+          <Value Name="RelationsType" />
+        </ValueOptions>
+      </EnumerationSettingInfo>
+      <IntSettingInfo Key="ReadGroupId" DefaultValue="0" IsEditable="True" Title="Read group id" Description="" Link="" />
+      <IntSettingInfo Key="WriteGroupId" DefaultValue="0" IsEditable="True" Title="Write group id" Description="" Link="" />
+      <BooleanSettingInfo Key="IncludedInPublicIndexed" DefaultValue="True" IsEditable="True" Title="Included in public indexed" Description="" Link="" />
+      <BooleanSettingInfo Key="IncludedInProtectedIndexed" DefaultValue="True" IsEditable="True" Title="Included in protected indexed" Description="" Link="" />
+      <BooleanSettingInfo Key="CreateCustomIndexField" DefaultValue="False" IsEditable="True" Title="Create custom index field" Description="" Link="" />
+      <BooleanSettingInfo Key="CreateAutoFacetForCustomIndexField" DefaultValue="False" IsEditable="True" Title="Create auto facet for custom index field" Description="" Link="" />
+      <StringSettingInfo Key="CustomIndexFieldName" DefaultValue="" IsEditable="True" Title="Custom index field name" Description="" Link="" />
+      <DimensionSettingInfo Key="Height" DefaultValue="" IsEditable="True" Title="Height" Description="" Link="" />
+      <DimensionSettingInfo Key="Width" DefaultValue="100%" IsEditable="True" Title="Width" Description="" Link="" />
+      <DimensionSettingInfo Key="TitleWidth" DefaultValue="" IsEditable="True" Title="Title width" Description="" Link="" />
+      <EnumerationSettingInfo Key="Layout" DefaultValue="TwoColumns" IsEditable="True" Title="Layout" Description="" Link="">
+        <ValueOptions>
+          <Value Name="TwoColumns" />
+          <Value Name="TwoRows" />
+          <Value Name="NoTitle" />
+        </ValueOptions>
+      </EnumerationSettingInfo>
+      <BooleanSettingInfo Key="Border" DefaultValue="False" IsEditable="True" Title="Border" Description="" Link="" />
+      <StringSettingInfo Key="Caption" DefaultValue="" IsEditable="True" Title="Caption" Description="" Link="" />
+      <BooleanSettingInfo Key="HideInEdit" DefaultValue="False" IsEditable="True" Title="Hide in edit" Description="" Link="" />
+      <BooleanSettingInfo Key="HideInVisit" DefaultValue="False" IsEditable="True" Title="Hide in visit" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControl" DefaultValue="" IsEditable="True" Title="Custom web control" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlEditModeWrite" DefaultValue="" IsEditable="True" Title="Custom web control edit mode write" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlEditModeRead" DefaultValue="" IsEditable="True" Title="Custom web control edit mode read" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlViewModeWrite" DefaultValue="" IsEditable="True" Title="Custom web control view mode write" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlViewModeRead" DefaultValue="" IsEditable="True" Title="Custom web control view mode read" Description="" Link="" />
+      <BooleanSettingInfo Key="Enabled" DefaultValue="True" IsEditable="True" Title="Enabled" Description="" Link="" />
+      <BooleanSettingInfo Key="Focus" DefaultValue="False" IsEditable="True" Title="Focus" Description="" Link="" />
+      <StringSettingInfo Key="ODataName" DefaultValue="" IsEditable="True" Title="OData endpoint name" Description="" Link="" />
+      <BooleanSettingInfo Key="ODataAllow" DefaultValue="False" IsEditable="True" Title="OData enabled" Description="" Link="" />
+      <StringSettingInfo Key="SchemaOrgMapping" DefaultValue="" IsEditable="True" Title="Schema.org property Uri" Description="" Link="" />
+      <StringSettingInfo Key="SchemaOrgEmbedPathPropMapping" DefaultValue="" IsEditable="True" Title="Schema.org embed prop path" Description="" Link="" />
+      <StringSettingInfo Key="SchemaOrgEmbedPathTypeMapping" DefaultValue="" IsEditable="True" Title="Schema.org embed type path" Description="" Link="" />
+      <BooleanSettingInfo Key="CultureIndependent" DefaultValue="False" IsEditable="True" Title="Culture independent" Description="" Link="" />
+    </Condition>
+    <Condition Property="PropertyClass.Value" Value="2113a5b9-34e8-41ba-9964-659996821db7">
+      <EnumerationSettingInfo Key="Protection" DefaultValue="Hashed" IsEditable="True" Title="Protection" Description="" Link="">
+        <ValueOptions>
+          <Value Name="Hashed" />
+          <Value Name="Encrypted" />
+          <Value Name="None" />
+        </ValueOptions>
+      </EnumerationSettingInfo>
+      <IntSettingInfo Key="MimimumLength" DefaultValue="0" IsEditable="True" Title="Mimimum length" Description="" Link="" />
+      <BooleanSettingInfo Key="RequireMixedCasing" DefaultValue="False" IsEditable="True" Title="Require mixed casing" Description="" Link="" />
+      <BooleanSettingInfo Key="RequireDigitsAndLetters" DefaultValue="False" IsEditable="True" Title="Require digits and letters" Description="" Link="" />
+      <BooleanSettingInfo Key="DisallowCommonPasswords" DefaultValue="False" IsEditable="True" Title="Disallow common passwords" Description="" Link="" />
+      <IntSettingInfo Key="ReadGroupId" DefaultValue="0" IsEditable="True" Title="Read group id" Description="" Link="" />
+      <IntSettingInfo Key="WriteGroupId" DefaultValue="0" IsEditable="True" Title="Write group id" Description="" Link="" />
+      <BooleanSettingInfo Key="IncludedInPublicIndexed" DefaultValue="True" IsEditable="True" Title="Included in public indexed" Description="" Link="" />
+      <BooleanSettingInfo Key="IncludedInProtectedIndexed" DefaultValue="True" IsEditable="True" Title="Included in protected indexed" Description="" Link="" />
+      <BooleanSettingInfo Key="CreateCustomIndexField" DefaultValue="False" IsEditable="True" Title="Create custom index field" Description="" Link="" />
+      <BooleanSettingInfo Key="CreateAutoFacetForCustomIndexField" DefaultValue="False" IsEditable="True" Title="Create auto facet for custom index field" Description="" Link="" />
+      <StringSettingInfo Key="CustomIndexFieldName" DefaultValue="" IsEditable="True" Title="Custom index field name" Description="" Link="" />
+      <DimensionSettingInfo Key="Height" DefaultValue="" IsEditable="True" Title="Height" Description="" Link="" />
+      <DimensionSettingInfo Key="Width" DefaultValue="100%" IsEditable="True" Title="Width" Description="" Link="" />
+      <DimensionSettingInfo Key="TitleWidth" DefaultValue="" IsEditable="True" Title="Title width" Description="" Link="" />
+      <EnumerationSettingInfo Key="Layout" DefaultValue="TwoColumns" IsEditable="True" Title="Layout" Description="" Link="">
+        <ValueOptions>
+          <Value Name="TwoColumns" />
+          <Value Name="TwoRows" />
+          <Value Name="NoTitle" />
+        </ValueOptions>
+      </EnumerationSettingInfo>
+      <BooleanSettingInfo Key="Border" DefaultValue="False" IsEditable="True" Title="Border" Description="" Link="" />
+      <StringSettingInfo Key="Caption" DefaultValue="" IsEditable="True" Title="Caption" Description="" Link="" />
+      <BooleanSettingInfo Key="HideInEdit" DefaultValue="False" IsEditable="True" Title="Hide in edit" Description="" Link="" />
+      <BooleanSettingInfo Key="HideInVisit" DefaultValue="False" IsEditable="True" Title="Hide in visit" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControl" DefaultValue="" IsEditable="True" Title="Custom web control" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlEditModeWrite" DefaultValue="" IsEditable="True" Title="Custom web control edit mode write" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlEditModeRead" DefaultValue="" IsEditable="True" Title="Custom web control edit mode read" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlViewModeWrite" DefaultValue="" IsEditable="True" Title="Custom web control view mode write" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlViewModeRead" DefaultValue="" IsEditable="True" Title="Custom web control view mode read" Description="" Link="" />
+      <BooleanSettingInfo Key="Enabled" DefaultValue="True" IsEditable="True" Title="Enabled" Description="" Link="" />
+      <BooleanSettingInfo Key="Focus" DefaultValue="False" IsEditable="True" Title="Focus" Description="" Link="" />
+      <StringSettingInfo Key="ODataName" DefaultValue="" IsEditable="True" Title="OData endpoint name" Description="" Link="" />
+      <BooleanSettingInfo Key="ODataAllow" DefaultValue="False" IsEditable="True" Title="OData enabled" Description="" Link="" />
+      <StringSettingInfo Key="SchemaOrgMapping" DefaultValue="" IsEditable="True" Title="Schema.org property Uri" Description="" Link="" />
+      <StringSettingInfo Key="SchemaOrgEmbedPathPropMapping" DefaultValue="" IsEditable="True" Title="Schema.org embed prop path" Description="" Link="" />
+      <StringSettingInfo Key="SchemaOrgEmbedPathTypeMapping" DefaultValue="" IsEditable="True" Title="Schema.org embed type path" Description="" Link="" />
+      <BooleanSettingInfo Key="CultureIndependent" DefaultValue="False" IsEditable="True" Title="Culture independent" Description="" Link="" />
+    </Condition>
+    <Condition Property="PropertyClass.Value" Value="ec1b961a-584b-49c9-afd4-fabdc34d40f3">
+      <IntSettingInfo Key="MinValue" DefaultValue="0" IsEditable="True" Title="Min value" Description="" Link="" />
+      <IntSettingInfo Key="MaxValue" DefaultValue="0" IsEditable="True" Title="Max value" Description="" Link="" />
+      <BooleanSettingInfo Key="SetValueWithSlider" DefaultValue="False" IsEditable="True" Title="Set value with slider" Description="" Link="" />
+      <BooleanSettingInfo Key="UseMinMaxValues" DefaultValue="False" IsEditable="True" Title="Use min max values" Description="" Link="" />
+      <IntSettingInfo Key="ReadGroupId" DefaultValue="0" IsEditable="True" Title="Read group id" Description="" Link="" />
+      <IntSettingInfo Key="WriteGroupId" DefaultValue="0" IsEditable="True" Title="Write group id" Description="" Link="" />
+      <BooleanSettingInfo Key="IncludedInPublicIndexed" DefaultValue="True" IsEditable="True" Title="Included in public indexed" Description="" Link="" />
+      <BooleanSettingInfo Key="IncludedInProtectedIndexed" DefaultValue="True" IsEditable="True" Title="Included in protected indexed" Description="" Link="" />
+      <BooleanSettingInfo Key="CreateCustomIndexField" DefaultValue="False" IsEditable="True" Title="Create custom index field" Description="" Link="" />
+      <BooleanSettingInfo Key="CreateAutoFacetForCustomIndexField" DefaultValue="False" IsEditable="True" Title="Create auto facet for custom index field" Description="" Link="" />
+      <StringSettingInfo Key="CustomIndexFieldName" DefaultValue="" IsEditable="True" Title="Custom index field name" Description="" Link="" />
+      <DimensionSettingInfo Key="Height" DefaultValue="" IsEditable="True" Title="Height" Description="" Link="" />
+      <DimensionSettingInfo Key="Width" DefaultValue="100%" IsEditable="True" Title="Width" Description="" Link="" />
+      <DimensionSettingInfo Key="TitleWidth" DefaultValue="" IsEditable="True" Title="Title width" Description="" Link="" />
+      <EnumerationSettingInfo Key="Layout" DefaultValue="TwoColumns" IsEditable="True" Title="Layout" Description="" Link="">
+        <ValueOptions>
+          <Value Name="TwoColumns" />
+          <Value Name="TwoRows" />
+          <Value Name="NoTitle" />
+        </ValueOptions>
+      </EnumerationSettingInfo>
+      <BooleanSettingInfo Key="Border" DefaultValue="False" IsEditable="True" Title="Border" Description="" Link="" />
+      <StringSettingInfo Key="Caption" DefaultValue="" IsEditable="True" Title="Caption" Description="" Link="" />
+      <BooleanSettingInfo Key="HideInEdit" DefaultValue="False" IsEditable="True" Title="Hide in edit" Description="" Link="" />
+      <BooleanSettingInfo Key="HideInVisit" DefaultValue="False" IsEditable="True" Title="Hide in visit" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControl" DefaultValue="" IsEditable="True" Title="Custom web control" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlEditModeWrite" DefaultValue="" IsEditable="True" Title="Custom web control edit mode write" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlEditModeRead" DefaultValue="" IsEditable="True" Title="Custom web control edit mode read" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlViewModeWrite" DefaultValue="" IsEditable="True" Title="Custom web control view mode write" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlViewModeRead" DefaultValue="" IsEditable="True" Title="Custom web control view mode read" Description="" Link="" />
+      <BooleanSettingInfo Key="Enabled" DefaultValue="True" IsEditable="True" Title="Enabled" Description="" Link="" />
+      <BooleanSettingInfo Key="Focus" DefaultValue="False" IsEditable="True" Title="Focus" Description="" Link="" />
+      <StringSettingInfo Key="ODataName" DefaultValue="" IsEditable="True" Title="OData endpoint name" Description="" Link="" />
+      <BooleanSettingInfo Key="ODataAllow" DefaultValue="False" IsEditable="True" Title="OData enabled" Description="" Link="" />
+      <StringSettingInfo Key="SchemaOrgMapping" DefaultValue="" IsEditable="True" Title="Schema.org property Uri" Description="" Link="" />
+      <StringSettingInfo Key="SchemaOrgEmbedPathPropMapping" DefaultValue="" IsEditable="True" Title="Schema.org embed prop path" Description="" Link="" />
+      <StringSettingInfo Key="SchemaOrgEmbedPathTypeMapping" DefaultValue="" IsEditable="True" Title="Schema.org embed type path" Description="" Link="" />
+      <BooleanSettingInfo Key="CultureIndependent" DefaultValue="False" IsEditable="True" Title="Culture independent" Description="" Link="" />
+    </Condition>
+    <Condition Property="PropertyClass.Value" Value="68bb6e0a-f394-4311-a6d4-cca8c9534404">
+      <BooleanSettingInfo Key="Dissabled" DefaultValue="False" IsEditable="True" Title="Dissabled" Description="" Link="" />
+      <IntSettingInfo Key="ReadGroupId" DefaultValue="0" IsEditable="True" Title="Read group id" Description="" Link="" />
+      <IntSettingInfo Key="WriteGroupId" DefaultValue="0" IsEditable="True" Title="Write group id" Description="" Link="" />
+      <BooleanSettingInfo Key="IncludedInPublicIndexed" DefaultValue="True" IsEditable="True" Title="Included in public indexed" Description="" Link="" />
+      <BooleanSettingInfo Key="IncludedInProtectedIndexed" DefaultValue="True" IsEditable="True" Title="Included in protected indexed" Description="" Link="" />
+      <BooleanSettingInfo Key="CreateCustomIndexField" DefaultValue="False" IsEditable="True" Title="Create custom index field" Description="" Link="" />
+      <BooleanSettingInfo Key="CreateAutoFacetForCustomIndexField" DefaultValue="False" IsEditable="True" Title="Create auto facet for custom index field" Description="" Link="" />
+      <StringSettingInfo Key="CustomIndexFieldName" DefaultValue="" IsEditable="True" Title="Custom index field name" Description="" Link="" />
+      <DimensionSettingInfo Key="Height" DefaultValue="" IsEditable="True" Title="Height" Description="" Link="" />
+      <DimensionSettingInfo Key="Width" DefaultValue="100%" IsEditable="True" Title="Width" Description="" Link="" />
+      <DimensionSettingInfo Key="TitleWidth" DefaultValue="" IsEditable="True" Title="Title width" Description="" Link="" />
+      <EnumerationSettingInfo Key="Layout" DefaultValue="TwoColumns" IsEditable="True" Title="Layout" Description="" Link="">
+        <ValueOptions>
+          <Value Name="TwoColumns" />
+          <Value Name="TwoRows" />
+          <Value Name="NoTitle" />
+        </ValueOptions>
+      </EnumerationSettingInfo>
+      <BooleanSettingInfo Key="Border" DefaultValue="False" IsEditable="True" Title="Border" Description="" Link="" />
+      <StringSettingInfo Key="Caption" DefaultValue="" IsEditable="True" Title="Caption" Description="" Link="" />
+      <BooleanSettingInfo Key="HideInEdit" DefaultValue="False" IsEditable="True" Title="Hide in edit" Description="" Link="" />
+      <BooleanSettingInfo Key="HideInVisit" DefaultValue="False" IsEditable="True" Title="Hide in visit" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControl" DefaultValue="" IsEditable="True" Title="Custom web control" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlEditModeWrite" DefaultValue="" IsEditable="True" Title="Custom web control edit mode write" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlEditModeRead" DefaultValue="" IsEditable="True" Title="Custom web control edit mode read" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlViewModeWrite" DefaultValue="" IsEditable="True" Title="Custom web control view mode write" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlViewModeRead" DefaultValue="" IsEditable="True" Title="Custom web control view mode read" Description="" Link="" />
+      <BooleanSettingInfo Key="Enabled" DefaultValue="True" IsEditable="True" Title="Enabled" Description="" Link="" />
+      <BooleanSettingInfo Key="Focus" DefaultValue="False" IsEditable="True" Title="Focus" Description="" Link="" />
+      <StringSettingInfo Key="ODataName" DefaultValue="" IsEditable="True" Title="OData endpoint name" Description="" Link="" />
+      <BooleanSettingInfo Key="ODataAllow" DefaultValue="False" IsEditable="True" Title="OData enabled" Description="" Link="" />
+      <StringSettingInfo Key="SchemaOrgMapping" DefaultValue="" IsEditable="True" Title="Schema.org property Uri" Description="" Link="" />
+      <StringSettingInfo Key="SchemaOrgEmbedPathPropMapping" DefaultValue="" IsEditable="True" Title="Schema.org embed prop path" Description="" Link="" />
+      <StringSettingInfo Key="SchemaOrgEmbedPathTypeMapping" DefaultValue="" IsEditable="True" Title="Schema.org embed type path" Description="" Link="" />
+      <BooleanSettingInfo Key="CultureIndependent" DefaultValue="False" IsEditable="True" Title="Culture independent" Description="" Link="" />
+    </Condition>
+    <Condition Property="PropertyClass.Value" Value="da18a0aa-3d46-4bf3-ae0c-6f2cc85d5439">
+      <IntSettingInfo Key="ReadGroupId" DefaultValue="0" IsEditable="True" Title="Read group id" Description="" Link="" />
+      <IntSettingInfo Key="WriteGroupId" DefaultValue="0" IsEditable="True" Title="Write group id" Description="" Link="" />
+      <BooleanSettingInfo Key="IncludedInPublicIndexed" DefaultValue="True" IsEditable="True" Title="Included in public indexed" Description="" Link="" />
+      <BooleanSettingInfo Key="IncludedInProtectedIndexed" DefaultValue="True" IsEditable="True" Title="Included in protected indexed" Description="" Link="" />
+      <BooleanSettingInfo Key="CreateCustomIndexField" DefaultValue="False" IsEditable="True" Title="Create custom index field" Description="" Link="" />
+      <BooleanSettingInfo Key="CreateAutoFacetForCustomIndexField" DefaultValue="False" IsEditable="True" Title="Create auto facet for custom index field" Description="" Link="" />
+      <StringSettingInfo Key="CustomIndexFieldName" DefaultValue="" IsEditable="True" Title="Custom index field name" Description="" Link="" />
+      <DimensionSettingInfo Key="Height" DefaultValue="300px" IsEditable="True" Title="Height" Description="" Link="" />
+      <DimensionSettingInfo Key="Width" DefaultValue="100%" IsEditable="True" Title="Width" Description="" Link="" />
+      <DimensionSettingInfo Key="TitleWidth" DefaultValue="" IsEditable="True" Title="Title width" Description="" Link="" />
+      <EnumerationSettingInfo Key="Layout" DefaultValue="TwoRows" IsEditable="True" Title="Layout" Description="" Link="">
+        <ValueOptions>
+          <Value Name="TwoColumns" />
+          <Value Name="TwoRows" />
+          <Value Name="NoTitle" />
+        </ValueOptions>
+      </EnumerationSettingInfo>
+      <BooleanSettingInfo Key="Border" DefaultValue="False" IsEditable="True" Title="Border" Description="" Link="" />
+      <StringSettingInfo Key="Caption" DefaultValue="" IsEditable="True" Title="Caption" Description="" Link="" />
+      <BooleanSettingInfo Key="HideInEdit" DefaultValue="False" IsEditable="True" Title="Hide in edit" Description="" Link="" />
+      <BooleanSettingInfo Key="HideInVisit" DefaultValue="False" IsEditable="True" Title="Hide in visit" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControl" DefaultValue="" IsEditable="True" Title="Custom web control" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlEditModeWrite" DefaultValue="" IsEditable="True" Title="Custom web control edit mode write" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlEditModeRead" DefaultValue="" IsEditable="True" Title="Custom web control edit mode read" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlViewModeWrite" DefaultValue="" IsEditable="True" Title="Custom web control view mode write" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlViewModeRead" DefaultValue="" IsEditable="True" Title="Custom web control view mode read" Description="" Link="" />
+      <BooleanSettingInfo Key="Enabled" DefaultValue="True" IsEditable="True" Title="Enabled" Description="" Link="" />
+      <BooleanSettingInfo Key="Focus" DefaultValue="False" IsEditable="True" Title="Focus" Description="" Link="" />
+      <StringSettingInfo Key="ODataName" DefaultValue="" IsEditable="True" Title="OData endpoint name" Description="" Link="" />
+      <BooleanSettingInfo Key="ODataAllow" DefaultValue="False" IsEditable="True" Title="OData enabled" Description="" Link="" />
+      <StringSettingInfo Key="SchemaOrgMapping" DefaultValue="" IsEditable="True" Title="Schema.org property Uri" Description="" Link="" />
+      <StringSettingInfo Key="SchemaOrgEmbedPathPropMapping" DefaultValue="" IsEditable="True" Title="Schema.org embed prop path" Description="" Link="" />
+      <StringSettingInfo Key="SchemaOrgEmbedPathTypeMapping" DefaultValue="" IsEditable="True" Title="Schema.org embed type path" Description="" Link="" />
+      <BooleanSettingInfo Key="CultureIndependent" DefaultValue="False" IsEditable="True" Title="Culture independent" Description="" Link="" />
+    </Condition>
+    <Condition Property="PropertyClass.Value" Value="34f2030c-2a76-4edc-8660-e38a17b413fa">
+      <IntSettingInfo Key="MinValue" DefaultValue="0" IsEditable="True" Title="Min value" Description="" Link="" />
+      <IntSettingInfo Key="MaxValue" DefaultValue="0" IsEditable="True" Title="Max value" Description="" Link="" />
+      <BooleanSettingInfo Key="SetValueWithSlider" DefaultValue="False" IsEditable="True" Title="Set value with slider" Description="" Link="" />
+      <BooleanSettingInfo Key="UseMinMaxValues" DefaultValue="False" IsEditable="True" Title="Use min max values" Description="" Link="" />
+      <IntSettingInfo Key="ReadGroupId" DefaultValue="0" IsEditable="True" Title="Read group id" Description="" Link="" />
+      <IntSettingInfo Key="WriteGroupId" DefaultValue="0" IsEditable="True" Title="Write group id" Description="" Link="" />
+      <BooleanSettingInfo Key="IncludedInPublicIndexed" DefaultValue="True" IsEditable="True" Title="Included in public indexed" Description="" Link="" />
+      <BooleanSettingInfo Key="IncludedInProtectedIndexed" DefaultValue="True" IsEditable="True" Title="Included in protected indexed" Description="" Link="" />
+      <BooleanSettingInfo Key="CreateCustomIndexField" DefaultValue="False" IsEditable="True" Title="Create custom index field" Description="" Link="" />
+      <BooleanSettingInfo Key="CreateAutoFacetForCustomIndexField" DefaultValue="False" IsEditable="True" Title="Create auto facet for custom index field" Description="" Link="" />
+      <StringSettingInfo Key="CustomIndexFieldName" DefaultValue="" IsEditable="True" Title="Custom index field name" Description="" Link="" />
+      <DimensionSettingInfo Key="Height" DefaultValue="" IsEditable="True" Title="Height" Description="" Link="" />
+      <DimensionSettingInfo Key="Width" DefaultValue="100%" IsEditable="True" Title="Width" Description="" Link="" />
+      <DimensionSettingInfo Key="TitleWidth" DefaultValue="" IsEditable="True" Title="Title width" Description="" Link="" />
+      <EnumerationSettingInfo Key="Layout" DefaultValue="TwoColumns" IsEditable="True" Title="Layout" Description="" Link="">
+        <ValueOptions>
+          <Value Name="TwoColumns" />
+          <Value Name="TwoRows" />
+          <Value Name="NoTitle" />
+        </ValueOptions>
+      </EnumerationSettingInfo>
+      <BooleanSettingInfo Key="Border" DefaultValue="False" IsEditable="True" Title="Border" Description="" Link="" />
+      <StringSettingInfo Key="Caption" DefaultValue="" IsEditable="True" Title="Caption" Description="" Link="" />
+      <BooleanSettingInfo Key="HideInEdit" DefaultValue="False" IsEditable="True" Title="Hide in edit" Description="" Link="" />
+      <BooleanSettingInfo Key="HideInVisit" DefaultValue="False" IsEditable="True" Title="Hide in visit" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControl" DefaultValue="" IsEditable="True" Title="Custom web control" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlEditModeWrite" DefaultValue="" IsEditable="True" Title="Custom web control edit mode write" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlEditModeRead" DefaultValue="" IsEditable="True" Title="Custom web control edit mode read" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlViewModeWrite" DefaultValue="" IsEditable="True" Title="Custom web control view mode write" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlViewModeRead" DefaultValue="" IsEditable="True" Title="Custom web control view mode read" Description="" Link="" />
+      <BooleanSettingInfo Key="Enabled" DefaultValue="True" IsEditable="True" Title="Enabled" Description="" Link="" />
+      <BooleanSettingInfo Key="Focus" DefaultValue="False" IsEditable="True" Title="Focus" Description="" Link="" />
+      <StringSettingInfo Key="ODataName" DefaultValue="" IsEditable="True" Title="OData endpoint name" Description="" Link="" />
+      <BooleanSettingInfo Key="ODataAllow" DefaultValue="False" IsEditable="True" Title="OData enabled" Description="" Link="" />
+      <StringSettingInfo Key="SchemaOrgMapping" DefaultValue="" IsEditable="True" Title="Schema.org property Uri" Description="" Link="" />
+      <StringSettingInfo Key="SchemaOrgEmbedPathPropMapping" DefaultValue="" IsEditable="True" Title="Schema.org embed prop path" Description="" Link="" />
+      <StringSettingInfo Key="SchemaOrgEmbedPathTypeMapping" DefaultValue="" IsEditable="True" Title="Schema.org embed type path" Description="" Link="" />
+      <BooleanSettingInfo Key="CultureIndependent" DefaultValue="False" IsEditable="True" Title="Culture independent" Description="" Link="" />
+    </Condition>
+    <Condition Property="PropertyClass.Value" Value="af7f07f2-d2c0-41a4-902c-ee3e2f110ef7">
+      <EnumerationSettingInfo Key="Mode" DefaultValue="DateAndTime" IsEditable="True" Title="Mode" Description="" Link="">
+        <ValueOptions>
+          <Value Name="DateAndTime" />
+          <Value Name="DateOnly" />
+          <Value Name="TimeOnly" />
+        </ValueOptions>
+      </EnumerationSettingInfo>
+      <BooleanSettingInfo Key="AllowNull" DefaultValue="False" IsEditable="True" Title="Allow null" Description="" Link="" />
+      <BooleanSettingInfo Key="ShowSeconds" DefaultValue="False" IsEditable="True" Title="Show seconds" Description="" Link="" />
+      <IntSettingInfo Key="ReadGroupId" DefaultValue="0" IsEditable="True" Title="Read group id" Description="" Link="" />
+      <IntSettingInfo Key="WriteGroupId" DefaultValue="0" IsEditable="True" Title="Write group id" Description="" Link="" />
+      <BooleanSettingInfo Key="IncludedInPublicIndexed" DefaultValue="True" IsEditable="True" Title="Included in public indexed" Description="" Link="" />
+      <BooleanSettingInfo Key="IncludedInProtectedIndexed" DefaultValue="True" IsEditable="True" Title="Included in protected indexed" Description="" Link="" />
+      <BooleanSettingInfo Key="CreateCustomIndexField" DefaultValue="False" IsEditable="True" Title="Create custom index field" Description="" Link="" />
+      <BooleanSettingInfo Key="CreateAutoFacetForCustomIndexField" DefaultValue="False" IsEditable="True" Title="Create auto facet for custom index field" Description="" Link="" />
+      <StringSettingInfo Key="CustomIndexFieldName" DefaultValue="" IsEditable="True" Title="Custom index field name" Description="" Link="" />
+      <DimensionSettingInfo Key="Height" DefaultValue="" IsEditable="True" Title="Height" Description="" Link="" />
+      <DimensionSettingInfo Key="Width" DefaultValue="100%" IsEditable="True" Title="Width" Description="" Link="" />
+      <DimensionSettingInfo Key="TitleWidth" DefaultValue="" IsEditable="True" Title="Title width" Description="" Link="" />
+      <EnumerationSettingInfo Key="Layout" DefaultValue="TwoColumns" IsEditable="True" Title="Layout" Description="" Link="">
+        <ValueOptions>
+          <Value Name="TwoColumns" />
+          <Value Name="TwoRows" />
+          <Value Name="NoTitle" />
+        </ValueOptions>
+      </EnumerationSettingInfo>
+      <BooleanSettingInfo Key="Border" DefaultValue="False" IsEditable="True" Title="Border" Description="" Link="" />
+      <StringSettingInfo Key="Caption" DefaultValue="" IsEditable="True" Title="Caption" Description="" Link="" />
+      <BooleanSettingInfo Key="HideInEdit" DefaultValue="False" IsEditable="True" Title="Hide in edit" Description="" Link="" />
+      <BooleanSettingInfo Key="HideInVisit" DefaultValue="False" IsEditable="True" Title="Hide in visit" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControl" DefaultValue="" IsEditable="True" Title="Custom web control" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlEditModeWrite" DefaultValue="" IsEditable="True" Title="Custom web control edit mode write" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlEditModeRead" DefaultValue="" IsEditable="True" Title="Custom web control edit mode read" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlViewModeWrite" DefaultValue="" IsEditable="True" Title="Custom web control view mode write" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlViewModeRead" DefaultValue="" IsEditable="True" Title="Custom web control view mode read" Description="" Link="" />
+      <BooleanSettingInfo Key="Enabled" DefaultValue="True" IsEditable="True" Title="Enabled" Description="" Link="" />
+      <BooleanSettingInfo Key="Focus" DefaultValue="False" IsEditable="True" Title="Focus" Description="" Link="" />
+      <StringSettingInfo Key="ODataName" DefaultValue="" IsEditable="True" Title="OData endpoint name" Description="" Link="" />
+      <BooleanSettingInfo Key="ODataAllow" DefaultValue="False" IsEditable="True" Title="OData enabled" Description="" Link="" />
+      <StringSettingInfo Key="SchemaOrgMapping" DefaultValue="" IsEditable="True" Title="Schema.org property Uri" Description="" Link="" />
+      <StringSettingInfo Key="SchemaOrgEmbedPathPropMapping" DefaultValue="" IsEditable="True" Title="Schema.org embed prop path" Description="" Link="" />
+      <StringSettingInfo Key="SchemaOrgEmbedPathTypeMapping" DefaultValue="" IsEditable="True" Title="Schema.org embed type path" Description="" Link="" />
+      <BooleanSettingInfo Key="CultureIndependent" DefaultValue="False" IsEditable="True" Title="Culture independent" Description="" Link="" />
+    </Condition>
+    <Condition Property="PropertyClass.Value" Value="7d08c6fb-28f7-4d30-b407-439e018d2402">
+      <EnumerationSettingInfo Key="ControlType" DefaultValue="DropDownList" IsEditable="True" Title="Control type" Description="" Link="">
+        <ValueOptions>
+          <Value Name="DropDownList" />
+          <Value Name="RadioButtonList" />
+        </ValueOptions>
+      </EnumerationSettingInfo>
+      <EnumerationReferenceSettingInfo Key="Enumeration" IsEditable="True" Title="Enumeration" Description="" Link="" />
+      <IntSettingInfo Key="ReadGroupId" DefaultValue="0" IsEditable="True" Title="Read group id" Description="" Link="" />
+      <IntSettingInfo Key="WriteGroupId" DefaultValue="0" IsEditable="True" Title="Write group id" Description="" Link="" />
+      <BooleanSettingInfo Key="IncludedInPublicIndexed" DefaultValue="True" IsEditable="True" Title="Included in public indexed" Description="" Link="" />
+      <BooleanSettingInfo Key="IncludedInProtectedIndexed" DefaultValue="True" IsEditable="True" Title="Included in protected indexed" Description="" Link="" />
+      <BooleanSettingInfo Key="CreateCustomIndexField" DefaultValue="False" IsEditable="True" Title="Create custom index field" Description="" Link="" />
+      <BooleanSettingInfo Key="CreateAutoFacetForCustomIndexField" DefaultValue="False" IsEditable="True" Title="Create auto facet for custom index field" Description="" Link="" />
+      <StringSettingInfo Key="CustomIndexFieldName" DefaultValue="" IsEditable="True" Title="Custom index field name" Description="" Link="" />
+      <DimensionSettingInfo Key="Height" DefaultValue="" IsEditable="True" Title="Height" Description="" Link="" />
+      <DimensionSettingInfo Key="Width" DefaultValue="100%" IsEditable="True" Title="Width" Description="" Link="" />
+      <DimensionSettingInfo Key="TitleWidth" DefaultValue="" IsEditable="True" Title="Title width" Description="" Link="" />
+      <EnumerationSettingInfo Key="Layout" DefaultValue="TwoColumns" IsEditable="True" Title="Layout" Description="" Link="">
+        <ValueOptions>
+          <Value Name="TwoColumns" />
+          <Value Name="TwoRows" />
+          <Value Name="NoTitle" />
+        </ValueOptions>
+      </EnumerationSettingInfo>
+      <BooleanSettingInfo Key="Border" DefaultValue="False" IsEditable="True" Title="Border" Description="" Link="" />
+      <StringSettingInfo Key="Caption" DefaultValue="" IsEditable="True" Title="Caption" Description="" Link="" />
+      <BooleanSettingInfo Key="HideInEdit" DefaultValue="False" IsEditable="True" Title="Hide in edit" Description="" Link="" />
+      <BooleanSettingInfo Key="HideInVisit" DefaultValue="False" IsEditable="True" Title="Hide in visit" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControl" DefaultValue="" IsEditable="True" Title="Custom web control" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlEditModeWrite" DefaultValue="" IsEditable="True" Title="Custom web control edit mode write" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlEditModeRead" DefaultValue="" IsEditable="True" Title="Custom web control edit mode read" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlViewModeWrite" DefaultValue="" IsEditable="True" Title="Custom web control view mode write" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlViewModeRead" DefaultValue="" IsEditable="True" Title="Custom web control view mode read" Description="" Link="" />
+      <BooleanSettingInfo Key="Enabled" DefaultValue="True" IsEditable="True" Title="Enabled" Description="" Link="" />
+      <BooleanSettingInfo Key="Focus" DefaultValue="False" IsEditable="True" Title="Focus" Description="" Link="" />
+      <StringSettingInfo Key="ODataName" DefaultValue="" IsEditable="True" Title="OData endpoint name" Description="" Link="" />
+      <BooleanSettingInfo Key="ODataAllow" DefaultValue="False" IsEditable="True" Title="OData enabled" Description="" Link="" />
+      <StringSettingInfo Key="SchemaOrgMapping" DefaultValue="" IsEditable="True" Title="Schema.org property Uri" Description="" Link="" />
+      <StringSettingInfo Key="SchemaOrgEmbedPathPropMapping" DefaultValue="" IsEditable="True" Title="Schema.org embed prop path" Description="" Link="" />
+      <StringSettingInfo Key="SchemaOrgEmbedPathTypeMapping" DefaultValue="" IsEditable="True" Title="Schema.org embed type path" Description="" Link="" />
+      <BooleanSettingInfo Key="CultureIndependent" DefaultValue="False" IsEditable="True" Title="Culture independent" Description="" Link="" />
+    </Condition>
+    <Condition Property="PropertyClass.Value" Value="7a2867fe-f2db-4c9f-8956-8c05ad47d8c3">
+      <IntSettingInfo Key="MaxCount" DefaultValue="0" IsEditable="True" Title="Max count" Description="" Link="" />
+      <EnumerationSettingInfo Key="ControlType" DefaultValue="CheckBoxList" IsEditable="True" Title="Control type" Description="" Link="">
+        <ValueOptions>
+          <Value Name="CheckBoxList" />
+        </ValueOptions>
+      </EnumerationSettingInfo>
+      <EnumerationReferenceSettingInfo Key="Enumeration" IsEditable="True" Title="Enumeration" Description="" Link="" />
+      <IntSettingInfo Key="ReadGroupId" DefaultValue="0" IsEditable="True" Title="Read group id" Description="" Link="" />
+      <IntSettingInfo Key="WriteGroupId" DefaultValue="0" IsEditable="True" Title="Write group id" Description="" Link="" />
+      <BooleanSettingInfo Key="IncludedInPublicIndexed" DefaultValue="True" IsEditable="True" Title="Included in public indexed" Description="" Link="" />
+      <BooleanSettingInfo Key="IncludedInProtectedIndexed" DefaultValue="True" IsEditable="True" Title="Included in protected indexed" Description="" Link="" />
+      <BooleanSettingInfo Key="CreateCustomIndexField" DefaultValue="False" IsEditable="True" Title="Create custom index field" Description="" Link="" />
+      <BooleanSettingInfo Key="CreateAutoFacetForCustomIndexField" DefaultValue="False" IsEditable="True" Title="Create auto facet for custom index field" Description="" Link="" />
+      <StringSettingInfo Key="CustomIndexFieldName" DefaultValue="" IsEditable="True" Title="Custom index field name" Description="" Link="" />
+      <DimensionSettingInfo Key="Height" DefaultValue="" IsEditable="True" Title="Height" Description="" Link="" />
+      <DimensionSettingInfo Key="Width" DefaultValue="100%" IsEditable="True" Title="Width" Description="" Link="" />
+      <DimensionSettingInfo Key="TitleWidth" DefaultValue="" IsEditable="True" Title="Title width" Description="" Link="" />
+      <EnumerationSettingInfo Key="Layout" DefaultValue="TwoColumns" IsEditable="True" Title="Layout" Description="" Link="">
+        <ValueOptions>
+          <Value Name="TwoColumns" />
+          <Value Name="TwoRows" />
+          <Value Name="NoTitle" />
+        </ValueOptions>
+      </EnumerationSettingInfo>
+      <BooleanSettingInfo Key="Border" DefaultValue="False" IsEditable="True" Title="Border" Description="" Link="" />
+      <StringSettingInfo Key="Caption" DefaultValue="" IsEditable="True" Title="Caption" Description="" Link="" />
+      <BooleanSettingInfo Key="HideInEdit" DefaultValue="False" IsEditable="True" Title="Hide in edit" Description="" Link="" />
+      <BooleanSettingInfo Key="HideInVisit" DefaultValue="False" IsEditable="True" Title="Hide in visit" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControl" DefaultValue="" IsEditable="True" Title="Custom web control" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlEditModeWrite" DefaultValue="" IsEditable="True" Title="Custom web control edit mode write" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlEditModeRead" DefaultValue="" IsEditable="True" Title="Custom web control edit mode read" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlViewModeWrite" DefaultValue="" IsEditable="True" Title="Custom web control view mode write" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlViewModeRead" DefaultValue="" IsEditable="True" Title="Custom web control view mode read" Description="" Link="" />
+      <BooleanSettingInfo Key="Enabled" DefaultValue="True" IsEditable="True" Title="Enabled" Description="" Link="" />
+      <BooleanSettingInfo Key="Focus" DefaultValue="False" IsEditable="True" Title="Focus" Description="" Link="" />
+      <StringSettingInfo Key="ODataName" DefaultValue="" IsEditable="True" Title="OData endpoint name" Description="" Link="" />
+      <BooleanSettingInfo Key="ODataAllow" DefaultValue="False" IsEditable="True" Title="OData enabled" Description="" Link="" />
+      <StringSettingInfo Key="SchemaOrgMapping" DefaultValue="" IsEditable="True" Title="Schema.org property Uri" Description="" Link="" />
+      <StringSettingInfo Key="SchemaOrgEmbedPathPropMapping" DefaultValue="" IsEditable="True" Title="Schema.org embed prop path" Description="" Link="" />
+      <StringSettingInfo Key="SchemaOrgEmbedPathTypeMapping" DefaultValue="" IsEditable="True" Title="Schema.org embed type path" Description="" Link="" />
+      <BooleanSettingInfo Key="CultureIndependent" DefaultValue="False" IsEditable="True" Title="Culture independent" Description="" Link="" />
+    </Condition>
+    <Condition Property="PropertyClass.Value" Value="b333346f-c4f8-4e73-bfc7-df87d6e2a62b">
+      <BooleanSettingInfo Key="LightButton" DefaultValue="False" IsEditable="True" Title="Light button" Description="" Link="" />
+      <StringSettingInfo Key="MethodName" DefaultValue="" IsEditable="True" Title="Method name" Description="" Link="" />
+      <StringSettingInfo Key="ButtonText" DefaultValue="" IsEditable="True" Title="Button text" Description="" Link="" />
+      <StringSettingInfo Key="Argument" DefaultValue="" IsEditable="True" Title="Argument" Description="" Link="" />
+      <StringSettingInfo Key="ShortCutKey" DefaultValue="" IsEditable="True" Title="Short cut key" Description="" Link="" />
+      <BooleanSettingInfo Key="ShortCutCtrl" DefaultValue="True" IsEditable="True" Title="Short cut ctrl" Description="" Link="" />
+      <BooleanSettingInfo Key="UseCommandWorkflow" DefaultValue="False" IsEditable="True" Title="Use command workflow" Description="" Link="" />
+      <IntSettingInfo Key="ReadGroupId" DefaultValue="0" IsEditable="True" Title="Read group id" Description="" Link="" />
+      <IntSettingInfo Key="WriteGroupId" DefaultValue="0" IsEditable="True" Title="Write group id" Description="" Link="" />
+      <BooleanSettingInfo Key="IncludedInPublicIndexed" DefaultValue="True" IsEditable="True" Title="Included in public indexed" Description="" Link="" />
+      <BooleanSettingInfo Key="IncludedInProtectedIndexed" DefaultValue="True" IsEditable="True" Title="Included in protected indexed" Description="" Link="" />
+      <BooleanSettingInfo Key="CreateCustomIndexField" DefaultValue="False" IsEditable="True" Title="Create custom index field" Description="" Link="" />
+      <BooleanSettingInfo Key="CreateAutoFacetForCustomIndexField" DefaultValue="False" IsEditable="True" Title="Create auto facet for custom index field" Description="" Link="" />
+      <StringSettingInfo Key="CustomIndexFieldName" DefaultValue="" IsEditable="True" Title="Custom index field name" Description="" Link="" />
+      <DimensionSettingInfo Key="Height" DefaultValue="" IsEditable="True" Title="Height" Description="" Link="" />
+      <DimensionSettingInfo Key="Width" DefaultValue="100%" IsEditable="True" Title="Width" Description="" Link="" />
+      <DimensionSettingInfo Key="TitleWidth" DefaultValue="" IsEditable="True" Title="Title width" Description="" Link="" />
+      <EnumerationSettingInfo Key="Layout" DefaultValue="NoTitle" IsEditable="True" Title="Layout" Description="" Link="">
+        <ValueOptions>
+          <Value Name="TwoColumns" />
+          <Value Name="TwoRows" />
+          <Value Name="NoTitle" />
+        </ValueOptions>
+      </EnumerationSettingInfo>
+      <BooleanSettingInfo Key="Border" DefaultValue="False" IsEditable="True" Title="Border" Description="" Link="" />
+      <StringSettingInfo Key="Caption" DefaultValue="" IsEditable="True" Title="Caption" Description="" Link="" />
+      <BooleanSettingInfo Key="HideInEdit" DefaultValue="False" IsEditable="True" Title="Hide in edit" Description="" Link="" />
+      <BooleanSettingInfo Key="HideInVisit" DefaultValue="False" IsEditable="True" Title="Hide in visit" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControl" DefaultValue="" IsEditable="True" Title="Custom web control" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlEditModeWrite" DefaultValue="" IsEditable="True" Title="Custom web control edit mode write" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlEditModeRead" DefaultValue="" IsEditable="True" Title="Custom web control edit mode read" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlViewModeWrite" DefaultValue="" IsEditable="True" Title="Custom web control view mode write" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlViewModeRead" DefaultValue="" IsEditable="True" Title="Custom web control view mode read" Description="" Link="" />
+      <BooleanSettingInfo Key="Enabled" DefaultValue="True" IsEditable="True" Title="Enabled" Description="" Link="" />
+      <BooleanSettingInfo Key="Focus" DefaultValue="False" IsEditable="True" Title="Focus" Description="" Link="" />
+      <StringSettingInfo Key="ODataName" DefaultValue="" IsEditable="True" Title="OData endpoint name" Description="" Link="" />
+      <BooleanSettingInfo Key="ODataAllow" DefaultValue="False" IsEditable="True" Title="OData enabled" Description="" Link="" />
+      <StringSettingInfo Key="SchemaOrgMapping" DefaultValue="" IsEditable="True" Title="Schema.org property Uri" Description="" Link="" />
+      <StringSettingInfo Key="SchemaOrgEmbedPathPropMapping" DefaultValue="" IsEditable="True" Title="Schema.org embed prop path" Description="" Link="" />
+      <StringSettingInfo Key="SchemaOrgEmbedPathTypeMapping" DefaultValue="" IsEditable="True" Title="Schema.org embed type path" Description="" Link="" />
+      <BooleanSettingInfo Key="CultureIndependent" DefaultValue="False" IsEditable="True" Title="Culture independent" Description="" Link="" />
+    </Condition>
+    <Condition Property="PropertyClass.Value" Value="fc40e8d0-daff-4017-a658-60095720bbb8">
+      <StringSettingInfo Key="Heading" DefaultValue="" IsEditable="True" Title="Heading" Description="" Link="" />
+      <BooleanSettingInfo Key="ShowHeading" DefaultValue="True" IsEditable="True" Title="Show heading" Description="" Link="" />
+      <EnumerationSettingInfo Key="HeadingSize" DefaultValue="H1" IsEditable="True" Title="Heading size" Description="" Link="">
+        <ValueOptions>
+          <Value Name="H1" />
+          <Value Name="H2" />
+          <Value Name="H3" />
+          <Value Name="H4" />
+          <Value Name="Normal" />
+        </ValueOptions>
+      </EnumerationSettingInfo>
+      <BooleanSettingInfo Key="RenderHeadingAsHtml" DefaultValue="False" IsEditable="True" Title="Render heading as html" Description="" Link="" />
+      <StringSettingInfo Key="Text" DefaultValue="" IsEditable="True" Title="Text" Description="" Link="" />
+      <BooleanSettingInfo Key="ShowText" DefaultValue="True" IsEditable="True" Title="Show text" Description="" Link="" />
+      <EnumerationSettingInfo Key="TextSize" DefaultValue="Normal" IsEditable="True" Title="Text size" Description="" Link="">
+        <ValueOptions>
+          <Value Name="H1" />
+          <Value Name="H2" />
+          <Value Name="H3" />
+          <Value Name="H4" />
+          <Value Name="Normal" />
+        </ValueOptions>
+      </EnumerationSettingInfo>
+      <BooleanSettingInfo Key="RenderTextAsHtml" DefaultValue="False" IsEditable="True" Title="Render text as html" Description="" Link="" />
+      <BooleanSettingInfo Key="DeviderLine" DefaultValue="False" IsEditable="True" Title="Devider line" Description="" Link="" />
+      <IntSettingInfo Key="ReadGroupId" DefaultValue="0" IsEditable="True" Title="Read group id" Description="" Link="" />
+      <IntSettingInfo Key="WriteGroupId" DefaultValue="0" IsEditable="True" Title="Write group id" Description="" Link="" />
+      <BooleanSettingInfo Key="IncludedInPublicIndexed" DefaultValue="True" IsEditable="True" Title="Included in public indexed" Description="" Link="" />
+      <BooleanSettingInfo Key="IncludedInProtectedIndexed" DefaultValue="True" IsEditable="True" Title="Included in protected indexed" Description="" Link="" />
+      <BooleanSettingInfo Key="CreateCustomIndexField" DefaultValue="False" IsEditable="True" Title="Create custom index field" Description="" Link="" />
+      <BooleanSettingInfo Key="CreateAutoFacetForCustomIndexField" DefaultValue="False" IsEditable="True" Title="Create auto facet for custom index field" Description="" Link="" />
+      <StringSettingInfo Key="CustomIndexFieldName" DefaultValue="" IsEditable="True" Title="Custom index field name" Description="" Link="" />
+      <DimensionSettingInfo Key="Height" DefaultValue="" IsEditable="True" Title="Height" Description="" Link="" />
+      <DimensionSettingInfo Key="Width" DefaultValue="100%" IsEditable="True" Title="Width" Description="" Link="" />
+      <DimensionSettingInfo Key="TitleWidth" DefaultValue="" IsEditable="True" Title="Title width" Description="" Link="" />
+      <EnumerationSettingInfo Key="Layout" DefaultValue="NoTitle" IsEditable="True" Title="Layout" Description="" Link="">
+        <ValueOptions>
+          <Value Name="TwoColumns" />
+          <Value Name="TwoRows" />
+          <Value Name="NoTitle" />
+        </ValueOptions>
+      </EnumerationSettingInfo>
+      <BooleanSettingInfo Key="Border" DefaultValue="False" IsEditable="True" Title="Border" Description="" Link="" />
+      <StringSettingInfo Key="Caption" DefaultValue="" IsEditable="True" Title="Caption" Description="" Link="" />
+      <BooleanSettingInfo Key="HideInEdit" DefaultValue="False" IsEditable="True" Title="Hide in edit" Description="" Link="" />
+      <BooleanSettingInfo Key="HideInVisit" DefaultValue="False" IsEditable="True" Title="Hide in visit" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControl" DefaultValue="" IsEditable="True" Title="Custom web control" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlEditModeWrite" DefaultValue="" IsEditable="True" Title="Custom web control edit mode write" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlEditModeRead" DefaultValue="" IsEditable="True" Title="Custom web control edit mode read" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlViewModeWrite" DefaultValue="" IsEditable="True" Title="Custom web control view mode write" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlViewModeRead" DefaultValue="" IsEditable="True" Title="Custom web control view mode read" Description="" Link="" />
+      <BooleanSettingInfo Key="Enabled" DefaultValue="True" IsEditable="True" Title="Enabled" Description="" Link="" />
+      <BooleanSettingInfo Key="Focus" DefaultValue="False" IsEditable="True" Title="Focus" Description="" Link="" />
+      <StringSettingInfo Key="ODataName" DefaultValue="" IsEditable="True" Title="OData endpoint name" Description="" Link="" />
+      <BooleanSettingInfo Key="ODataAllow" DefaultValue="False" IsEditable="True" Title="OData enabled" Description="" Link="" />
+      <StringSettingInfo Key="SchemaOrgMapping" DefaultValue="" IsEditable="True" Title="Schema.org property Uri" Description="" Link="" />
+      <StringSettingInfo Key="SchemaOrgEmbedPathPropMapping" DefaultValue="" IsEditable="True" Title="Schema.org embed prop path" Description="" Link="" />
+      <StringSettingInfo Key="SchemaOrgEmbedPathTypeMapping" DefaultValue="" IsEditable="True" Title="Schema.org embed type path" Description="" Link="" />
+      <BooleanSettingInfo Key="CultureIndependent" DefaultValue="False" IsEditable="True" Title="Culture independent" Description="" Link="" />
+    </Condition>
+    <Condition Property="PropertyClass.Value" Value="db1239e2-c255-499f-9038-1ca8e460901e">
+      <BooleanSettingInfo Key="HideUploadButton" DefaultValue="False" IsEditable="True" Title="Hide upload button" Description="" Link="" />
+      <BooleanSettingInfo Key="HideLibraryButton" DefaultValue="False" IsEditable="True" Title="Hide library button" Description="" Link="" />
+      <BooleanSettingInfo Key="SharedAcrossRevisions" DefaultValue="False" IsEditable="True" Title="Shared across revisions" Description="" Link="" />      
+      <BooleanSettingInfo Key="IncludeDerivated" DefaultValue="True" IsEditable="True" Title="Include derivated" Description="" Link="" />
+      <BooleanSettingInfo Key="HideAddButtons" DefaultValue="False" IsEditable="True" Title="Hide add buttons" Description="" Link="" />
+      <EnumerationSettingInfo Key="PositionOfNewItems" DefaultValue="AddNewLast" IsEditable="True" Title="Position of new items" Description="" Link="">
+        <ValueOptions>
+          <Value Name="AddNewLast" />
+          <Value Name="AddNewFirst" />
+        </ValueOptions>
+      </EnumerationSettingInfo>
+      <IntSettingInfo Key="MaximumNumberOfItems" DefaultValue="0" IsEditable="True" Title="Maximum number of items" Description="" Link="" />
+      <StringSettingInfo Key="InnerTableName" DefaultValue="" IsEditable="True" Title="Inner table name" Description="" Link="" />
+      <InnerContentClassReferencesSettingInfo Key="InnerContentClasses" IsEditable="True" Title="Inner content classes" Description="" Link="" />
+      <IntSettingInfo Key="ReadGroupId" DefaultValue="0" IsEditable="True" Title="Read group id" Description="" Link="" />
+      <IntSettingInfo Key="WriteGroupId" DefaultValue="0" IsEditable="True" Title="Write group id" Description="" Link="" />
+      <BooleanSettingInfo Key="IncludedInPublicIndexed" DefaultValue="True" IsEditable="True" Title="Included in public indexed" Description="" Link="" />
+      <BooleanSettingInfo Key="IncludedInProtectedIndexed" DefaultValue="True" IsEditable="True" Title="Included in protected indexed" Description="" Link="" />
+      <BooleanSettingInfo Key="CreateCustomIndexField" DefaultValue="False" IsEditable="True" Title="Create custom index field" Description="" Link="" />
+      <BooleanSettingInfo Key="CreateAutoFacetForCustomIndexField" DefaultValue="False" IsEditable="True" Title="Create auto facet for custom index field" Description="" Link="" />
+      <StringSettingInfo Key="CustomIndexFieldName" DefaultValue="" IsEditable="True" Title="Custom index field name" Description="" Link="" />
+      <DimensionSettingInfo Key="Height" DefaultValue="" IsEditable="True" Title="Height" Description="" Link="" />
+      <DimensionSettingInfo Key="Width" DefaultValue="100%" IsEditable="True" Title="Width" Description="" Link="" />
+      <DimensionSettingInfo Key="TitleWidth" DefaultValue="" IsEditable="True" Title="Title width" Description="" Link="" />
+      <EnumerationSettingInfo Key="Layout" DefaultValue="NoTitle" IsEditable="True" Title="Layout" Description="" Link="">
+        <ValueOptions>
+          <Value Name="TwoColumns" />
+          <Value Name="TwoRows" />
+          <Value Name="NoTitle" />
+        </ValueOptions>
+      </EnumerationSettingInfo>
+      <BooleanSettingInfo Key="Border" DefaultValue="False" IsEditable="True" Title="Border" Description="" Link="" />
+      <StringSettingInfo Key="Caption" DefaultValue="" IsEditable="True" Title="Caption" Description="" Link="" />
+      <BooleanSettingInfo Key="HideInEdit" DefaultValue="False" IsEditable="True" Title="Hide in edit" Description="" Link="" />
+      <BooleanSettingInfo Key="HideInVisit" DefaultValue="False" IsEditable="True" Title="Hide in visit" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControl" DefaultValue="" IsEditable="True" Title="Custom web control" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlEditModeWrite" DefaultValue="" IsEditable="True" Title="Custom web control edit mode write" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlEditModeRead" DefaultValue="" IsEditable="True" Title="Custom web control edit mode read" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlViewModeWrite" DefaultValue="" IsEditable="True" Title="Custom web control view mode write" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlViewModeRead" DefaultValue="" IsEditable="True" Title="Custom web control view mode read" Description="" Link="" />
+      <BooleanSettingInfo Key="Enabled" DefaultValue="True" IsEditable="True" Title="Enabled" Description="" Link="" />
+      <BooleanSettingInfo Key="Focus" DefaultValue="False" IsEditable="True" Title="Focus" Description="" Link="" />
+      <StringSettingInfo Key="ODataName" DefaultValue="" IsEditable="True" Title="OData endpoint name" Description="" Link="" />
+      <BooleanSettingInfo Key="ODataAllow" DefaultValue="False" IsEditable="True" Title="OData enabled" Description="" Link="" />
+      <StringSettingInfo Key="SchemaOrgMapping" DefaultValue="" IsEditable="True" Title="Schema.org property Uri" Description="" Link="" />
+      <StringSettingInfo Key="SchemaOrgEmbedPathPropMapping" DefaultValue="" IsEditable="True" Title="Schema.org embed prop path" Description="" Link="" />
+      <StringSettingInfo Key="SchemaOrgEmbedPathTypeMapping" DefaultValue="" IsEditable="True" Title="Schema.org embed type path" Description="" Link="" />
+      <BooleanSettingInfo Key="CultureIndependent" DefaultValue="False" IsEditable="True" Title="Culture independent" Description="" Link="" />
+    </Condition>
+    <Condition Property="PropertyClass.Value" Value="0830d617-f5ee-4266-8f54-71e7867c5225">
+      <StringSettingInfo Key="Color" DefaultValue="" IsEditable="True" Title="Color in UI" Description="" Link="" />
+      <IntSettingInfo Key="ReadGroupId" DefaultValue="0" IsEditable="True" Title="Read group id" Description="" Link="" />
+      <IntSettingInfo Key="WriteGroupId" DefaultValue="0" IsEditable="True" Title="Write group id" Description="" Link="" />
+      <BooleanSettingInfo Key="IncludedInPublicIndexed" DefaultValue="True" IsEditable="True" Title="Included in public indexed" Description="" Link="" />
+      <BooleanSettingInfo Key="IncludedInProtectedIndexed" DefaultValue="True" IsEditable="True" Title="Included in protected indexed" Description="" Link="" />
+      <BooleanSettingInfo Key="CreateCustomIndexField" DefaultValue="False" IsEditable="True" Title="Create custom index field" Description="" Link="" />
+      <BooleanSettingInfo Key="CreateAutoFacetForCustomIndexField" DefaultValue="False" IsEditable="True" Title="Create auto facet for custom index field" Description="" Link="" />
+      <StringSettingInfo Key="CustomIndexFieldName" DefaultValue="" IsEditable="True" Title="Custom index field name" Description="" Link="" />
+      <DimensionSettingInfo Key="Height" DefaultValue="" IsEditable="True" Title="Height" Description="" Link="" />
+      <DimensionSettingInfo Key="Width" DefaultValue="100%" IsEditable="True" Title="Width" Description="" Link="" />
+      <DimensionSettingInfo Key="TitleWidth" DefaultValue="" IsEditable="True" Title="Title width" Description="" Link="" />
+      <EnumerationSettingInfo Key="Layout" DefaultValue="TwoColumns" IsEditable="True" Title="Layout" Description="" Link="">
+        <ValueOptions>
+          <Value Name="TwoColumns" />
+          <Value Name="TwoRows" />
+          <Value Name="NoTitle" />
+        </ValueOptions>
+      </EnumerationSettingInfo>
+      <BooleanSettingInfo Key="Border" DefaultValue="False" IsEditable="True" Title="Border" Description="" Link="" />
+      <StringSettingInfo Key="Caption" DefaultValue="" IsEditable="True" Title="Caption" Description="" Link="" />
+      <BooleanSettingInfo Key="HideInEdit" DefaultValue="False" IsEditable="True" Title="Hide in edit" Description="" Link="" />
+      <BooleanSettingInfo Key="HideInVisit" DefaultValue="False" IsEditable="True" Title="Hide in visit" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControl" DefaultValue="" IsEditable="True" Title="Custom web control" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlEditModeWrite" DefaultValue="" IsEditable="True" Title="Custom web control edit mode write" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlEditModeRead" DefaultValue="" IsEditable="True" Title="Custom web control edit mode read" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlViewModeWrite" DefaultValue="" IsEditable="True" Title="Custom web control view mode write" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlViewModeRead" DefaultValue="" IsEditable="True" Title="Custom web control view mode read" Description="" Link="" />
+      <BooleanSettingInfo Key="Enabled" DefaultValue="True" IsEditable="True" Title="Enabled" Description="" Link="" />
+      <BooleanSettingInfo Key="Focus" DefaultValue="False" IsEditable="True" Title="Focus" Description="" Link="" />
+      <StringSettingInfo Key="ODataName" DefaultValue="" IsEditable="True" Title="OData endpoint name" Description="" Link="" />
+      <BooleanSettingInfo Key="ODataAllow" DefaultValue="False" IsEditable="True" Title="OData enabled" Description="" Link="" />
+      <StringSettingInfo Key="SchemaOrgMapping" DefaultValue="" IsEditable="True" Title="Schema.org property Uri" Description="" Link="" />
+      <StringSettingInfo Key="SchemaOrgEmbedPathPropMapping" DefaultValue="" IsEditable="True" Title="Schema.org embed prop path" Description="" Link="" />
+      <StringSettingInfo Key="SchemaOrgEmbedPathTypeMapping" DefaultValue="" IsEditable="True" Title="Schema.org embed type path" Description="" Link="" />
+      <BooleanSettingInfo Key="CultureIndependent" DefaultValue="False" IsEditable="True" Title="Culture independent" Description="" Link="" />
+    </Condition>
+    <Condition Property="PropertyClass.Value" Value="3f213560-e0b2-4532-ba37-4b093f7168a5">
+      <IntSettingInfo Key="ReadGroupId" DefaultValue="0" IsEditable="True" Title="Read group id" Description="" Link="" />
+      <IntSettingInfo Key="WriteGroupId" DefaultValue="0" IsEditable="True" Title="Write group id" Description="" Link="" />
+      <BooleanSettingInfo Key="EnforceTwoDecimals" DefaultValue="False" IsEditable="True" Title="Enforce 2 decimal precision" Description="Useful for currency calculations. " Link="" />
+      <BooleanSettingInfo Key="IncludedInPublicIndexed" DefaultValue="True" IsEditable="True" Title="Included in public indexed" Description="" Link="" />
+      <BooleanSettingInfo Key="IncludedInProtectedIndexed" DefaultValue="True" IsEditable="True" Title="Included in protected indexed" Description="" Link="" />
+      <BooleanSettingInfo Key="CreateCustomIndexField" DefaultValue="False" IsEditable="True" Title="Create custom index field" Description="" Link="" />
+      <BooleanSettingInfo Key="CreateAutoFacetForCustomIndexField" DefaultValue="False" IsEditable="True" Title="Create auto facet for custom index field" Description="" Link="" />
+      <StringSettingInfo Key="CustomIndexFieldName" DefaultValue="" IsEditable="True" Title="Custom index field name" Description="" Link="" />
+      <DimensionSettingInfo Key="Height" DefaultValue="" IsEditable="True" Title="Height" Description="" Link="" />
+      <DimensionSettingInfo Key="Width" DefaultValue="100%" IsEditable="True" Title="Width" Description="" Link="" />
+      <DimensionSettingInfo Key="TitleWidth" DefaultValue="" IsEditable="True" Title="Title width" Description="" Link="" />
+      <EnumerationSettingInfo Key="Layout" DefaultValue="TwoColumns" IsEditable="True" Title="Layout" Description="" Link="">
+        <ValueOptions>
+          <Value Name="TwoColumns" />
+          <Value Name="TwoRows" />
+          <Value Name="NoTitle" />
+        </ValueOptions>
+      </EnumerationSettingInfo>
+      <BooleanSettingInfo Key="Border" DefaultValue="False" IsEditable="True" Title="Border" Description="" Link="" />
+      <StringSettingInfo Key="Caption" DefaultValue="" IsEditable="True" Title="Caption" Description="" Link="" />
+      <BooleanSettingInfo Key="HideInEdit" DefaultValue="False" IsEditable="True" Title="Hide in edit" Description="" Link="" />
+      <BooleanSettingInfo Key="HideInVisit" DefaultValue="False" IsEditable="True" Title="Hide in visit" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControl" DefaultValue="" IsEditable="True" Title="Custom web control" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlEditModeWrite" DefaultValue="" IsEditable="True" Title="Custom web control edit mode write" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlEditModeRead" DefaultValue="" IsEditable="True" Title="Custom web control edit mode read" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlViewModeWrite" DefaultValue="" IsEditable="True" Title="Custom web control view mode write" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlViewModeRead" DefaultValue="" IsEditable="True" Title="Custom web control view mode read" Description="" Link="" />
+      <BooleanSettingInfo Key="Enabled" DefaultValue="True" IsEditable="True" Title="Enabled" Description="" Link="" />
+      <BooleanSettingInfo Key="Focus" DefaultValue="False" IsEditable="True" Title="Focus" Description="" Link="" />
+      <StringSettingInfo Key="ODataName" DefaultValue="" IsEditable="True" Title="OData endpoint name" Description="" Link="" />
+      <BooleanSettingInfo Key="ODataAllow" DefaultValue="False" IsEditable="True" Title="OData enabled" Description="" Link="" />
+      <StringSettingInfo Key="SchemaOrgMapping" DefaultValue="" IsEditable="True" Title="Schema.org property Uri" Description="" Link="" />
+      <StringSettingInfo Key="SchemaOrgEmbedPathPropMapping" DefaultValue="" IsEditable="True" Title="Schema.org embed prop path" Description="" Link="" />
+      <StringSettingInfo Key="SchemaOrgEmbedPathTypeMapping" DefaultValue="" IsEditable="True" Title="Schema.org embed type path" Description="" Link="" />
+      <BooleanSettingInfo Key="CultureIndependent" DefaultValue="False" IsEditable="True" Title="Culture independent" Description="" Link="" />
+    </Condition>
+    <Condition Property="PropertyClass.Value" Value="2164cd01-1dfe-459a-9816-76559481d545">
+      <IntSettingInfo Key="ReadGroupId" DefaultValue="0" IsEditable="True" Title="Read group id" Description="" Link="" />
+      <IntSettingInfo Key="WriteGroupId" DefaultValue="0" IsEditable="True" Title="Write group id" Description="" Link="" />
+      <BooleanSettingInfo Key="IncludedInPublicIndexed" DefaultValue="True" IsEditable="True" Title="Included in public indexed" Description="" Link="" />
+      <BooleanSettingInfo Key="IncludedInProtectedIndexed" DefaultValue="True" IsEditable="True" Title="Included in protected indexed" Description="" Link="" />
+      <BooleanSettingInfo Key="CreateCustomIndexField" DefaultValue="False" IsEditable="True" Title="Create custom index field" Description="" Link="" />
+      <BooleanSettingInfo Key="CreateAutoFacetForCustomIndexField" DefaultValue="False" IsEditable="True" Title="Create auto facet for custom index field" Description="" Link="" />
+      <StringSettingInfo Key="CustomIndexFieldName" DefaultValue="" IsEditable="True" Title="Custom index field name" Description="" Link="" />
+      <DimensionSettingInfo Key="Height" DefaultValue="" IsEditable="True" Title="Height" Description="" Link="" />
+      <DimensionSettingInfo Key="Width" DefaultValue="100%" IsEditable="True" Title="Width" Description="" Link="" />
+      <DimensionSettingInfo Key="TitleWidth" DefaultValue="" IsEditable="True" Title="Title width" Description="" Link="" />
+      <EnumerationSettingInfo Key="Layout" DefaultValue="TwoColumns" IsEditable="True" Title="Layout" Description="" Link="">
+        <ValueOptions>
+          <Value Name="TwoColumns" />
+          <Value Name="TwoRows" />
+          <Value Name="NoTitle" />
+        </ValueOptions>
+      </EnumerationSettingInfo>
+      <BooleanSettingInfo Key="Border" DefaultValue="False" IsEditable="True" Title="Border" Description="" Link="" />
+      <StringSettingInfo Key="Caption" DefaultValue="" IsEditable="True" Title="Caption" Description="" Link="" />
+      <BooleanSettingInfo Key="HideInEdit" DefaultValue="False" IsEditable="True" Title="Hide in edit" Description="" Link="" />
+      <BooleanSettingInfo Key="HideInVisit" DefaultValue="False" IsEditable="True" Title="Hide in visit" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControl" DefaultValue="" IsEditable="True" Title="Custom web control" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlEditModeWrite" DefaultValue="" IsEditable="True" Title="Custom web control edit mode write" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlEditModeRead" DefaultValue="" IsEditable="True" Title="Custom web control edit mode read" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlViewModeWrite" DefaultValue="" IsEditable="True" Title="Custom web control view mode write" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlViewModeRead" DefaultValue="" IsEditable="True" Title="Custom web control view mode read" Description="" Link="" />
+      <BooleanSettingInfo Key="Enabled" DefaultValue="True" IsEditable="True" Title="Enabled" Description="" Link="" />
+      <BooleanSettingInfo Key="Focus" DefaultValue="False" IsEditable="True" Title="Focus" Description="" Link="" />
+      <StringSettingInfo Key="ODataName" DefaultValue="" IsEditable="True" Title="OData endpoint name" Description="" Link="" />
+      <BooleanSettingInfo Key="ODataAllow" DefaultValue="False" IsEditable="True" Title="OData enabled" Description="" Link="" />
+      <StringSettingInfo Key="SchemaOrgMapping" DefaultValue="" IsEditable="True" Title="Schema.org property Uri" Description="" Link="" />
+      <StringSettingInfo Key="SchemaOrgEmbedPathPropMapping" DefaultValue="" IsEditable="True" Title="Schema.org embed prop path" Description="" Link="" />
+      <StringSettingInfo Key="SchemaOrgEmbedPathTypeMapping" DefaultValue="" IsEditable="True" Title="Schema.org embed type path" Description="" Link="" />
+      <BooleanSettingInfo Key="CultureIndependent" DefaultValue="False" IsEditable="True" Title="Culture independent" Description="" Link="" />
+    </Condition>
+    <Condition Property="PropertyClass.Value" Value="004506fc-4a9f-4c0a-8bd0-bfd16fa76876">
+      <BooleanSettingInfo Key="SpamSafeEmails" DefaultValue="False" IsEditable="True" Title="Spam safe emails" Description="" Link="" />
+      <DimensionSettingInfo Key="EditorWidth" DefaultValue="100%" IsEditable="True" Title="Editor width" Description="" Link="" />
+      <DimensionSettingInfo Key="EditorHeight" DefaultValue="100%" IsEditable="True" Title="Editor height" Description="" Link="" />
+      <EnumerationSettingInfo Key="Configuration" DefaultValue="Standard" IsEditable="True" Title="Configuration" Description="" Link="">
+        <ValueOptions>
+          <Value Name="Standard" />
+          <Value Name="Minimal" />
+          <Value Name="Full" />
+          <Value Name="Visit" />
+        </ValueOptions>
+      </EnumerationSettingInfo>
+      <EnumerationSettingInfo Key="HtmlFilter" DefaultValue="NoFilter" IsEditable="True" Title="Html filter" Description="" Link="">
+        <ValueOptions>
+          <Value Name="NoFilter" />
+          <Value Name="NoJava" />
+          <Value Name="NoJavaOrInlineStyles" />
+        </ValueOptions>
+      </EnumerationSettingInfo>
+      <StringSettingInfo Key="AddTools" DefaultValue="" IsEditable="True" Title="Add tools" Description="" Link="" />
+      <StringSettingInfo Key="RemoveTools" DefaultValue="" IsEditable="True" Title="Remove tools" Description="" Link="" />
+      <EnumerationSettingInfo Key="Configuration2" DefaultValue="Standard" IsEditable="True" Title="Configuration 2" Description="" Link="">
+        <ValueOptions>
+          <Value Name="Standard" />
+          <Value Name="Minimal" />
+          <Value Name="Full" />
+          <Value Name="Visit" />
+        </ValueOptions>
+      </EnumerationSettingInfo>
+      <EnumerationSettingInfo Key="HtmlFilter2" DefaultValue="NoFilter" IsEditable="True" Title="Html filter 2" Description="" Link="">
+        <ValueOptions>
+          <Value Name="NoFilter" />
+          <Value Name="NoJava" />
+          <Value Name="NoJavaOrInlineStyles" />
+        </ValueOptions>
+      </EnumerationSettingInfo>
+      <StringSettingInfo Key="AddTools2" DefaultValue="" IsEditable="True" Title="Add tools 2" Description="" Link="" />
+      <StringSettingInfo Key="RemoveTools2" DefaultValue="" IsEditable="True" Title="Remove tools 2" Description="" Link="" />
+      <StringSettingInfo Key="SelectableStyles" DefaultValue="" IsEditable="True" Title="Selectable styles" Description="" Link="" />
+      <IntSettingInfo Key="UserGroupLevel2" DefaultValue="0" IsEditable="True" Title="User group level 2" Description="" Link="" />
+      <StringSettingInfo Key="TinyMceStyleFormats" DefaultValue="" IsEditable="True" Title="Tiny mce style formats" Description="" Link="" />
+      <IntSettingInfo Key="ReadGroupId" DefaultValue="0" IsEditable="True" Title="Read group id" Description="" Link="" />
+      <IntSettingInfo Key="WriteGroupId" DefaultValue="0" IsEditable="True" Title="Write group id" Description="" Link="" />
+      <BooleanSettingInfo Key="IncludedInPublicIndexed" DefaultValue="True" IsEditable="True" Title="Included in public indexed" Description="" Link="" />
+      <BooleanSettingInfo Key="IncludedInProtectedIndexed" DefaultValue="True" IsEditable="True" Title="Included in protected indexed" Description="" Link="" />
+      <BooleanSettingInfo Key="CreateCustomIndexField" DefaultValue="False" IsEditable="True" Title="Create custom index field" Description="" Link="" />
+      <BooleanSettingInfo Key="CreateAutoFacetForCustomIndexField" DefaultValue="False" IsEditable="True" Title="Create auto facet for custom index field" Description="" Link="" />
+      <StringSettingInfo Key="CustomIndexFieldName" DefaultValue="" IsEditable="True" Title="Custom index field name" Description="" Link="" />
+      <DimensionSettingInfo Key="Height" DefaultValue="400px" IsEditable="True" Title="Height" Description="" Link="" />
+      <DimensionSettingInfo Key="Width" DefaultValue="100%" IsEditable="True" Title="Width" Description="" Link="" />
+      <DimensionSettingInfo Key="TitleWidth" DefaultValue="" IsEditable="True" Title="Title width" Description="" Link="" />
+      <EnumerationSettingInfo Key="Layout" DefaultValue="TwoRows" IsEditable="True" Title="Layout" Description="" Link="">
+        <ValueOptions>
+          <Value Name="TwoColumns" />
+          <Value Name="TwoRows" />
+          <Value Name="NoTitle" />
+        </ValueOptions>
+      </EnumerationSettingInfo>
+      <BooleanSettingInfo Key="Border" DefaultValue="False" IsEditable="True" Title="Border" Description="" Link="" />
+      <StringSettingInfo Key="Caption" DefaultValue="" IsEditable="True" Title="Caption" Description="" Link="" />
+      <BooleanSettingInfo Key="HideInEdit" DefaultValue="False" IsEditable="True" Title="Hide in edit" Description="" Link="" />
+      <BooleanSettingInfo Key="HideInVisit" DefaultValue="False" IsEditable="True" Title="Hide in visit" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControl" DefaultValue="" IsEditable="True" Title="Custom web control" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlEditModeWrite" DefaultValue="" IsEditable="True" Title="Custom web control edit mode write" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlEditModeRead" DefaultValue="" IsEditable="True" Title="Custom web control edit mode read" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlViewModeWrite" DefaultValue="" IsEditable="True" Title="Custom web control view mode write" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlViewModeRead" DefaultValue="" IsEditable="True" Title="Custom web control view mode read" Description="" Link="" />
+      <BooleanSettingInfo Key="Enabled" DefaultValue="True" IsEditable="True" Title="Enabled" Description="" Link="" />
+      <BooleanSettingInfo Key="Focus" DefaultValue="False" IsEditable="True" Title="Focus" Description="" Link="" />
+      <StringSettingInfo Key="ODataName" DefaultValue="" IsEditable="True" Title="OData endpoint name" Description="" Link="" />
+      <BooleanSettingInfo Key="ODataAllow" DefaultValue="False" IsEditable="True" Title="OData enabled" Description="" Link="" />
+      <StringSettingInfo Key="SchemaOrgMapping" DefaultValue="" IsEditable="True" Title="Schema.org property Uri" Description="" Link="" />
+      <StringSettingInfo Key="SchemaOrgEmbedPathPropMapping" DefaultValue="" IsEditable="True" Title="Schema.org embed prop path" Description="" Link="" />
+      <StringSettingInfo Key="SchemaOrgEmbedPathTypeMapping" DefaultValue="" IsEditable="True" Title="Schema.org embed type path" Description="" Link="" />
+      <BooleanSettingInfo Key="CultureIndependent" DefaultValue="False" IsEditable="True" Title="Culture independent" Description="" Link="" />
+    </Condition>
+    <Condition Property="PropertyClass.Value" Value="d13fc7be-804b-4ebf-a69a-9823c8dd71da">
+      <StringSettingInfo Key="Color" DefaultValue="" IsEditable="True" Title="Color in UI" Description="" Link="" />
+      <BooleanSettingInfo Key="IncludeDerivated" DefaultValue="True" IsEditable="True" Title="Include derivated" Description="" Link="" />
+      <BooleanSettingInfo Key="HideAddButtons" DefaultValue="False" IsEditable="True" Title="Hide add buttons" Description="" Link="" />
+      <EnumerationSettingInfo Key="PositionOfNewItems" DefaultValue="AddNewLast" IsEditable="True" Title="Position of new items" Description="" Link="">
+        <ValueOptions>
+          <Value Name="AddNewLast" />
+          <Value Name="AddNewFirst" />
+        </ValueOptions>
+      </EnumerationSettingInfo>
+      <IntSettingInfo Key="MaximumNumberOfItems" DefaultValue="0" IsEditable="True" Title="Maximum number of items" Description="" Link="" />
+      <StringSettingInfo Key="InnerTableName" DefaultValue="" IsEditable="True" Title="Inner table name" Description="" Link="" />
+      <InnerContentClassReferencesSettingInfo Key="InnerContentClasses" IsEditable="True" Title="Inner content classes" Description="" Link="" />
+      <IntSettingInfo Key="ReadGroupId" DefaultValue="0" IsEditable="True" Title="Read group id" Description="" Link="" />
+      <IntSettingInfo Key="WriteGroupId" DefaultValue="0" IsEditable="True" Title="Write group id" Description="" Link="" />
+      <BooleanSettingInfo Key="IncludedInPublicIndexed" DefaultValue="True" IsEditable="True" Title="Included in public indexed" Description="" Link="" />
+      <BooleanSettingInfo Key="IncludedInProtectedIndexed" DefaultValue="True" IsEditable="True" Title="Included in protected indexed" Description="" Link="" />
+      <BooleanSettingInfo Key="CreateCustomIndexField" DefaultValue="False" IsEditable="True" Title="Create custom index field" Description="" Link="" />
+      <BooleanSettingInfo Key="CreateAutoFacetForCustomIndexField" DefaultValue="False" IsEditable="True" Title="Create auto facet for custom index field" Description="" Link="" />
+      <StringSettingInfo Key="CustomIndexFieldName" DefaultValue="" IsEditable="True" Title="Custom index field name" Description="" Link="" />
+      <DimensionSettingInfo Key="Height" DefaultValue="" IsEditable="True" Title="Height" Description="" Link="" />
+      <DimensionSettingInfo Key="Width" DefaultValue="100%" IsEditable="True" Title="Width" Description="" Link="" />
+      <DimensionSettingInfo Key="TitleWidth" DefaultValue="" IsEditable="True" Title="Title width" Description="" Link="" />
+      <EnumerationSettingInfo Key="Layout" DefaultValue="NoTitle" IsEditable="True" Title="Layout" Description="" Link="">
+        <ValueOptions>
+          <Value Name="TwoColumns" />
+          <Value Name="TwoRows" />
+          <Value Name="NoTitle" />
+        </ValueOptions>
+      </EnumerationSettingInfo>
+      <BooleanSettingInfo Key="Border" DefaultValue="False" IsEditable="True" Title="Border" Description="" Link="" />
+      <StringSettingInfo Key="Caption" DefaultValue="" IsEditable="True" Title="Caption" Description="" Link="" />
+      <BooleanSettingInfo Key="HideInEdit" DefaultValue="False" IsEditable="True" Title="Hide in edit" Description="" Link="" />
+      <BooleanSettingInfo Key="HideInVisit" DefaultValue="False" IsEditable="True" Title="Hide in visit" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControl" DefaultValue="" IsEditable="True" Title="Custom web control" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlEditModeWrite" DefaultValue="" IsEditable="True" Title="Custom web control edit mode write" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlEditModeRead" DefaultValue="" IsEditable="True" Title="Custom web control edit mode read" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlViewModeWrite" DefaultValue="" IsEditable="True" Title="Custom web control view mode write" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlViewModeRead" DefaultValue="" IsEditable="True" Title="Custom web control view mode read" Description="" Link="" />
+      <BooleanSettingInfo Key="Enabled" DefaultValue="True" IsEditable="True" Title="Enabled" Description="" Link="" />
+      <BooleanSettingInfo Key="Focus" DefaultValue="False" IsEditable="True" Title="Focus" Description="" Link="" />
+      <StringSettingInfo Key="ODataName" DefaultValue="" IsEditable="True" Title="OData endpoint name" Description="" Link="" />
+      <BooleanSettingInfo Key="ODataAllow" DefaultValue="False" IsEditable="True" Title="OData enabled" Description="" Link="" />
+      <StringSettingInfo Key="SchemaOrgMapping" DefaultValue="" IsEditable="True" Title="Schema.org property Uri" Description="" Link="" />
+      <StringSettingInfo Key="SchemaOrgEmbedPathPropMapping" DefaultValue="" IsEditable="True" Title="Schema.org embed prop path" Description="" Link="" />
+      <StringSettingInfo Key="SchemaOrgEmbedPathTypeMapping" DefaultValue="" IsEditable="True" Title="Schema.org embed type path" Description="" Link="" />
+      <BooleanSettingInfo Key="CultureIndependent" DefaultValue="False" IsEditable="True" Title="Culture independent" Description="" Link="" />
+    </Condition>
+    <Condition Property="PropertyClass.Value" Value="3de57d0c-f738-423c-8acc-ba5510349cad">
+      <IntSettingInfo Key="MinValue" DefaultValue="0" IsEditable="True" Title="Min value" Description="" Link="" />
+      <IntSettingInfo Key="MaxValue" DefaultValue="0" IsEditable="True" Title="Max value" Description="" Link="" />
+      <BooleanSettingInfo Key="SetValueWithSlider" DefaultValue="False" IsEditable="True" Title="Set value with slider" Description="" Link="" />
+      <BooleanSettingInfo Key="UseMinMaxValues" DefaultValue="False" IsEditable="True" Title="Use min max values" Description="" Link="" />
+      <IntSettingInfo Key="ReadGroupId" DefaultValue="0" IsEditable="True" Title="Read group id" Description="" Link="" />
+      <IntSettingInfo Key="WriteGroupId" DefaultValue="0" IsEditable="True" Title="Write group id" Description="" Link="" />
+      <BooleanSettingInfo Key="IncludedInPublicIndexed" DefaultValue="True" IsEditable="True" Title="Included in public indexed" Description="" Link="" />
+      <BooleanSettingInfo Key="IncludedInProtectedIndexed" DefaultValue="True" IsEditable="True" Title="Included in protected indexed" Description="" Link="" />
+      <BooleanSettingInfo Key="CreateCustomIndexField" DefaultValue="False" IsEditable="True" Title="Create custom index field" Description="" Link="" />
+      <BooleanSettingInfo Key="CreateAutoFacetForCustomIndexField" DefaultValue="False" IsEditable="True" Title="Create auto facet for custom index field" Description="" Link="" />
+      <StringSettingInfo Key="CustomIndexFieldName" DefaultValue="" IsEditable="True" Title="Custom index field name" Description="" Link="" />
+      <DimensionSettingInfo Key="Height" DefaultValue="" IsEditable="True" Title="Height" Description="" Link="" />
+      <DimensionSettingInfo Key="Width" DefaultValue="100%" IsEditable="True" Title="Width" Description="" Link="" />
+      <DimensionSettingInfo Key="TitleWidth" DefaultValue="" IsEditable="True" Title="Title width" Description="" Link="" />
+      <EnumerationSettingInfo Key="Layout" DefaultValue="TwoColumns" IsEditable="True" Title="Layout" Description="" Link="">
+        <ValueOptions>
+          <Value Name="TwoColumns" />
+          <Value Name="TwoRows" />
+          <Value Name="NoTitle" />
+        </ValueOptions>
+      </EnumerationSettingInfo>
+      <BooleanSettingInfo Key="Border" DefaultValue="False" IsEditable="True" Title="Border" Description="" Link="" />
+      <StringSettingInfo Key="Caption" DefaultValue="" IsEditable="True" Title="Caption" Description="" Link="" />
+      <BooleanSettingInfo Key="HideInEdit" DefaultValue="False" IsEditable="True" Title="Hide in edit" Description="" Link="" />
+      <BooleanSettingInfo Key="HideInVisit" DefaultValue="False" IsEditable="True" Title="Hide in visit" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControl" DefaultValue="" IsEditable="True" Title="Custom web control" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlEditModeWrite" DefaultValue="" IsEditable="True" Title="Custom web control edit mode write" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlEditModeRead" DefaultValue="" IsEditable="True" Title="Custom web control edit mode read" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlViewModeWrite" DefaultValue="" IsEditable="True" Title="Custom web control view mode write" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlViewModeRead" DefaultValue="" IsEditable="True" Title="Custom web control view mode read" Description="" Link="" />
+      <BooleanSettingInfo Key="Enabled" DefaultValue="True" IsEditable="True" Title="Enabled" Description="" Link="" />
+      <BooleanSettingInfo Key="Focus" DefaultValue="False" IsEditable="True" Title="Focus" Description="" Link="" />
+      <StringSettingInfo Key="ODataName" DefaultValue="" IsEditable="True" Title="OData endpoint name" Description="" Link="" />
+      <BooleanSettingInfo Key="ODataAllow" DefaultValue="False" IsEditable="True" Title="OData enabled" Description="" Link="" />
+      <StringSettingInfo Key="SchemaOrgMapping" DefaultValue="" IsEditable="True" Title="Schema.org property Uri" Description="" Link="" />
+      <StringSettingInfo Key="SchemaOrgEmbedPathPropMapping" DefaultValue="" IsEditable="True" Title="Schema.org embed prop path" Description="" Link="" />
+      <StringSettingInfo Key="SchemaOrgEmbedPathTypeMapping" DefaultValue="" IsEditable="True" Title="Schema.org embed type path" Description="" Link="" />
+      <BooleanSettingInfo Key="CultureIndependent" DefaultValue="False" IsEditable="True" Title="Culture independent" Description="" Link="" />
+    </Condition>
+    <Condition Property="PropertyClass.Value" Value="8fce161d-836d-4dc8-bc89-f10baaa069b8">
+      <IntSettingInfo Key="Rows" DefaultValue="5" IsEditable="True" Title="Rows" Description="" Link="" />
+      <IntSettingInfo Key="Columns" DefaultValue="80" IsEditable="True" Title="Columns" Description="" Link="" />
+      <IntSettingInfo Key="MaxLength" DefaultValue="1048576" IsEditable="True" Title="Max length" Description="" Link="" />
+      <BooleanSettingInfo Key="Trim" DefaultValue="False" IsEditable="True" Title="Trim" Description="" Link="" />
+      <BooleanSettingInfo Key="IndexAsHtml" DefaultValue="False" IsEditable="True" Title="Index as html" Description="" Link="" />
+      <IntSettingInfo Key="ReadGroupId" DefaultValue="0" IsEditable="True" Title="Read group id" Description="" Link="" />
+      <IntSettingInfo Key="WriteGroupId" DefaultValue="0" IsEditable="True" Title="Write group id" Description="" Link="" />
+      <BooleanSettingInfo Key="IncludedInPublicIndexed" DefaultValue="True" IsEditable="True" Title="Included in public indexed" Description="" Link="" />
+      <BooleanSettingInfo Key="IncludedInProtectedIndexed" DefaultValue="True" IsEditable="True" Title="Included in protected indexed" Description="" Link="" />
+      <BooleanSettingInfo Key="CreateCustomIndexField" DefaultValue="False" IsEditable="True" Title="Create custom index field" Description="" Link="" />
+      <BooleanSettingInfo Key="CreateAutoFacetForCustomIndexField" DefaultValue="False" IsEditable="True" Title="Create auto facet for custom index field" Description="" Link="" />
+      <StringSettingInfo Key="CustomIndexFieldName" DefaultValue="" IsEditable="True" Title="Custom index field name" Description="" Link="" />
+      <DimensionSettingInfo Key="Height" DefaultValue="" IsEditable="True" Title="Height" Description="" Link="" />
+      <DimensionSettingInfo Key="Width" DefaultValue="100%" IsEditable="True" Title="Width" Description="" Link="" />
+      <DimensionSettingInfo Key="TitleWidth" DefaultValue="" IsEditable="True" Title="Title width" Description="" Link="" />
+      <EnumerationSettingInfo Key="Layout" DefaultValue="TwoColumns" IsEditable="True" Title="Layout" Description="" Link="">
+        <ValueOptions>
+          <Value Name="TwoColumns" />
+          <Value Name="TwoRows" />
+          <Value Name="NoTitle" />
+        </ValueOptions>
+      </EnumerationSettingInfo>
+      <BooleanSettingInfo Key="Border" DefaultValue="False" IsEditable="True" Title="Border" Description="" Link="" />
+      <StringSettingInfo Key="Caption" DefaultValue="" IsEditable="True" Title="Caption" Description="" Link="" />
+      <BooleanSettingInfo Key="HideInEdit" DefaultValue="False" IsEditable="True" Title="Hide in edit" Description="" Link="" />
+      <BooleanSettingInfo Key="HideInVisit" DefaultValue="False" IsEditable="True" Title="Hide in visit" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControl" DefaultValue="" IsEditable="True" Title="Custom web control" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlEditModeWrite" DefaultValue="" IsEditable="True" Title="Custom web control edit mode write" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlEditModeRead" DefaultValue="" IsEditable="True" Title="Custom web control edit mode read" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlViewModeWrite" DefaultValue="" IsEditable="True" Title="Custom web control view mode write" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlViewModeRead" DefaultValue="" IsEditable="True" Title="Custom web control view mode read" Description="" Link="" />
+      <BooleanSettingInfo Key="Enabled" DefaultValue="True" IsEditable="True" Title="Enabled" Description="" Link="" />
+      <BooleanSettingInfo Key="Focus" DefaultValue="False" IsEditable="True" Title="Focus" Description="" Link="" />
+      <StringSettingInfo Key="ODataName" DefaultValue="" IsEditable="True" Title="OData endpoint name" Description="" Link="" />
+      <BooleanSettingInfo Key="ODataAllow" DefaultValue="False" IsEditable="True" Title="OData enabled" Description="" Link="" />
+      <StringSettingInfo Key="SchemaOrgMapping" DefaultValue="" IsEditable="True" Title="Schema.org property Uri" Description="" Link="" />
+      <StringSettingInfo Key="SchemaOrgEmbedPathPropMapping" DefaultValue="" IsEditable="True" Title="Schema.org embed prop path" Description="" Link="" />
+      <StringSettingInfo Key="SchemaOrgEmbedPathTypeMapping" DefaultValue="" IsEditable="True" Title="Schema.org embed type path" Description="" Link="" />
+      <BooleanSettingInfo Key="CultureIndependent" DefaultValue="False" IsEditable="True" Title="Culture independent" Description="" Link="" />
+    </Condition>
+    <Condition Property="PropertyClass.Value" Value="1d307d77-8e67-4cae-bea6-41e4e1f9c1d0">
+      <BooleanSettingInfo Key="IncludeDerivated" DefaultValue="True" IsEditable="True" Title="Include derivated" Description="" Link="" />
+      <BooleanSettingInfo Key="IncludeHidden" DefaultValue="True" IsEditable="True" Title="Include hidden" Description="" Link="" />
+      <BooleanSettingInfo Key="IndexContentOfRelated" DefaultValue="False" IsEditable="True" Title="Index content of related" Description="" Link="" />
+      <IntSettingInfo Key="IndexRecurseLevelLimit" DefaultValue="0" IsEditable="True" Title="Index recurse level limit" Description="" Link="" />
+      <IntSettingInfo Key="IndexContentCountLimit" DefaultValue="0" IsEditable="True" Title="Index content count limit" Description="" Link="" />
+      <EnumerationSettingInfo Key="PositionOfNewRelatives" DefaultValue="AddNewLast" IsEditable="True" Title="Position of new relatives" Description="" Link="">
+        <ValueOptions>
+          <Value Name="AddNewLast" />
+          <Value Name="AddNewFirst" />
+        </ValueOptions>
+      </EnumerationSettingInfo>
+      <EnumerationSettingInfo Key="ControlType" DefaultValue="Default" IsEditable="True" Title="Control type" Description="" Link="">
+        <ValueOptions>
+          <Value Name="Default" />
+          <Value Name="OptionList" />
+          <Value Name="DropDownList" />
+        </ValueOptions>
+      </EnumerationSettingInfo>
+      <IntSettingInfo Key="ListRepeatColumns" DefaultValue="1" IsEditable="True" Title="List repeat columns" Description="" Link="" />
+      <EnumerationSettingInfo Key="ListRepeatDirection" DefaultValue="Vertical" IsEditable="True" Title="List repeat direction" Description="" Link="">
+        <ValueOptions>
+          <Value Name="Horizontal" />
+          <Value Name="Vertical" />
+        </ValueOptions>
+      </EnumerationSettingInfo>
+      <EnumerationSettingInfo Key="ListRepeatLayout" DefaultValue="Table" IsEditable="True" Title="List repeat layout" Description="" Link="">
+        <ValueOptions>
+          <Value Name="Table" />
+          <Value Name="Flow" />
+          <Value Name="UnorderedList" />
+          <Value Name="OrderedList" />
+        </ValueOptions>
+      </EnumerationSettingInfo>
+      <ContentClassReferencesSettingInfo Key="ContentClasses" IsEditable="True" Title="Content classes" Description="" Link="" />
+      <IntSettingInfo Key="ReadGroupId" DefaultValue="0" IsEditable="True" Title="Read group id" Description="" Link="" />
+      <IntSettingInfo Key="WriteGroupId" DefaultValue="0" IsEditable="True" Title="Write group id" Description="" Link="" />
+      <BooleanSettingInfo Key="IncludedInPublicIndexed" DefaultValue="True" IsEditable="True" Title="Included in public indexed" Description="" Link="" />
+      <BooleanSettingInfo Key="IncludedInProtectedIndexed" DefaultValue="True" IsEditable="True" Title="Included in protected indexed" Description="" Link="" />
+      <BooleanSettingInfo Key="CreateCustomIndexField" DefaultValue="False" IsEditable="True" Title="Create custom index field" Description="" Link="" />
+      <BooleanSettingInfo Key="CreateAutoFacetForCustomIndexField" DefaultValue="False" IsEditable="True" Title="Create auto facet for custom index field" Description="" Link="" />
+      <StringSettingInfo Key="CustomIndexFieldName" DefaultValue="" IsEditable="True" Title="Custom index field name" Description="" Link="" />
+      <DimensionSettingInfo Key="Height" DefaultValue="" IsEditable="True" Title="Height" Description="" Link="" />
+      <DimensionSettingInfo Key="Width" DefaultValue="100%" IsEditable="True" Title="Width" Description="" Link="" />
+      <DimensionSettingInfo Key="TitleWidth" DefaultValue="" IsEditable="True" Title="Title width" Description="" Link="" />
+      <EnumerationSettingInfo Key="Layout" DefaultValue="TwoColumns" IsEditable="True" Title="Layout" Description="" Link="">
+        <ValueOptions>
+          <Value Name="TwoColumns" />
+          <Value Name="TwoRows" />
+          <Value Name="NoTitle" />
+        </ValueOptions>
+      </EnumerationSettingInfo>
+      <BooleanSettingInfo Key="Border" DefaultValue="False" IsEditable="True" Title="Border" Description="" Link="" />
+      <StringSettingInfo Key="Caption" DefaultValue="" IsEditable="True" Title="Caption" Description="" Link="" />
+      <BooleanSettingInfo Key="HideInEdit" DefaultValue="False" IsEditable="True" Title="Hide in edit" Description="" Link="" />
+      <BooleanSettingInfo Key="HideInVisit" DefaultValue="False" IsEditable="True" Title="Hide in visit" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControl" DefaultValue="" IsEditable="True" Title="Custom web control" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlEditModeWrite" DefaultValue="" IsEditable="True" Title="Custom web control edit mode write" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlEditModeRead" DefaultValue="" IsEditable="True" Title="Custom web control edit mode read" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlViewModeWrite" DefaultValue="" IsEditable="True" Title="Custom web control view mode write" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlViewModeRead" DefaultValue="" IsEditable="True" Title="Custom web control view mode read" Description="" Link="" />
+      <BooleanSettingInfo Key="Enabled" DefaultValue="True" IsEditable="True" Title="Enabled" Description="" Link="" />
+      <BooleanSettingInfo Key="Focus" DefaultValue="False" IsEditable="True" Title="Focus" Description="" Link="" />
+      <StringSettingInfo Key="ODataName" DefaultValue="" IsEditable="True" Title="OData endpoint name" Description="" Link="" />
+      <BooleanSettingInfo Key="ODataAllow" DefaultValue="False" IsEditable="True" Title="OData enabled" Description="" Link="" />
+      <StringSettingInfo Key="SchemaOrgMapping" DefaultValue="" IsEditable="True" Title="Schema.org property Uri" Description="" Link="" />
+      <StringSettingInfo Key="SchemaOrgEmbedPathPropMapping" DefaultValue="" IsEditable="True" Title="Schema.org embed prop path" Description="" Link="" />
+      <StringSettingInfo Key="SchemaOrgEmbedPathTypeMapping" DefaultValue="" IsEditable="True" Title="Schema.org embed type path" Description="" Link="" />
+      <BooleanSettingInfo Key="CultureIndependent" DefaultValue="False" IsEditable="True" Title="Culture independent" Description="" Link="" />
+    </Condition>
+    <Condition Property="PropertyClass.Value" Value="c4ef10cc-6a69-4fa9-97b2-ae06baabefdf">
+      <BooleanSettingInfo Key="IncludeDerivated" DefaultValue="True" IsEditable="True" Title="Include derivated" Description="" Link="" />
+      <BooleanSettingInfo Key="IncludeHidden" DefaultValue="True" IsEditable="True" Title="Include hidden" Description="" Link="" />
+      <BooleanSettingInfo Key="IndexContentOfRelated" DefaultValue="False" IsEditable="True" Title="Index content of related" Description="" Link="" />
+      <IntSettingInfo Key="IndexRecurseLevelLimit" DefaultValue="0" IsEditable="True" Title="Index recurse level limit" Description="" Link="" />
+      <IntSettingInfo Key="IndexContentCountLimit" DefaultValue="0" IsEditable="True" Title="Index content count limit" Description="" Link="" />
+      <EnumerationSettingInfo Key="PositionOfNewRelatives" DefaultValue="AddNewLast" IsEditable="True" Title="Position of new relatives" Description="" Link="">
+        <ValueOptions>
+          <Value Name="AddNewLast" />
+          <Value Name="AddNewFirst" />
+        </ValueOptions>
+      </EnumerationSettingInfo>
+      <EnumerationSettingInfo Key="ControlType" DefaultValue="Default" IsEditable="True" Title="Control type" Description="" Link="">
+        <ValueOptions>
+          <Value Name="Default" />
+          <Value Name="OptionList" />
+          <Value Name="DropDownList" />
+        </ValueOptions>
+      </EnumerationSettingInfo>
+      <IntSettingInfo Key="ListRepeatColumns" DefaultValue="1" IsEditable="True" Title="List repeat columns" Description="" Link="" />
+      <EnumerationSettingInfo Key="ListRepeatDirection" DefaultValue="Vertical" IsEditable="True" Title="List repeat direction" Description="" Link="">
+        <ValueOptions>
+          <Value Name="Horizontal" />
+          <Value Name="Vertical" />
+        </ValueOptions>
+      </EnumerationSettingInfo>
+      <EnumerationSettingInfo Key="ListRepeatLayout" DefaultValue="Table" IsEditable="True" Title="List repeat layout" Description="" Link="">
+        <ValueOptions>
+          <Value Name="Table" />
+          <Value Name="Flow" />
+          <Value Name="UnorderedList" />
+          <Value Name="OrderedList" />
+        </ValueOptions>
+      </EnumerationSettingInfo>
+      <RelationReferenceSettingInfo Key="Relation" IsEditable="True" Title="Relation" Description="" Link="" />
+      <IntSettingInfo Key="ReadGroupId" DefaultValue="0" IsEditable="True" Title="Read group id" Description="" Link="" />
+      <IntSettingInfo Key="WriteGroupId" DefaultValue="0" IsEditable="True" Title="Write group id" Description="" Link="" />
+      <BooleanSettingInfo Key="IncludedInPublicIndexed" DefaultValue="True" IsEditable="True" Title="Included in public indexed" Description="" Link="" />
+      <BooleanSettingInfo Key="IncludedInProtectedIndexed" DefaultValue="True" IsEditable="True" Title="Included in protected indexed" Description="" Link="" />
+      <BooleanSettingInfo Key="CreateCustomIndexField" DefaultValue="False" IsEditable="True" Title="Create custom index field" Description="" Link="" />
+      <BooleanSettingInfo Key="CreateAutoFacetForCustomIndexField" DefaultValue="False" IsEditable="True" Title="Create auto facet for custom index field" Description="" Link="" />
+      <StringSettingInfo Key="CustomIndexFieldName" DefaultValue="" IsEditable="True" Title="Custom index field name" Description="" Link="" />
+      <DimensionSettingInfo Key="Height" DefaultValue="" IsEditable="True" Title="Height" Description="" Link="" />
+      <DimensionSettingInfo Key="Width" DefaultValue="100%" IsEditable="True" Title="Width" Description="" Link="" />
+      <DimensionSettingInfo Key="TitleWidth" DefaultValue="" IsEditable="True" Title="Title width" Description="" Link="" />
+      <EnumerationSettingInfo Key="Layout" DefaultValue="TwoColumns" IsEditable="True" Title="Layout" Description="" Link="">
+        <ValueOptions>
+          <Value Name="TwoColumns" />
+          <Value Name="TwoRows" />
+          <Value Name="NoTitle" />
+        </ValueOptions>
+      </EnumerationSettingInfo>
+      <BooleanSettingInfo Key="Border" DefaultValue="False" IsEditable="True" Title="Border" Description="" Link="" />
+      <StringSettingInfo Key="Caption" DefaultValue="" IsEditable="True" Title="Caption" Description="" Link="" />
+      <BooleanSettingInfo Key="HideInEdit" DefaultValue="False" IsEditable="True" Title="Hide in edit" Description="" Link="" />
+      <BooleanSettingInfo Key="HideInVisit" DefaultValue="False" IsEditable="True" Title="Hide in visit" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControl" DefaultValue="" IsEditable="True" Title="Custom web control" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlEditModeWrite" DefaultValue="" IsEditable="True" Title="Custom web control edit mode write" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlEditModeRead" DefaultValue="" IsEditable="True" Title="Custom web control edit mode read" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlViewModeWrite" DefaultValue="" IsEditable="True" Title="Custom web control view mode write" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlViewModeRead" DefaultValue="" IsEditable="True" Title="Custom web control view mode read" Description="" Link="" />
+      <BooleanSettingInfo Key="Enabled" DefaultValue="True" IsEditable="True" Title="Enabled" Description="" Link="" />
+      <BooleanSettingInfo Key="Focus" DefaultValue="False" IsEditable="True" Title="Focus" Description="" Link="" />
+      <StringSettingInfo Key="ODataName" DefaultValue="" IsEditable="True" Title="OData endpoint name" Description="" Link="" />
+      <BooleanSettingInfo Key="ODataAllow" DefaultValue="False" IsEditable="True" Title="OData enabled" Description="" Link="" />
+      <StringSettingInfo Key="SchemaOrgMapping" DefaultValue="" IsEditable="True" Title="Schema.org property Uri" Description="" Link="" />
+      <StringSettingInfo Key="SchemaOrgEmbedPathPropMapping" DefaultValue="" IsEditable="True" Title="Schema.org embed prop path" Description="" Link="" />
+      <StringSettingInfo Key="SchemaOrgEmbedPathTypeMapping" DefaultValue="" IsEditable="True" Title="Schema.org embed type path" Description="" Link="" />
+      <BooleanSettingInfo Key="CultureIndependent" DefaultValue="False" IsEditable="True" Title="Culture independent" Description="" Link="" />
+    </Condition>
+    <Condition Property="PropertyClass.Value" Value="cad63455-302a-4474-a412-b99ab05d9aa4">
+      <BooleanSettingInfo Key="IncludeDerivated" DefaultValue="True" IsEditable="True" Title="Include derivated" Description="" Link="" />
+      <BooleanSettingInfo Key="IncludeHidden" DefaultValue="True" IsEditable="True" Title="Include hidden" Description="" Link="" />
+      <BooleanSettingInfo Key="IndexContentOfRelated" DefaultValue="False" IsEditable="True" Title="Index content of related" Description="" Link="" />
+      <IntSettingInfo Key="IndexRecurseLevelLimit" DefaultValue="0" IsEditable="True" Title="Index recurse level limit" Description="" Link="" />
+      <IntSettingInfo Key="IndexContentCountLimit" DefaultValue="0" IsEditable="True" Title="Index content count limit" Description="" Link="" />
+      <EnumerationSettingInfo Key="PositionOfNewRelatives" DefaultValue="AddNewLast" IsEditable="True" Title="Position of new relatives" Description="" Link="">
+        <ValueOptions>
+          <Value Name="AddNewLast" />
+          <Value Name="AddNewFirst" />
+        </ValueOptions>
+      </EnumerationSettingInfo>
+      <EnumerationSettingInfo Key="ControlType" DefaultValue="Default" IsEditable="True" Title="Control type" Description="" Link="">
+        <ValueOptions>
+          <Value Name="Default" />
+          <Value Name="OptionList" />
+          <Value Name="DropDownList" />
+        </ValueOptions>
+      </EnumerationSettingInfo>
+      <IntSettingInfo Key="ListRepeatColumns" DefaultValue="1" IsEditable="True" Title="List repeat columns" Description="" Link="" />
+      <EnumerationSettingInfo Key="ListRepeatDirection" DefaultValue="Vertical" IsEditable="True" Title="List repeat direction" Description="" Link="">
+        <ValueOptions>
+          <Value Name="Horizontal" />
+          <Value Name="Vertical" />
+        </ValueOptions>
+      </EnumerationSettingInfo>
+      <EnumerationSettingInfo Key="ListRepeatLayout" DefaultValue="Table" IsEditable="True" Title="List repeat layout" Description="" Link="">
+        <ValueOptions>
+          <Value Name="Table" />
+          <Value Name="Flow" />
+          <Value Name="UnorderedList" />
+          <Value Name="OrderedList" />
+        </ValueOptions>
+      </EnumerationSettingInfo>
+      <RelationReferenceSettingInfo Key="Relation" IsEditable="True" Title="Relation" Description="" Link="" />
+      <IntSettingInfo Key="ReadGroupId" DefaultValue="0" IsEditable="True" Title="Read group id" Description="" Link="" />
+      <IntSettingInfo Key="WriteGroupId" DefaultValue="0" IsEditable="True" Title="Write group id" Description="" Link="" />
+      <BooleanSettingInfo Key="IncludedInPublicIndexed" DefaultValue="True" IsEditable="True" Title="Included in public indexed" Description="" Link="" />
+      <BooleanSettingInfo Key="IncludedInProtectedIndexed" DefaultValue="True" IsEditable="True" Title="Included in protected indexed" Description="" Link="" />
+      <BooleanSettingInfo Key="CreateCustomIndexField" DefaultValue="False" IsEditable="True" Title="Create custom index field" Description="" Link="" />
+      <BooleanSettingInfo Key="CreateAutoFacetForCustomIndexField" DefaultValue="False" IsEditable="True" Title="Create auto facet for custom index field" Description="" Link="" />
+      <StringSettingInfo Key="CustomIndexFieldName" DefaultValue="" IsEditable="True" Title="Custom index field name" Description="" Link="" />
+      <DimensionSettingInfo Key="Height" DefaultValue="" IsEditable="True" Title="Height" Description="" Link="" />
+      <DimensionSettingInfo Key="Width" DefaultValue="100%" IsEditable="True" Title="Width" Description="" Link="" />
+      <DimensionSettingInfo Key="TitleWidth" DefaultValue="" IsEditable="True" Title="Title width" Description="" Link="" />
+      <EnumerationSettingInfo Key="Layout" DefaultValue="TwoColumns" IsEditable="True" Title="Layout" Description="" Link="">
+        <ValueOptions>
+          <Value Name="TwoColumns" />
+          <Value Name="TwoRows" />
+          <Value Name="NoTitle" />
+        </ValueOptions>
+      </EnumerationSettingInfo>
+      <BooleanSettingInfo Key="Border" DefaultValue="False" IsEditable="True" Title="Border" Description="" Link="" />
+      <StringSettingInfo Key="Caption" DefaultValue="" IsEditable="True" Title="Caption" Description="" Link="" />
+      <BooleanSettingInfo Key="HideInEdit" DefaultValue="False" IsEditable="True" Title="Hide in edit" Description="" Link="" />
+      <BooleanSettingInfo Key="HideInVisit" DefaultValue="False" IsEditable="True" Title="Hide in visit" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControl" DefaultValue="" IsEditable="True" Title="Custom web control" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlEditModeWrite" DefaultValue="" IsEditable="True" Title="Custom web control edit mode write" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlEditModeRead" DefaultValue="" IsEditable="True" Title="Custom web control edit mode read" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlViewModeWrite" DefaultValue="" IsEditable="True" Title="Custom web control view mode write" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlViewModeRead" DefaultValue="" IsEditable="True" Title="Custom web control view mode read" Description="" Link="" />
+      <BooleanSettingInfo Key="Enabled" DefaultValue="True" IsEditable="True" Title="Enabled" Description="" Link="" />
+      <BooleanSettingInfo Key="Focus" DefaultValue="False" IsEditable="True" Title="Focus" Description="" Link="" />
+      <StringSettingInfo Key="ODataName" DefaultValue="" IsEditable="True" Title="OData endpoint name" Description="" Link="" />
+      <BooleanSettingInfo Key="ODataAllow" DefaultValue="False" IsEditable="True" Title="OData enabled" Description="" Link="" />
+      <StringSettingInfo Key="SchemaOrgMapping" DefaultValue="" IsEditable="True" Title="Schema.org property Uri" Description="" Link="" />
+      <StringSettingInfo Key="SchemaOrgEmbedPathPropMapping" DefaultValue="" IsEditable="True" Title="Schema.org embed prop path" Description="" Link="" />
+      <StringSettingInfo Key="SchemaOrgEmbedPathTypeMapping" DefaultValue="" IsEditable="True" Title="Schema.org embed type path" Description="" Link="" />
+      <BooleanSettingInfo Key="CultureIndependent" DefaultValue="False" IsEditable="True" Title="Culture independent" Description="" Link="" />
+    </Condition>
+    <Condition Property="PropertyClass.Value" Value="3dd79707-cfc0-47a9-8064-f108e2a16193">
+      <BooleanSettingInfo Key="IncludeDerivated" DefaultValue="True" IsEditable="True" Title="Include derivated" Description="" Link="" />
+      <BooleanSettingInfo Key="IncludeHidden" DefaultValue="True" IsEditable="True" Title="Include hidden" Description="" Link="" />
+      <BooleanSettingInfo Key="IndexContentOfRelated" DefaultValue="False" IsEditable="True" Title="Index content of related" Description="" Link="" />
+      <IntSettingInfo Key="IndexRecurseLevelLimit" DefaultValue="0" IsEditable="True" Title="Index recurse level limit" Description="" Link="" />
+      <IntSettingInfo Key="IndexContentCountLimit" DefaultValue="0" IsEditable="True" Title="Index content count limit" Description="" Link="" />
+      <EnumerationSettingInfo Key="PositionOfNewRelatives" DefaultValue="AddNewLast" IsEditable="True" Title="Position of new relatives" Description="" Link="">
+        <ValueOptions>
+          <Value Name="AddNewLast" />
+          <Value Name="AddNewFirst" />
+        </ValueOptions>
+      </EnumerationSettingInfo>
+      <EnumerationSettingInfo Key="ControlType" DefaultValue="Default" IsEditable="True" Title="Control type" Description="" Link="">
+        <ValueOptions>
+          <Value Name="Default" />
+          <Value Name="OptionList" />
+          <Value Name="DropDownList" />
+        </ValueOptions>
+      </EnumerationSettingInfo>
+      <IntSettingInfo Key="ListRepeatColumns" DefaultValue="1" IsEditable="True" Title="List repeat columns" Description="" Link="" />
+      <EnumerationSettingInfo Key="ListRepeatDirection" DefaultValue="Vertical" IsEditable="True" Title="List repeat direction" Description="" Link="">
+        <ValueOptions>
+          <Value Name="Horizontal" />
+          <Value Name="Vertical" />
+        </ValueOptions>
+      </EnumerationSettingInfo>
+      <EnumerationSettingInfo Key="ListRepeatLayout" DefaultValue="Table" IsEditable="True" Title="List repeat layout" Description="" Link="">
+        <ValueOptions>
+          <Value Name="Table" />
+          <Value Name="Flow" />
+          <Value Name="UnorderedList" />
+          <Value Name="OrderedList" />
+        </ValueOptions>
+      </EnumerationSettingInfo>
+      <RelationReferenceSettingInfo Key="Relation" IsEditable="True" Title="Relation" Description="" Link="" />
+      <IntSettingInfo Key="ReadGroupId" DefaultValue="0" IsEditable="True" Title="Read group id" Description="" Link="" />
+      <IntSettingInfo Key="WriteGroupId" DefaultValue="0" IsEditable="True" Title="Write group id" Description="" Link="" />
+      <BooleanSettingInfo Key="IncludedInPublicIndexed" DefaultValue="True" IsEditable="True" Title="Included in public indexed" Description="" Link="" />
+      <BooleanSettingInfo Key="IncludedInProtectedIndexed" DefaultValue="True" IsEditable="True" Title="Included in protected indexed" Description="" Link="" />
+      <BooleanSettingInfo Key="CreateCustomIndexField" DefaultValue="False" IsEditable="True" Title="Create custom index field" Description="" Link="" />
+      <BooleanSettingInfo Key="CreateAutoFacetForCustomIndexField" DefaultValue="False" IsEditable="True" Title="Create auto facet for custom index field" Description="" Link="" />
+      <StringSettingInfo Key="CustomIndexFieldName" DefaultValue="" IsEditable="True" Title="Custom index field name" Description="" Link="" />
+      <DimensionSettingInfo Key="Height" DefaultValue="" IsEditable="True" Title="Height" Description="" Link="" />
+      <DimensionSettingInfo Key="Width" DefaultValue="100%" IsEditable="True" Title="Width" Description="" Link="" />
+      <DimensionSettingInfo Key="TitleWidth" DefaultValue="" IsEditable="True" Title="Title width" Description="" Link="" />
+      <EnumerationSettingInfo Key="Layout" DefaultValue="TwoColumns" IsEditable="True" Title="Layout" Description="" Link="">
+        <ValueOptions>
+          <Value Name="TwoColumns" />
+          <Value Name="TwoRows" />
+          <Value Name="NoTitle" />
+        </ValueOptions>
+      </EnumerationSettingInfo>
+      <BooleanSettingInfo Key="Border" DefaultValue="False" IsEditable="True" Title="Border" Description="" Link="" />
+      <StringSettingInfo Key="Caption" DefaultValue="" IsEditable="True" Title="Caption" Description="" Link="" />
+      <BooleanSettingInfo Key="HideInEdit" DefaultValue="False" IsEditable="True" Title="Hide in edit" Description="" Link="" />
+      <BooleanSettingInfo Key="HideInVisit" DefaultValue="False" IsEditable="True" Title="Hide in visit" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControl" DefaultValue="" IsEditable="True" Title="Custom web control" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlEditModeWrite" DefaultValue="" IsEditable="True" Title="Custom web control edit mode write" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlEditModeRead" DefaultValue="" IsEditable="True" Title="Custom web control edit mode read" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlViewModeWrite" DefaultValue="" IsEditable="True" Title="Custom web control view mode write" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlViewModeRead" DefaultValue="" IsEditable="True" Title="Custom web control view mode read" Description="" Link="" />
+      <BooleanSettingInfo Key="Enabled" DefaultValue="True" IsEditable="True" Title="Enabled" Description="" Link="" />
+      <BooleanSettingInfo Key="Focus" DefaultValue="False" IsEditable="True" Title="Focus" Description="" Link="" />
+      <StringSettingInfo Key="ODataName" DefaultValue="" IsEditable="True" Title="OData endpoint name" Description="" Link="" />
+      <BooleanSettingInfo Key="ODataAllow" DefaultValue="False" IsEditable="True" Title="OData enabled" Description="" Link="" />
+      <StringSettingInfo Key="SchemaOrgMapping" DefaultValue="" IsEditable="True" Title="Schema.org property Uri" Description="" Link="" />
+      <StringSettingInfo Key="SchemaOrgEmbedPathPropMapping" DefaultValue="" IsEditable="True" Title="Schema.org embed prop path" Description="" Link="" />
+      <StringSettingInfo Key="SchemaOrgEmbedPathTypeMapping" DefaultValue="" IsEditable="True" Title="Schema.org embed type path" Description="" Link="" />
+      <BooleanSettingInfo Key="CultureIndependent" DefaultValue="False" IsEditable="True" Title="Culture independent" Description="" Link="" />
+    </Condition>
+    <Condition Property="PropertyClass.Value" Value="0201edf4-b0dc-4ee7-b499-d6a2717656d6">
+      <BooleanSettingInfo Key="IncludeDerivated" DefaultValue="True" IsEditable="True" Title="Include derivated" Description="" Link="" />
+      <BooleanSettingInfo Key="IncludeHidden" DefaultValue="True" IsEditable="True" Title="Include hidden" Description="" Link="" />
+      <BooleanSettingInfo Key="MinimizeIfEmpty" DefaultValue="True" IsEditable="True" Title="Minimize if empty" Description="" Link="" />
+      <BooleanSettingInfo Key="IndexContentOfRelated" DefaultValue="False" IsEditable="True" Title="Index content of related" Description="" Link="" />
+      <IntSettingInfo Key="IndexRecurseLevelLimit" DefaultValue="0" IsEditable="True" Title="Index recurse level limit" Description="" Link="" />
+      <IntSettingInfo Key="IndexContentCountLimit" DefaultValue="0" IsEditable="True" Title="Index content count limit" Description="" Link="" />
+      <EnumerationSettingInfo Key="PositionOfNewRelatives" DefaultValue="AddNewLast" IsEditable="True" Title="Position of new relatives" Description="" Link="">
+        <ValueOptions>
+          <Value Name="AddNewLast" />
+          <Value Name="AddNewFirst" />
+        </ValueOptions>
+      </EnumerationSettingInfo>
+      <EnumerationSettingInfo Key="DefaultSortOrder" DefaultValue="Listorder" IsEditable="True" Title="Default sort order" Description="" Link="">
+        <ValueOptions>
+          <Value Name="Listorder" />
+          <Value Name="ListorderReversed" />
+          <Value Name="CreateDateAscending" />
+          <Value Name="CreateDateDescending" />
+          <Value Name="ReleaseDateAscending" />
+          <Value Name="ReleaseDateDescending" />
+          <Value Name="ChangeDateAscending" />
+          <Value Name="ChangeDateDescending" />
+          <Value Name="NameDateAscending" />
+          <Value Name="NameDateDescending" />
+        </ValueOptions>
+      </EnumerationSettingInfo>
+      <EnumerationSettingInfo Key="ControlType" DefaultValue="Default" IsEditable="True" Title="Control type" Description="" Link="">
+        <ValueOptions>
+          <Value Name="Default" />
+          <Value Name="CheckboxList" />
+          <Value Name="TwoListBoxes" />
+        </ValueOptions>
+      </EnumerationSettingInfo>
+      <IntSettingInfo Key="ListRepeatColumns" DefaultValue="1" IsEditable="True" Title="List repeat columns" Description="" Link="" />
+      <EnumerationSettingInfo Key="ListRepeatDirection" DefaultValue="Vertical" IsEditable="True" Title="List repeat direction" Description="" Link="">
+        <ValueOptions>
+          <Value Name="Horizontal" />
+          <Value Name="Vertical" />
+        </ValueOptions>
+      </EnumerationSettingInfo>
+      <EnumerationSettingInfo Key="ListRepeatLayout" DefaultValue="Table" IsEditable="True" Title="List repeat layout" Description="" Link="">
+        <ValueOptions>
+          <Value Name="Table" />
+          <Value Name="Flow" />
+          <Value Name="UnorderedList" />
+          <Value Name="OrderedList" />
+        </ValueOptions>
+      </EnumerationSettingInfo>
+      <RelationReferenceSettingInfo Key="Relation" IsEditable="True" Title="Relation" Description="" Link="" />
+      <IntSettingInfo Key="ReadGroupId" DefaultValue="0" IsEditable="True" Title="Read group id" Description="" Link="" />
+      <IntSettingInfo Key="WriteGroupId" DefaultValue="0" IsEditable="True" Title="Write group id" Description="" Link="" />
+      <BooleanSettingInfo Key="IncludedInPublicIndexed" DefaultValue="False" IsEditable="True" Title="Included in public indexed" Description="" Link="" />
+      <BooleanSettingInfo Key="IncludedInProtectedIndexed" DefaultValue="False" IsEditable="True" Title="Included in protected indexed" Description="" Link="" />
+      <BooleanSettingInfo Key="CreateCustomIndexField" DefaultValue="False" IsEditable="True" Title="Create custom index field" Description="" Link="" />
+      <BooleanSettingInfo Key="CreateAutoFacetForCustomIndexField" DefaultValue="False" IsEditable="True" Title="Create auto facet for custom index field" Description="" Link="" />
+      <StringSettingInfo Key="CustomIndexFieldName" DefaultValue="" IsEditable="True" Title="Custom index field name" Description="" Link="" />
+      <DimensionSettingInfo Key="Height" DefaultValue="" IsEditable="True" Title="Height" Description="" Link="" />
+      <DimensionSettingInfo Key="Width" DefaultValue="100%" IsEditable="True" Title="Width" Description="" Link="" />
+      <DimensionSettingInfo Key="TitleWidth" DefaultValue="" IsEditable="True" Title="Title width" Description="" Link="" />
+      <EnumerationSettingInfo Key="Layout" DefaultValue="TwoRows" IsEditable="True" Title="Layout" Description="" Link="">
+        <ValueOptions>
+          <Value Name="TwoColumns" />
+          <Value Name="TwoRows" />
+          <Value Name="NoTitle" />
+        </ValueOptions>
+      </EnumerationSettingInfo>
+      <BooleanSettingInfo Key="Border" DefaultValue="False" IsEditable="True" Title="Border" Description="" Link="" />
+      <StringSettingInfo Key="Caption" DefaultValue="" IsEditable="True" Title="Caption" Description="" Link="" />
+      <BooleanSettingInfo Key="HideInEdit" DefaultValue="False" IsEditable="True" Title="Hide in edit" Description="" Link="" />
+      <BooleanSettingInfo Key="HideInVisit" DefaultValue="False" IsEditable="True" Title="Hide in visit" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControl" DefaultValue="" IsEditable="True" Title="Custom web control" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlEditModeWrite" DefaultValue="" IsEditable="True" Title="Custom web control edit mode write" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlEditModeRead" DefaultValue="" IsEditable="True" Title="Custom web control edit mode read" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlViewModeWrite" DefaultValue="" IsEditable="True" Title="Custom web control view mode write" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlViewModeRead" DefaultValue="" IsEditable="True" Title="Custom web control view mode read" Description="" Link="" />
+      <BooleanSettingInfo Key="Enabled" DefaultValue="True" IsEditable="True" Title="Enabled" Description="" Link="" />
+      <BooleanSettingInfo Key="Focus" DefaultValue="False" IsEditable="True" Title="Focus" Description="" Link="" />
+      <StringSettingInfo Key="ODataName" DefaultValue="" IsEditable="True" Title="OData endpoint name" Description="" Link="" />
+      <BooleanSettingInfo Key="ODataAllow" DefaultValue="False" IsEditable="True" Title="OData enabled" Description="" Link="" />
+      <StringSettingInfo Key="SchemaOrgMapping" DefaultValue="" IsEditable="True" Title="Schema.org property Uri" Description="" Link="" />
+      <StringSettingInfo Key="SchemaOrgEmbedPathPropMapping" DefaultValue="" IsEditable="True" Title="Schema.org embed prop path" Description="" Link="" />
+      <StringSettingInfo Key="SchemaOrgEmbedPathTypeMapping" DefaultValue="" IsEditable="True" Title="Schema.org embed type path" Description="" Link="" />
+      <BooleanSettingInfo Key="CultureIndependent" DefaultValue="False" IsEditable="True" Title="Culture independent" Description="" Link="" />
+    </Condition>
+    <Condition Property="PropertyClass.Value" Value="c38c7283-5478-49be-be77-69bd5a7b99a6">
+      <BooleanSettingInfo Key="IncludeDerivated" DefaultValue="True" IsEditable="True" Title="Include derivated" Description="" Link="" />
+      <BooleanSettingInfo Key="IncludeHidden" DefaultValue="True" IsEditable="True" Title="Include hidden" Description="" Link="" />
+      <BooleanSettingInfo Key="MinimizeIfEmpty" DefaultValue="True" IsEditable="True" Title="Minimize if empty" Description="" Link="" />
+      <BooleanSettingInfo Key="IndexContentOfRelated" DefaultValue="False" IsEditable="True" Title="Index content of related" Description="" Link="" />
+      <IntSettingInfo Key="IndexRecurseLevelLimit" DefaultValue="0" IsEditable="True" Title="Index recurse level limit" Description="" Link="" />
+      <IntSettingInfo Key="IndexContentCountLimit" DefaultValue="0" IsEditable="True" Title="Index content count limit" Description="" Link="" />
+      <EnumerationSettingInfo Key="PositionOfNewRelatives" DefaultValue="AddNewLast" IsEditable="True" Title="Position of new relatives" Description="" Link="">
+        <ValueOptions>
+          <Value Name="AddNewLast" />
+          <Value Name="AddNewFirst" />
+        </ValueOptions>
+      </EnumerationSettingInfo>
+      <EnumerationSettingInfo Key="DefaultSortOrder" DefaultValue="Listorder" IsEditable="True" Title="Default sort order" Description="" Link="">
+        <ValueOptions>
+          <Value Name="Listorder" />
+          <Value Name="ListorderReversed" />
+          <Value Name="CreateDateAscending" />
+          <Value Name="CreateDateDescending" />
+          <Value Name="ReleaseDateAscending" />
+          <Value Name="ReleaseDateDescending" />
+          <Value Name="ChangeDateAscending" />
+          <Value Name="ChangeDateDescending" />
+          <Value Name="NameDateAscending" />
+          <Value Name="NameDateDescending" />
+        </ValueOptions>
+      </EnumerationSettingInfo>
+      <EnumerationSettingInfo Key="ControlType" DefaultValue="Default" IsEditable="True" Title="Control type" Description="" Link="">
+        <ValueOptions>
+          <Value Name="Default" />
+          <Value Name="CheckboxList" />
+          <Value Name="TwoListBoxes" />
+        </ValueOptions>
+      </EnumerationSettingInfo>
+      <IntSettingInfo Key="ListRepeatColumns" DefaultValue="1" IsEditable="True" Title="List repeat columns" Description="" Link="" />
+      <EnumerationSettingInfo Key="ListRepeatDirection" DefaultValue="Vertical" IsEditable="True" Title="List repeat direction" Description="" Link="">
+        <ValueOptions>
+          <Value Name="Horizontal" />
+          <Value Name="Vertical" />
+        </ValueOptions>
+      </EnumerationSettingInfo>
+      <EnumerationSettingInfo Key="ListRepeatLayout" DefaultValue="Table" IsEditable="True" Title="List repeat layout" Description="" Link="">
+        <ValueOptions>
+          <Value Name="Table" />
+          <Value Name="Flow" />
+          <Value Name="UnorderedList" />
+          <Value Name="OrderedList" />
+        </ValueOptions>
+      </EnumerationSettingInfo>
+      <RelationReferenceSettingInfo Key="Relation" IsEditable="True" Title="Relation" Description="" Link="" />
+      <IntSettingInfo Key="ReadGroupId" DefaultValue="0" IsEditable="True" Title="Read group id" Description="" Link="" />
+      <IntSettingInfo Key="WriteGroupId" DefaultValue="0" IsEditable="True" Title="Write group id" Description="" Link="" />
+      <BooleanSettingInfo Key="IncludedInPublicIndexed" DefaultValue="False" IsEditable="True" Title="Included in public indexed" Description="" Link="" />
+      <BooleanSettingInfo Key="IncludedInProtectedIndexed" DefaultValue="False" IsEditable="True" Title="Included in protected indexed" Description="" Link="" />
+      <BooleanSettingInfo Key="CreateCustomIndexField" DefaultValue="False" IsEditable="True" Title="Create custom index field" Description="" Link="" />
+      <BooleanSettingInfo Key="CreateAutoFacetForCustomIndexField" DefaultValue="False" IsEditable="True" Title="Create auto facet for custom index field" Description="" Link="" />
+      <StringSettingInfo Key="CustomIndexFieldName" DefaultValue="" IsEditable="True" Title="Custom index field name" Description="" Link="" />
+      <DimensionSettingInfo Key="Height" DefaultValue="" IsEditable="True" Title="Height" Description="" Link="" />
+      <DimensionSettingInfo Key="Width" DefaultValue="100%" IsEditable="True" Title="Width" Description="" Link="" />
+      <DimensionSettingInfo Key="TitleWidth" DefaultValue="" IsEditable="True" Title="Title width" Description="" Link="" />
+      <EnumerationSettingInfo Key="Layout" DefaultValue="TwoRows" IsEditable="True" Title="Layout" Description="" Link="">
+        <ValueOptions>
+          <Value Name="TwoColumns" />
+          <Value Name="TwoRows" />
+          <Value Name="NoTitle" />
+        </ValueOptions>
+      </EnumerationSettingInfo>
+      <BooleanSettingInfo Key="Border" DefaultValue="False" IsEditable="True" Title="Border" Description="" Link="" />
+      <StringSettingInfo Key="Caption" DefaultValue="" IsEditable="True" Title="Caption" Description="" Link="" />
+      <BooleanSettingInfo Key="HideInEdit" DefaultValue="False" IsEditable="True" Title="Hide in edit" Description="" Link="" />
+      <BooleanSettingInfo Key="HideInVisit" DefaultValue="False" IsEditable="True" Title="Hide in visit" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControl" DefaultValue="" IsEditable="True" Title="Custom web control" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlEditModeWrite" DefaultValue="" IsEditable="True" Title="Custom web control edit mode write" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlEditModeRead" DefaultValue="" IsEditable="True" Title="Custom web control edit mode read" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlViewModeWrite" DefaultValue="" IsEditable="True" Title="Custom web control view mode write" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlViewModeRead" DefaultValue="" IsEditable="True" Title="Custom web control view mode read" Description="" Link="" />
+      <BooleanSettingInfo Key="Enabled" DefaultValue="True" IsEditable="True" Title="Enabled" Description="" Link="" />
+      <BooleanSettingInfo Key="Focus" DefaultValue="False" IsEditable="True" Title="Focus" Description="" Link="" />
+      <StringSettingInfo Key="ODataName" DefaultValue="" IsEditable="True" Title="OData endpoint name" Description="" Link="" />
+      <BooleanSettingInfo Key="ODataAllow" DefaultValue="False" IsEditable="True" Title="OData enabled" Description="" Link="" />
+      <StringSettingInfo Key="SchemaOrgMapping" DefaultValue="" IsEditable="True" Title="Schema.org property Uri" Description="" Link="" />
+      <StringSettingInfo Key="SchemaOrgEmbedPathPropMapping" DefaultValue="" IsEditable="True" Title="Schema.org embed prop path" Description="" Link="" />
+      <StringSettingInfo Key="SchemaOrgEmbedPathTypeMapping" DefaultValue="" IsEditable="True" Title="Schema.org embed type path" Description="" Link="" />
+      <BooleanSettingInfo Key="CultureIndependent" DefaultValue="False" IsEditable="True" Title="Culture independent" Description="" Link="" />
+    </Condition>
+    <Condition Property="PropertyClass.Value" Value="9e798df1-93a2-49f9-86c8-13e5bf5220f5">
+      <BooleanSettingInfo Key="IncludeDerivated" DefaultValue="True" IsEditable="True" Title="Include derivated" Description="" Link="" />
+      <BooleanSettingInfo Key="IncludeHidden" DefaultValue="True" IsEditable="True" Title="Include hidden" Description="" Link="" />
+      <BooleanSettingInfo Key="MinimizeIfEmpty" DefaultValue="True" IsEditable="True" Title="Minimize if empty" Description="" Link="" />
+      <BooleanSettingInfo Key="IndexContentOfRelated" DefaultValue="False" IsEditable="True" Title="Index content of related" Description="" Link="" />
+      <IntSettingInfo Key="IndexRecurseLevelLimit" DefaultValue="0" IsEditable="True" Title="Index recurse level limit" Description="" Link="" />
+      <IntSettingInfo Key="IndexContentCountLimit" DefaultValue="0" IsEditable="True" Title="Index content count limit" Description="" Link="" />
+      <EnumerationSettingInfo Key="PositionOfNewRelatives" DefaultValue="AddNewLast" IsEditable="True" Title="Position of new relatives" Description="" Link="">
+        <ValueOptions>
+          <Value Name="AddNewLast" />
+          <Value Name="AddNewFirst" />
+        </ValueOptions>
+      </EnumerationSettingInfo>
+      <EnumerationSettingInfo Key="DefaultSortOrder" DefaultValue="Listorder" IsEditable="True" Title="Default sort order" Description="" Link="">
+        <ValueOptions>
+          <Value Name="Listorder" />
+          <Value Name="ListorderReversed" />
+          <Value Name="CreateDateAscending" />
+          <Value Name="CreateDateDescending" />
+          <Value Name="ReleaseDateAscending" />
+          <Value Name="ReleaseDateDescending" />
+          <Value Name="ChangeDateAscending" />
+          <Value Name="ChangeDateDescending" />
+          <Value Name="NameDateAscending" />
+          <Value Name="NameDateDescending" />
+        </ValueOptions>
+      </EnumerationSettingInfo>
+      <EnumerationSettingInfo Key="ControlType" DefaultValue="Default" IsEditable="True" Title="Control type" Description="" Link="">
+        <ValueOptions>
+          <Value Name="Default" />
+          <Value Name="CheckboxList" />
+          <Value Name="TwoListBoxes" />
+        </ValueOptions>
+      </EnumerationSettingInfo>
+      <IntSettingInfo Key="ListRepeatColumns" DefaultValue="1" IsEditable="True" Title="List repeat columns" Description="" Link="" />
+      <EnumerationSettingInfo Key="ListRepeatDirection" DefaultValue="Vertical" IsEditable="True" Title="List repeat direction" Description="" Link="">
+        <ValueOptions>
+          <Value Name="Horizontal" />
+          <Value Name="Vertical" />
+        </ValueOptions>
+      </EnumerationSettingInfo>
+      <EnumerationSettingInfo Key="ListRepeatLayout" DefaultValue="Table" IsEditable="True" Title="List repeat layout" Description="" Link="">
+        <ValueOptions>
+          <Value Name="Table" />
+          <Value Name="Flow" />
+          <Value Name="UnorderedList" />
+          <Value Name="OrderedList" />
+        </ValueOptions>
+      </EnumerationSettingInfo>
+      <RelationReferenceSettingInfo Key="Relation" IsEditable="True" Title="Relation" Description="" Link="" />
+      <IntSettingInfo Key="ReadGroupId" DefaultValue="0" IsEditable="True" Title="Read group id" Description="" Link="" />
+      <IntSettingInfo Key="WriteGroupId" DefaultValue="0" IsEditable="True" Title="Write group id" Description="" Link="" />
+      <BooleanSettingInfo Key="IncludedInPublicIndexed" DefaultValue="False" IsEditable="True" Title="Included in public indexed" Description="" Link="" />
+      <BooleanSettingInfo Key="IncludedInProtectedIndexed" DefaultValue="False" IsEditable="True" Title="Included in protected indexed" Description="" Link="" />
+      <BooleanSettingInfo Key="CreateCustomIndexField" DefaultValue="False" IsEditable="True" Title="Create custom index field" Description="" Link="" />
+      <BooleanSettingInfo Key="CreateAutoFacetForCustomIndexField" DefaultValue="False" IsEditable="True" Title="Create auto facet for custom index field" Description="" Link="" />
+      <StringSettingInfo Key="CustomIndexFieldName" DefaultValue="" IsEditable="True" Title="Custom index field name" Description="" Link="" />
+      <DimensionSettingInfo Key="Height" DefaultValue="" IsEditable="True" Title="Height" Description="" Link="" />
+      <DimensionSettingInfo Key="Width" DefaultValue="100%" IsEditable="True" Title="Width" Description="" Link="" />
+      <DimensionSettingInfo Key="TitleWidth" DefaultValue="" IsEditable="True" Title="Title width" Description="" Link="" />
+      <EnumerationSettingInfo Key="Layout" DefaultValue="TwoRows" IsEditable="True" Title="Layout" Description="" Link="">
+        <ValueOptions>
+          <Value Name="TwoColumns" />
+          <Value Name="TwoRows" />
+          <Value Name="NoTitle" />
+        </ValueOptions>
+      </EnumerationSettingInfo>
+      <BooleanSettingInfo Key="Border" DefaultValue="False" IsEditable="True" Title="Border" Description="" Link="" />
+      <StringSettingInfo Key="Caption" DefaultValue="" IsEditable="True" Title="Caption" Description="" Link="" />
+      <BooleanSettingInfo Key="HideInEdit" DefaultValue="False" IsEditable="True" Title="Hide in edit" Description="" Link="" />
+      <BooleanSettingInfo Key="HideInVisit" DefaultValue="False" IsEditable="True" Title="Hide in visit" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControl" DefaultValue="" IsEditable="True" Title="Custom web control" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlEditModeWrite" DefaultValue="" IsEditable="True" Title="Custom web control edit mode write" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlEditModeRead" DefaultValue="" IsEditable="True" Title="Custom web control edit mode read" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlViewModeWrite" DefaultValue="" IsEditable="True" Title="Custom web control view mode write" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlViewModeRead" DefaultValue="" IsEditable="True" Title="Custom web control view mode read" Description="" Link="" />
+      <BooleanSettingInfo Key="Enabled" DefaultValue="True" IsEditable="True" Title="Enabled" Description="" Link="" />
+      <BooleanSettingInfo Key="Focus" DefaultValue="False" IsEditable="True" Title="Focus" Description="" Link="" />
+      <StringSettingInfo Key="ODataName" DefaultValue="" IsEditable="True" Title="OData endpoint name" Description="" Link="" />
+      <BooleanSettingInfo Key="ODataAllow" DefaultValue="False" IsEditable="True" Title="OData enabled" Description="" Link="" />
+      <StringSettingInfo Key="SchemaOrgMapping" DefaultValue="" IsEditable="True" Title="Schema.org property Uri" Description="" Link="" />
+      <StringSettingInfo Key="SchemaOrgEmbedPathPropMapping" DefaultValue="" IsEditable="True" Title="Schema.org embed prop path" Description="" Link="" />
+      <StringSettingInfo Key="SchemaOrgEmbedPathTypeMapping" DefaultValue="" IsEditable="True" Title="Schema.org embed type path" Description="" Link="" />
+      <BooleanSettingInfo Key="CultureIndependent" DefaultValue="False" IsEditable="True" Title="Culture independent" Description="" Link="" />
+    </Condition>
+    <Condition Property="PropertyClass.Value" Value="83944ed6-2f3c-4336-a474-567cd155103f">
+      <IntSettingInfo Key="ReadGroupId" DefaultValue="0" IsEditable="True" Title="Read group id" Description="" Link="" />
+      <IntSettingInfo Key="WriteGroupId" DefaultValue="0" IsEditable="True" Title="Write group id" Description="" Link="" />
+      <BooleanSettingInfo Key="IncludedInPublicIndexed" DefaultValue="True" IsEditable="True" Title="Included in public indexed" Description="" Link="" />
+      <BooleanSettingInfo Key="IncludedInProtectedIndexed" DefaultValue="True" IsEditable="True" Title="Included in protected indexed" Description="" Link="" />
+      <BooleanSettingInfo Key="CreateCustomIndexField" DefaultValue="False" IsEditable="True" Title="Create custom index field" Description="" Link="" />
+      <BooleanSettingInfo Key="CreateAutoFacetForCustomIndexField" DefaultValue="False" IsEditable="True" Title="Create auto facet for custom index field" Description="" Link="" />
+      <StringSettingInfo Key="CustomIndexFieldName" DefaultValue="" IsEditable="True" Title="Custom index field name" Description="" Link="" />
+      <DimensionSettingInfo Key="Height" DefaultValue="" IsEditable="True" Title="Height" Description="" Link="" />
+      <DimensionSettingInfo Key="Width" DefaultValue="100%" IsEditable="True" Title="Width" Description="" Link="" />
+      <DimensionSettingInfo Key="TitleWidth" DefaultValue="" IsEditable="True" Title="Title width" Description="" Link="" />
+      <EnumerationSettingInfo Key="Layout" DefaultValue="TwoColumns" IsEditable="True" Title="Layout" Description="" Link="">
+        <ValueOptions>
+          <Value Name="TwoColumns" />
+          <Value Name="TwoRows" />
+          <Value Name="NoTitle" />
+        </ValueOptions>
+      </EnumerationSettingInfo>
+      <BooleanSettingInfo Key="Border" DefaultValue="False" IsEditable="True" Title="Border" Description="" Link="" />
+      <StringSettingInfo Key="Caption" DefaultValue="" IsEditable="True" Title="Caption" Description="" Link="" />
+      <BooleanSettingInfo Key="HideInEdit" DefaultValue="False" IsEditable="True" Title="Hide in edit" Description="" Link="" />
+      <BooleanSettingInfo Key="HideInVisit" DefaultValue="False" IsEditable="True" Title="Hide in visit" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControl" DefaultValue="" IsEditable="True" Title="Custom web control" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlEditModeWrite" DefaultValue="" IsEditable="True" Title="Custom web control edit mode write" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlEditModeRead" DefaultValue="" IsEditable="True" Title="Custom web control edit mode read" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlViewModeWrite" DefaultValue="" IsEditable="True" Title="Custom web control view mode write" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlViewModeRead" DefaultValue="" IsEditable="True" Title="Custom web control view mode read" Description="" Link="" />
+      <BooleanSettingInfo Key="Enabled" DefaultValue="True" IsEditable="True" Title="Enabled" Description="" Link="" />
+      <BooleanSettingInfo Key="Focus" DefaultValue="False" IsEditable="True" Title="Focus" Description="" Link="" />
+      <StringSettingInfo Key="ODataName" DefaultValue="" IsEditable="True" Title="OData endpoint name" Description="" Link="" />
+      <BooleanSettingInfo Key="ODataAllow" DefaultValue="False" IsEditable="True" Title="OData enabled" Description="" Link="" />
+      <StringSettingInfo Key="SchemaOrgMapping" DefaultValue="" IsEditable="True" Title="Schema.org property Uri" Description="" Link="" />
+      <StringSettingInfo Key="SchemaOrgEmbedPathPropMapping" DefaultValue="" IsEditable="True" Title="Schema.org embed prop path" Description="" Link="" />
+      <StringSettingInfo Key="SchemaOrgEmbedPathTypeMapping" DefaultValue="" IsEditable="True" Title="Schema.org embed type path" Description="" Link="" />
+      <BooleanSettingInfo Key="CultureIndependent" DefaultValue="False" IsEditable="True" Title="Culture independent" Description="" Link="" />
+    </Condition>
+    <Condition Property="PropertyClass.Value" Value="95acb333-a3e6-44ae-934e-9702d144bc68">
+      <EnumerationSettingInfo Key="CaseOptions" DefaultValue="None" IsEditable="True" Title="Case options" Description="" Link="">
+        <ValueOptions>
+          <Value Name="None" />
+          <Value Name="AllCaps" />
+          <Value Name="AllLower" />
+          <Value Name="CamelCasing" />
+        </ValueOptions>
+      </EnumerationSettingInfo>
+      <BooleanSettingInfo Key="Trim" DefaultValue="False" IsEditable="True" Title="Trim" Description="" Link="" />
+      <IntSettingInfo Key="MaxLength" DefaultValue="255" IsEditable="True" Title="Max length" Description="" Link="" />
+      <EnumerationSettingInfo Key="ControlType" DefaultValue="Textbox" IsEditable="True" Title="Control type" Description="" Link="">
+        <ValueOptions>
+          <Value Name="Textbox" />
+          <Value Name="DropDown" />
+          <Value Name="Password" />
+          <Value Name="DropDownFromSystemType" />
+        </ValueOptions>
+      </EnumerationSettingInfo>
+      <GlobalizedKeyValuesSettingInfo Key="Items" IsEditable="True" Title="Items" Description="" Link="" />
+      <BooleanSettingInfo Key="Focus" DefaultValue="False" IsEditable="True" Title="Focus" Description="" Link="" />
+      <StringSettingInfo Key="DropDownTypeBase" DefaultValue="" IsEditable="True" Title="Drop down type base" Description="" Link="" />
+      <BooleanSettingInfo Key="UniqueIfSpecified" DefaultValue="False" IsEditable="True" Title="Unique if specified" Description="" Link="" />
+      <IntSettingInfo Key="ReadGroupId" DefaultValue="0" IsEditable="True" Title="Read group id" Description="" Link="" />
+      <IntSettingInfo Key="WriteGroupId" DefaultValue="0" IsEditable="True" Title="Write group id" Description="" Link="" />
+      <BooleanSettingInfo Key="IncludedInPublicIndexed" DefaultValue="True" IsEditable="True" Title="Included in public indexed" Description="" Link="" />
+      <BooleanSettingInfo Key="IncludedInProtectedIndexed" DefaultValue="True" IsEditable="True" Title="Included in protected indexed" Description="" Link="" />
+      <BooleanSettingInfo Key="CreateCustomIndexField" DefaultValue="False" IsEditable="True" Title="Create custom index field" Description="" Link="" />
+      <BooleanSettingInfo Key="CreateAutoFacetForCustomIndexField" DefaultValue="False" IsEditable="True" Title="Create auto facet for custom index field" Description="" Link="" />
+      <StringSettingInfo Key="CustomIndexFieldName" DefaultValue="" IsEditable="True" Title="Custom index field name" Description="" Link="" />
+      <DimensionSettingInfo Key="Height" DefaultValue="" IsEditable="True" Title="Height" Description="" Link="" />
+      <DimensionSettingInfo Key="Width" DefaultValue="100%" IsEditable="True" Title="Width" Description="" Link="" />
+      <DimensionSettingInfo Key="TitleWidth" DefaultValue="" IsEditable="True" Title="Title width" Description="" Link="" />
+      <EnumerationSettingInfo Key="Layout" DefaultValue="TwoColumns" IsEditable="True" Title="Layout" Description="" Link="">
+        <ValueOptions>
+          <Value Name="TwoColumns" />
+          <Value Name="TwoRows" />
+          <Value Name="NoTitle" />
+        </ValueOptions>
+      </EnumerationSettingInfo>
+      <BooleanSettingInfo Key="Border" DefaultValue="False" IsEditable="True" Title="Border" Description="" Link="" />
+      <StringSettingInfo Key="Caption" DefaultValue="" IsEditable="True" Title="Caption" Description="" Link="" />
+      <BooleanSettingInfo Key="HideInEdit" DefaultValue="False" IsEditable="True" Title="Hide in edit" Description="" Link="" />
+      <BooleanSettingInfo Key="HideInVisit" DefaultValue="False" IsEditable="True" Title="Hide in visit" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControl" DefaultValue="" IsEditable="True" Title="Custom web control" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlEditModeWrite" DefaultValue="" IsEditable="True" Title="Custom web control edit mode write" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlEditModeRead" DefaultValue="" IsEditable="True" Title="Custom web control edit mode read" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlViewModeWrite" DefaultValue="" IsEditable="True" Title="Custom web control view mode write" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlViewModeRead" DefaultValue="" IsEditable="True" Title="Custom web control view mode read" Description="" Link="" />
+      <BooleanSettingInfo Key="Enabled" DefaultValue="True" IsEditable="True" Title="Enabled" Description="" Link="" />
+      <BooleanSettingInfo Key="Focus" DefaultValue="False" IsEditable="True" Title="Focus" Description="" Link="" />
+      <StringSettingInfo Key="ODataName" DefaultValue="" IsEditable="True" Title="OData endpoint name" Description="" Link="" />
+      <BooleanSettingInfo Key="ODataAllow" DefaultValue="False" IsEditable="True" Title="OData enabled" Description="" Link="" />
+      <StringSettingInfo Key="SchemaOrgMapping" DefaultValue="" IsEditable="True" Title="Schema.org property Uri" Description="" Link="" />
+      <StringSettingInfo Key="SchemaOrgEmbedPathPropMapping" DefaultValue="" IsEditable="True" Title="Schema.org embed prop path" Description="" Link="" />
+      <StringSettingInfo Key="SchemaOrgEmbedPathTypeMapping" DefaultValue="" IsEditable="True" Title="Schema.org embed type path" Description="" Link="" />
+      <BooleanSettingInfo Key="CultureIndependent" DefaultValue="False" IsEditable="True" Title="Culture independent" Description="" Link="" />
+    </Condition>
+    <Condition Property="PropertyClass.Value" Value="c0eec912-aa39-4df2-bb43-a8d15c493d03">
+      <IntSettingInfo Key="ReadGroupId" DefaultValue="0" IsEditable="True" Title="Read group id" Description="" Link="" />
+      <IntSettingInfo Key="WriteGroupId" DefaultValue="0" IsEditable="True" Title="Write group id" Description="" Link="" />
+      <ContentClassReferencesSettingInfo Key="RelevantClasses" IsEditable="True" Title="Relevant classes" Description="" Link="" />
+      <BooleanSettingInfo Key="IncludedInPublicIndexed" DefaultValue="True" IsEditable="True" Title="Included in public indexed" Description="" Link="" />
+      <BooleanSettingInfo Key="IncludedInProtectedIndexed" DefaultValue="True" IsEditable="True" Title="Included in protected indexed" Description="" Link="" />
+      <BooleanSettingInfo Key="CreateCustomIndexField" DefaultValue="False" IsEditable="True" Title="Create custom index field" Description="" Link="" />
+      <BooleanSettingInfo Key="CreateAutoFacetForCustomIndexField" DefaultValue="False" IsEditable="True" Title="Create auto facet for custom index field" Description="" Link="" />
+      <StringSettingInfo Key="CustomIndexFieldName" DefaultValue="" IsEditable="True" Title="Custom index field name" Description="" Link="" />
+      <DimensionSettingInfo Key="Height" DefaultValue="" IsEditable="True" Title="Height" Description="" Link="" />
+      <DimensionSettingInfo Key="Width" DefaultValue="100%" IsEditable="True" Title="Width" Description="" Link="" />
+      <DimensionSettingInfo Key="TitleWidth" DefaultValue="" IsEditable="True" Title="Title width" Description="" Link="" />
+      <EnumerationSettingInfo Key="Layout" DefaultValue="TwoColumns" IsEditable="True" Title="Layout" Description="" Link="">
+        <ValueOptions>
+          <Value Name="TwoColumns" />
+          <Value Name="TwoRows" />
+          <Value Name="NoTitle" />
+        </ValueOptions>
+      </EnumerationSettingInfo>
+      <BooleanSettingInfo Key="Border" DefaultValue="False" IsEditable="True" Title="Border" Description="" Link="" />
+      <StringSettingInfo Key="Caption" DefaultValue="" IsEditable="True" Title="Caption" Description="" Link="" />
+      <BooleanSettingInfo Key="HideInEdit" DefaultValue="False" IsEditable="True" Title="Hide in edit" Description="" Link="" />
+      <BooleanSettingInfo Key="HideInVisit" DefaultValue="False" IsEditable="True" Title="Hide in visit" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControl" DefaultValue="" IsEditable="True" Title="Custom web control" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlEditModeWrite" DefaultValue="" IsEditable="True" Title="Custom web control edit mode write" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlEditModeRead" DefaultValue="" IsEditable="True" Title="Custom web control edit mode read" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlViewModeWrite" DefaultValue="" IsEditable="True" Title="Custom web control view mode write" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlViewModeRead" DefaultValue="" IsEditable="True" Title="Custom web control view mode read" Description="" Link="" />
+      <BooleanSettingInfo Key="Enabled" DefaultValue="True" IsEditable="True" Title="Enabled" Description="" Link="" />
+      <BooleanSettingInfo Key="Focus" DefaultValue="False" IsEditable="True" Title="Focus" Description="" Link="" />
+      <StringSettingInfo Key="ODataName" DefaultValue="" IsEditable="True" Title="OData endpoint name" Description="" Link="" />
+      <BooleanSettingInfo Key="ODataAllow" DefaultValue="False" IsEditable="True" Title="OData enabled" Description="" Link="" />
+      <StringSettingInfo Key="SchemaOrgMapping" DefaultValue="" IsEditable="True" Title="Schema.org property Uri" Description="" Link="" />
+      <StringSettingInfo Key="SchemaOrgEmbedPathPropMapping" DefaultValue="" IsEditable="True" Title="Schema.org embed prop path" Description="" Link="" />
+      <StringSettingInfo Key="SchemaOrgEmbedPathTypeMapping" DefaultValue="" IsEditable="True" Title="Schema.org embed type path" Description="" Link="" />
+      <BooleanSettingInfo Key="CultureIndependent" DefaultValue="False" IsEditable="True" Title="Culture independent" Description="" Link="" />
+    </Condition>
+    <Condition Property="PropertyClass.Value" Value="a8554f40-bb06-4f36-a7df-cc4fcf71bbf5">
+      <IntSettingInfo Key="Rows" DefaultValue="5" IsEditable="True" Title="Rows" Description="" Link="" />
+      <IntSettingInfo Key="Columns" DefaultValue="80" IsEditable="True" Title="Columns" Description="" Link="" />
+      <IntSettingInfo Key="MaxLength" DefaultValue="1048576" IsEditable="True" Title="Max length" Description="" Link="" />
+      <BooleanSettingInfo Key="Trim" DefaultValue="False" IsEditable="True" Title="Trim" Description="" Link="" />
+      <BooleanSettingInfo Key="IndexAsHtml" DefaultValue="False" IsEditable="True" Title="Index as html" Description="" Link="" />
+      <IntSettingInfo Key="ReadGroupId" DefaultValue="0" IsEditable="True" Title="Read group id" Description="" Link="" />
+      <IntSettingInfo Key="WriteGroupId" DefaultValue="0" IsEditable="True" Title="Write group id" Description="" Link="" />
+      <BooleanSettingInfo Key="IncludedInPublicIndexed" DefaultValue="True" IsEditable="True" Title="Included in public indexed" Description="" Link="" />
+      <BooleanSettingInfo Key="IncludedInProtectedIndexed" DefaultValue="True" IsEditable="True" Title="Included in protected indexed" Description="" Link="" />
+      <BooleanSettingInfo Key="CreateCustomIndexField" DefaultValue="False" IsEditable="True" Title="Create custom index field" Description="" Link="" />
+      <BooleanSettingInfo Key="CreateAutoFacetForCustomIndexField" DefaultValue="False" IsEditable="True" Title="Create auto facet for custom index field" Description="" Link="" />
+      <StringSettingInfo Key="CustomIndexFieldName" DefaultValue="" IsEditable="True" Title="Custom index field name" Description="" Link="" />
+      <DimensionSettingInfo Key="Height" DefaultValue="" IsEditable="True" Title="Height" Description="" Link="" />
+      <DimensionSettingInfo Key="Width" DefaultValue="100%" IsEditable="True" Title="Width" Description="" Link="" />
+      <DimensionSettingInfo Key="TitleWidth" DefaultValue="" IsEditable="True" Title="Title width" Description="" Link="" />
+      <EnumerationSettingInfo Key="Layout" DefaultValue="TwoColumns" IsEditable="True" Title="Layout" Description="" Link="">
+        <ValueOptions>
+          <Value Name="TwoColumns" />
+          <Value Name="TwoRows" />
+          <Value Name="NoTitle" />
+        </ValueOptions>
+      </EnumerationSettingInfo>
+      <BooleanSettingInfo Key="Border" DefaultValue="False" IsEditable="True" Title="Border" Description="" Link="" />
+      <StringSettingInfo Key="Caption" DefaultValue="" IsEditable="True" Title="Caption" Description="" Link="" />
+      <BooleanSettingInfo Key="HideInEdit" DefaultValue="False" IsEditable="True" Title="Hide in edit" Description="" Link="" />
+      <BooleanSettingInfo Key="HideInVisit" DefaultValue="False" IsEditable="True" Title="Hide in visit" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControl" DefaultValue="" IsEditable="True" Title="Custom web control" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlEditModeWrite" DefaultValue="" IsEditable="True" Title="Custom web control edit mode write" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlEditModeRead" DefaultValue="" IsEditable="True" Title="Custom web control edit mode read" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlViewModeWrite" DefaultValue="" IsEditable="True" Title="Custom web control view mode write" Description="" Link="" />
+      <StringSettingInfo Key="CustomWebControlViewModeRead" DefaultValue="" IsEditable="True" Title="Custom web control view mode read" Description="" Link="" />
+      <BooleanSettingInfo Key="Enabled" DefaultValue="True" IsEditable="True" Title="Enabled" Description="" Link="" />
+      <BooleanSettingInfo Key="Focus" DefaultValue="False" IsEditable="True" Title="Focus" Description="" Link="" />
+      <StringSettingInfo Key="ODataName" DefaultValue="" IsEditable="True" Title="OData endpoint name" Description="" Link="" />
+      <BooleanSettingInfo Key="ODataAllow" DefaultValue="False" IsEditable="True" Title="OData enabled" Description="" Link="" />
+      <StringSettingInfo Key="SchemaOrgMapping" DefaultValue="" IsEditable="True" Title="Schema.org property Uri" Description="" Link="" />
+      <StringSettingInfo Key="SchemaOrgEmbedPathPropMapping" DefaultValue="" IsEditable="True" Title="Schema.org embed prop path" Description="" Link="" />
+      <StringSettingInfo Key="SchemaOrgEmbedPathTypeMapping" DefaultValue="" IsEditable="True" Title="Schema.org embed type path" Description="" Link="" />
+      <BooleanSettingInfo Key="CultureIndependent" DefaultValue="False" IsEditable="True" Title="Culture independent" Description="" Link="" />
+      <StringSettingInfo Key="ConfigurationSchema" DefaultValue="" IsEditable="True" Title="JSON Schema" Description="" Link="" />
+    </Condition>  </Description>
+  <Description For="PropertyGroup">
+    <Condition Property="PropertyGroupType.Value" Value="Panel">
+      <BooleanSettingInfo Key="Collapsible" DefaultValue="False" IsEditable="True" Title="Collapsible" Description="" Link="" />
+      <StringSettingInfo Key="Color" DefaultValue="" IsEditable="True" Title="Color" Description="Color in UI" Link="" />
+      <BooleanSettingInfo Key="Border" DefaultValue="True" IsEditable="True" Title="Border" Description="" Link="" />
+      <BooleanSettingInfo Key="Inline" DefaultValue="True" IsEditable="True" Title="Inline" Description="" Link="" />
+      <IntSettingInfo Key="AccessGroupId" DefaultValue="0" IsEditable="True" Title="Access group id" Description="" Link="" />
+      <BooleanSettingInfo Key="ShowTitle" DefaultValue="False" IsEditable="True" Title="Show title" Description="" Link="" />
+      <DimensionSettingInfo Key="Height" DefaultValue="" IsEditable="True" Title="Height" Description="" Link="" />
+      <DimensionSettingInfo Key="Width" DefaultValue="" IsEditable="True" Title="Width" Description="" Link="" />
+    </Condition>
+    <Condition Property="PropertyGroupType.Value" Value="TabStrip">
+      <StringSettingInfo Key="Color" DefaultValue="" IsEditable="True" Title="Color" Description="Color in UI" Link="" />
+      <BooleanSettingInfo Key="Border" DefaultValue="True" IsEditable="True" Title="Border" Description="" Link="" />
+      <BooleanSettingInfo Key="Inline" DefaultValue="True" IsEditable="True" Title="Inline" Description="" Link="" />
+      <IntSettingInfo Key="AccessGroupId" DefaultValue="0" IsEditable="True" Title="Access group id" Description="" Link="" />
+      <BooleanSettingInfo Key="ShowTitle" DefaultValue="False" IsEditable="True" Title="Show title" Description="" Link="" />
+      <DimensionSettingInfo Key="Height" DefaultValue="" IsEditable="True" Title="Height" Description="" Link="" />
+      <DimensionSettingInfo Key="Width" DefaultValue="" IsEditable="True" Title="Width" Description="" Link="" />
+    </Condition>
+    <Condition Property="PropertyGroupType.Value" Value="TabPanel">
+      <StringSettingInfo Key="Color" DefaultValue="" IsEditable="True" Title="Color" Description="Color in UI" Link="" />
+      <BooleanSettingInfo Key="Border" DefaultValue="True" IsEditable="True" Title="Border" Description="" Link="" />
+      <BooleanSettingInfo Key="Inline" DefaultValue="True" IsEditable="True" Title="Inline" Description="" Link="" />
+      <IntSettingInfo Key="AccessGroupId" DefaultValue="0" IsEditable="True" Title="Access group id" Description="" Link="" />
+      <BooleanSettingInfo Key="ShowTitle" DefaultValue="False" IsEditable="True" Title="Show title" Description="" Link="" />
+      <DimensionSettingInfo Key="Height" DefaultValue="" IsEditable="True" Title="Height" Description="" Link="" />
+      <DimensionSettingInfo Key="Width" DefaultValue="" IsEditable="True" Title="Width" Description="" Link="" />
+    </Condition>
+  </Description>
+  <SimpleDescription For="OData">
+    <BooleanSettingInfo Key="ODataExposeAllProperties" DefaultValue="True" IsEditable="True" Title="OData expose all properties" Description="" Link="" />
+    <BooleanSettingInfo Key="ODataExposeAllTypes" DefaultValue="False" IsEditable="True" Title="OData expose all types" Description="" Link="" />
+    <BooleanSettingInfo Key="ODataEnabled" DefaultValue="False" IsEditable="True" Title="OOData enabled" Description="" Link="" />
+  </SimpleDescription>
+</SettingDescriptions>

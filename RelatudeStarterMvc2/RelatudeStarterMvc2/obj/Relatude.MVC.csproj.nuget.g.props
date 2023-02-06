@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\vithu\.nuget\packages\</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.0.1</NuGetToolVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <SourceRoot Include="C:\Users\vithu\.nuget\packages\" />
+  </ItemGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <None Include="$(NuGetPackageRoot)relatude.core\6.0.3139\contentFiles\any\any\WAF.Server\Common\Definitions\ModelGeneration.py" Condition="Exists('$(NuGetPackageRoot)relatude.core\6.0.3139\contentFiles\any\any\WAF.Server\Common\Definitions\ModelGeneration.py')">
+      <NuGetPackageId>Relatude.Core</NuGetPackageId>
+      <NuGetPackageVersion>6.0.3139</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>WAF.Server\Common\Definitions\ModelGeneration.py</TargetPath>
+      <DestinationSubDirectory>WAF.Server\Common\Definitions\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>WAF.Server\Common\Definitions\ModelGeneration.py</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)relatude.core\6.0.3139\contentFiles\any\any\WAF.Server\Common\Definitions\Native.definition" Condition="Exists('$(NuGetPackageRoot)relatude.core\6.0.3139\contentFiles\any\any\WAF.Server\Common\Definitions\Native.definition')">
+      <NuGetPackageId>Relatude.Core</NuGetPackageId>
+      <NuGetPackageVersion>6.0.3139</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>WAF.Server\Common\Definitions\Native.definition</TargetPath>
+      <DestinationSubDirectory>WAF.Server\Common\Definitions\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>WAF.Server\Common\Definitions\Native.definition</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)relatude.core\6.0.3139\contentFiles\any\any\WAF.Server\Common\Definitions\SettingDefinitions.xml" Condition="Exists('$(NuGetPackageRoot)relatude.core\6.0.3139\contentFiles\any\any\WAF.Server\Common\Definitions\SettingDefinitions.xml')">
+      <NuGetPackageId>Relatude.Core</NuGetPackageId>
+      <NuGetPackageVersion>6.0.3139</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>WAF.Server\Common\Definitions\SettingDefinitions.xml</TargetPath>
+      <DestinationSubDirectory>WAF.Server\Common\Definitions\</DestinationSubDirectory>
+      <Private>True</Private>
+      <Link>WAF.Server\Common\Definitions\SettingDefinitions.xml</Link>
+    </None>
+  </ItemGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)microsoft.extensions.configuration.usersecrets\2.2.0\build\netstandard2.0\Microsoft.Extensions.Configuration.UserSecrets.props" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.configuration.usersecrets\2.2.0\build\netstandard2.0\Microsoft.Extensions.Configuration.UserSecrets.props')" />
+  </ImportGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgLucene_Net Condition=" '$(PkgLucene_Net)' == '' ">C:\Users\vithu\.nuget\packages\lucene.net\4.8.0-beta00015</PkgLucene_Net>
+    <PkgMessagePackAnalyzer Condition=" '$(PkgMessagePackAnalyzer)' == '' ">C:\Users\vithu\.nuget\packages\messagepackanalyzer\2.1.152</PkgMessagePackAnalyzer>
+    <PkgMicrosoft_CodeAnalysis_Analyzers Condition=" '$(PkgMicrosoft_CodeAnalysis_Analyzers)' == '' ">C:\Users\vithu\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.2</PkgMicrosoft_CodeAnalysis_Analyzers>
+    <PkgMicrosoft_CodeAnalysis_AnalyzerUtilities Condition=" '$(PkgMicrosoft_CodeAnalysis_AnalyzerUtilities)' == '' ">C:\Users\vithu\.nuget\packages\microsoft.codeanalysis.analyzerutilities\3.3.0</PkgMicrosoft_CodeAnalysis_AnalyzerUtilities>
+  </PropertyGroup>
+</Project>
