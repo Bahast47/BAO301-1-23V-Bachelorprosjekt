@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definition Name="Website" Build="12" Guid="6999d445-e4f6-4f36-b81c-a9c9df0a1558">
+  <Cultures>
+    <Culture LCID="1033" Name="English" />
+  </Cultures>
+  <ContentClasses>
+    <ContentClass Guid="fdb92bac-b379-43ec-b327-02cc014b0ac5" ClassName="Course" Namespace="MySite" TableName="course">
+      <Properties>
+        <Property Guid="f18db84f-6f95-4769-ac35-3e441378faa0" CodeName="Start" PropertyClassGuid="af7f07f2-d2c0-41a4-902c-ee3e2f110ef7">
+          <DataValues>
+            <DateTime Guid="e03a0057-dd22-40fd-b014-6784467f4329" Key="Value" Name="start" />
+          </DataValues>
+        </Property>
+        <Property Guid="2d42b3bd-d02e-4f66-aa34-79f983405cbc" CodeName="End" PropertyClassGuid="af7f07f2-d2c0-41a4-902c-ee3e2f110ef7">
+          <DataValues>
+            <DateTime Guid="175a81fc-4c98-4809-8ca7-0ccc71620f93" Key="Value" Name="end" />
+          </DataValues>
+        </Property>
+        <Property Guid="e3a7c1e1-e453-4966-bd7b-c73d4537c999" CodeName="RegisteringDate" PropertyClassGuid="af7f07f2-d2c0-41a4-902c-ee3e2f110ef7">
+          <DataValues>
+            <DateTime Guid="24ac8671-7e94-4e40-b9d4-547dc0fa2cc1" Key="Value" Name="registering_date" />
+          </DataValues>
+        </Property>
+        <Property Guid="1215da0f-60c3-487b-8d1a-a54f8cd1fb73" CodeName="Description" PropertyClassGuid="004506fc-4a9f-4c0a-8bd0-bfd16fa76876">
+          <DataValues>
+            <LongString Guid="ee159d07-48d5-4922-a7c2-e6767ee4e468" Key="Value" Name="description" />
+          </DataValues>
+        </Property>
+        <Property Guid="2236e349-c510-4e77-9ac5-df1267d03327" CodeName="Price" PropertyClassGuid="3de57d0c-f738-423c-8acc-ba5510349cad">
+          <DataValues>
+            <Integer Guid="b76b1126-cb28-440f-8808-8766bb70a3a8" Key="Value" Name="price" />
+          </DataValues>
+        </Property>
+        <Property Guid="ebce4c2c-87cc-4d2e-830c-da015db14df5" CodeName="NumberOfSeats" PropertyClassGuid="3de57d0c-f738-423c-8acc-ba5510349cad">
+          <DataValues>
+            <Integer Guid="e78ed501-8cfb-4ce8-8040-6dee0731f920" Key="Value" Name="number_of_seats" />
+          </DataValues>
+        </Property>
+        <Property Guid="37b35cbd-b7d3-4322-ac2a-05e84ec8cdfd" CodeName="IsFree" PropertyClassGuid="68bb6e0a-f394-4311-a6d4-cca8c9534404">
+          <DataValues>
+            <Boolean Guid="55437c8f-59e5-440f-93b8-0f929783b422" Key="Value" Name="is_free" />
+          </DataValues>
+        </Property>
+        <Property Guid="bb5aebc1-d4e2-4b02-82d2-caf0fb7803c5" CodeName="IsFull" PropertyClassGuid="68bb6e0a-f394-4311-a6d4-cca8c9534404">
+          <DataValues>
+            <Boolean Guid="97af5c32-73c1-41bf-adf6-74e14ec2e6b7" Key="Value" Name="is_full" />
+          </DataValues>
+        </Property>
+        <Property Guid="063fed50-4853-4d86-8d8d-dcb54d144e8b" CodeName="Instructors" PropertyClassGuid="c38c7283-5478-49be-be77-69bd5a7b99a6">
+          <Settings>
+            <RelationReference Key="Relation" Value="183be1f6-01c2-4789-8220-b0a47f0c4a32" />
+          </Settings>
+        </Property>
+        <Property Guid="56204a02-f18d-46b0-a393-2207c1b504c7" CodeName="Participants" PropertyClassGuid="c38c7283-5478-49be-be77-69bd5a7b99a6">
+          <Settings>
+            <RelationReference Key="Relation" Value="c01ab5bb-6ba8-4da2-a106-e52e4ce721c5" />
+          </Settings>
+        </Property>
+        <Property Guid="c1f7b8c3-f10a-4ee2-a76f-a3f05b408f5d" CodeName="Location" PropertyClassGuid="c0eec912-aa39-4df2-bb43-a8d15c493d03">
+          <DataValues>
+            <ShortString Guid="910bdfc4-4e68-49ef-b0e5-bec6edd4867f" Key="Value" Name="location" />
+          </DataValues>
+        </Property>
+        <Property Guid="952a4b9e-481b-4e24-ac7f-3d8e7e406ff2" CodeName="RegistrationDeadLine" PropertyClassGuid="af7f07f2-d2c0-41a4-902c-ee3e2f110ef7">
+          <DataValues>
+            <DateTime Guid="f72fe306-2fe3-4ca2-b4cf-2b3224618a47" Key="Value" Name="registration_dead_line" />
+          </DataValues>
+        </Property>
+        <Property Guid="aa60882a-94a9-4bba-b05a-0909b043b6b2" CodeName="Categories" PropertyClassGuid="c38c7283-5478-49be-be77-69bd5a7b99a6">
+          <Settings>
+            <RelationReference Key="Relation" Value="d0666ab0-c52e-4171-96b6-fcd818f3b4ad" />
+          </Settings>
+        </Property>
+        <Property Guid="07d321db-3b0d-41c6-bcb3-5cdc0088b9c9" CodeName="CoursePicture" PropertyClassGuid="0830d617-f5ee-4266-8f54-71e7867c5225">
+          <DataValues>
+            <ShortString Guid="85b2e2bd-7609-4047-a0df-eb0947c626a2" Key="Filename" Name="course_picture_filename" />
+            <ShortString Guid="bb5b41af-d7e8-433f-aa57-7dd43674283d" Key="Type" Name="course_picture_type_name" />
+            <ShortString Guid="60d66ff3-e993-4caf-8dec-f04bbaf4a666" Key="Extension" Name="course_picture_extension" />
+            <Float Guid="049c8ba3-1e13-4edc-b59f-f5e48d3f1b29" Key="Bytes" Name="course_picture_bytes" />
+            <LongString Guid="96f89c2c-ed8b-477f-9bb5-9891419db24b" Key="Info" Name="course_picture_info" />
+            <Integer Guid="66799074-6a52-449a-a696-889d9bf132df" Key="Reference" Name="course_picture_int" />
+          </DataValues>
+        </Property>
+      </Properties>
+      <InheritGuid>15264b6f-e646-49c4-beb8-9e4911b4f22c</InheritGuid>
+    </ContentClass>
+    <ContentClass Guid="1429c01d-9448-47a1-a435-3752f4231526" ClassName="Instructor" Namespace="MySite" TableName="instructor">
+      <Properties>
+        <Property Guid="dfc967a2-0ae1-476e-b185-ba621174ad5a" CodeName="Courses" PropertyClassGuid="9e798df1-93a2-49f9-86c8-13e5bf5220f5">
+          <Settings>
+            <RelationReference Key="Relation" Value="183be1f6-01c2-4789-8220-b0a47f0c4a32" />
+          </Settings>
+        </Property>
+        <Property Guid="7d6cd5cf-16ed-46cf-a267-dd4cf43edc0f" CodeName="Description" PropertyClassGuid="004506fc-4a9f-4c0a-8bd0-bfd16fa76876">
+          <DataValues>
+            <LongString Guid="a0f94e1f-c00b-43b9-98ce-a635b4dd45d3" Key="Value" Name="description" />
+          </DataValues>
+        </Property>
+        <Property Guid="3e4a3fd6-c861-443f-947d-0b6d73d14931" CodeName="Linkedin" PropertyClassGuid="c0eec912-aa39-4df2-bb43-a8d15c493d03">
+          <DataValues>
+            <ShortString Guid="f7731ecf-8703-409a-a7bc-bf18da0cd372" Key="Value" Name="linkedin" />
+          </DataValues>
+        </Property>
+        <Property Guid="d068c542-8298-4842-b16b-d98d79927b96" CodeName="Instagram" PropertyClassGuid="c0eec912-aa39-4df2-bb43-a8d15c493d03">
+          <DataValues>
+            <ShortString Guid="9a16c84a-aa46-4f41-887e-0d2f37c0e208" Key="Value" Name="instagram" />
+          </DataValues>
+        </Property>
+        <Property Guid="e7220d11-e68d-49f6-b181-b40e0c7aa473" CodeName="Epost" PropertyClassGuid="c0eec912-aa39-4df2-bb43-a8d15c493d03">
+          <DataValues>
+            <ShortString Guid="9631e0fe-77e5-4f58-b6b3-551b6120c4f0" Key="Value" Name="epost" />
+          </DataValues>
+        </Property>
+        <Property Guid="4d97f034-970e-4462-8231-801557edb941" CodeName="PhoneNumber" PropertyClassGuid="3de57d0c-f738-423c-8acc-ba5510349cad">
+          <DataValues>
+            <Integer Guid="d7ad3861-6aef-4958-8ab4-79caa831c071" Key="Value" Name="phone_number" />
+          </DataValues>
+        </Property>
+        <Property Guid="929a46d6-b5a0-479c-9056-55d14a02a8ac" CodeName="IsPublic" PropertyClassGuid="68bb6e0a-f394-4311-a6d4-cca8c9534404">
+          <DataValues>
+            <Boolean Guid="f43ce02e-f662-4131-b8b0-cde8e3396234" Key="Value" Name="is_public" />
+          </DataValues>
+        </Property>
+        <Property Guid="f27eb826-632c-4b83-98d9-3fbb052c3d3c" CodeName="InstructorPicture" PropertyClassGuid="0830d617-f5ee-4266-8f54-71e7867c5225">
+          <DataValues>
+            <ShortString Guid="07323229-bfaa-429b-922a-094ef39b866c" Key="Filename" Name="instructor_picture_filename" />
+            <ShortString Guid="9fe90dc7-f4b2-43e4-aef5-c14a4050f65c" Key="Type" Name="instructor_picture_type_name" />
+            <ShortString Guid="ca0bc1c9-dad9-4fa2-a785-9988ecff8d96" Key="Extension" Name="instructor_picture_extension" />
+            <Float Guid="e81d9279-611d-4127-9979-21f3c5532b1f" Key="Bytes" Name="instructor_picture_bytes" />
+            <LongString Guid="e5484f57-02b8-49a4-85c8-15c47eab5f82" Key="Info" Name="instructor_picture_info" />
+            <Integer Guid="c96dab92-8b6e-4bf1-a940-66446875fbb0" Key="Reference" Name="instructor_picture_int" />
+          </DataValues>
+        </Property>
+      </Properties>
+      <IconSVG>color.businessman</IconSVG>
+      <InheritGuid>15264b6f-e646-49c4-beb8-9e4911b4f22c</InheritGuid>
+    </ContentClass>
+    <ContentClass Guid="9dacbbbc-60d9-4edc-baf0-a6cc823a528a" ClassName="Participant" Namespace="MySite" TableName="participant">
+      <Properties>
+        <Property Guid="4bc57171-1e3c-4534-ba59-e28164ee259f" CodeName="Courses" PropertyClassGuid="9e798df1-93a2-49f9-86c8-13e5bf5220f5">
+          <Settings>
+            <RelationReference Key="Relation" Value="c01ab5bb-6ba8-4da2-a106-e52e4ce721c5" />
+          </Settings>
+        </Property>
+        <Property Guid="1975cc28-d702-4bec-b504-d4aaa5377fff" CodeName="Allergies" PropertyClassGuid="004506fc-4a9f-4c0a-8bd0-bfd16fa76876">
+          <DataValues>
+            <LongString Guid="4fc7b5f4-05ca-4ca4-9a41-aa39e2b8d3be" Key="Value" Name="allergies" />
+          </DataValues>
+        </Property>
+      </Properties>
+      <InheritGuid>682b23ea-2712-4c4f-82df-04b4e3f54027</InheritGuid>
+    </ContentClass>
+    <ContentClass Guid="5f3c2f6c-1e99-4aeb-b3f5-283252fe4387" ClassName="Venue" Namespace="MySite" TableName="venue">
+      <Properties>
+        <Property Guid="1aa28122-2253-42f1-bad1-ddf57b44cb36" CodeName="MapsLink" PropertyClassGuid="c0eec912-aa39-4df2-bb43-a8d15c493d03">
+          <DataValues>
+            <ShortString Guid="367e3bcd-bd81-4fbd-8b18-7496d85b65d8" Key="Value" Name="maps_link" />
+          </DataValues>
+        </Property>
+        <Property Guid="fd1ce14d-a6e2-4902-bb91-514d1a39e6ac" CodeName="Adress" PropertyClassGuid="004506fc-4a9f-4c0a-8bd0-bfd16fa76876">
+          <DataValues>
+            <LongString Guid="ea739f7e-2f9e-46fa-b172-b800c3ef146a" Key="Value" Name="adress" />
+          </DataValues>
+        </Property>
+        <Property Guid="4d04ed51-8d6e-4c63-98e4-c90b1ffddf73" CodeName="HomeSite" PropertyClassGuid="c0eec912-aa39-4df2-bb43-a8d15c493d03">
+          <DataValues>
+            <ShortString Guid="eb8c0daf-1310-4778-b39a-e9867ef2aa4c" Key="Value" Name="home_site" />
+          </DataValues>
+        </Property>
+        <Property Guid="c5dd1a62-b082-4bf5-aca6-ec2634ea067d" CodeName="VenuePicture" PropertyClassGuid="0830d617-f5ee-4266-8f54-71e7867c5225">
+          <DataValues>
+            <ShortString Guid="bfa998ef-832e-4856-8278-d4aebeeb2785" Key="Filename" Name="venue_picture_filename" />
+            <ShortString Guid="4f874681-58ee-4f6b-8bc9-f10c70b1acab" Key="Type" Name="venue_picture_type_name" />
+            <ShortString Guid="63db7f29-968d-4e85-9e92-2026abb57ff3" Key="Extension" Name="venue_picture_extension" />
+            <Float Guid="524f4f32-4a8e-4b7b-8695-50177b27b3a5" Key="Bytes" Name="venue_picture_bytes" />
+            <LongString Guid="8c78aecd-efac-4ae3-a5bc-fc7f65fc5ccb" Key="Info" Name="venue_picture_info" />
+            <Integer Guid="9a3c1164-0bd5-4d8f-a51c-9fb798c72338" Key="Reference" Name="venue_picture_int" />
+          </DataValues>
+        </Property>
+      </Properties>
+      <InheritGuid>15264b6f-e646-49c4-beb8-9e4911b4f22c</InheritGuid>
+    </ContentClass>
+    <ContentClass Guid="94ce9a05-e7cd-426f-821f-967264ab6ed1" ClassName="Category" Namespace="MySite" TableName="category">
+      <Properties>
+        <Property Guid="7ce24a13-17d8-47a6-865c-cfa0832d0b6b" CodeName="Courses" PropertyClassGuid="9e798df1-93a2-49f9-86c8-13e5bf5220f5">
+          <Settings>
+            <RelationReference Key="Relation" Value="d0666ab0-c52e-4171-96b6-fcd818f3b4ad" />
+          </Settings>
+        </Property>
+      </Properties>
+      <InheritGuid>15264b6f-e646-49c4-beb8-9e4911b4f22c</InheritGuid>
+    </ContentClass>
+  </ContentClasses>
+  <Relations>
+    <Relation Guid="183be1f6-01c2-4789-8220-b0a47f0c4a32" ClassName="RelCoursesIntructors" Namespace="MySite" TableName="rel_rel_courses_intructors">
+      <ClassGuidChildren>
+        <ClassReference ClassGuid="1429c01d-9448-47a1-a435-3752f4231526" />
+      </ClassGuidChildren>
+      <ClassGuidParents>
+        <ClassReference ClassGuid="fdb92bac-b379-43ec-b327-02cc014b0ac5" />
+      </ClassGuidParents>
+      <NameChildren>child_id</NameChildren>
+      <NameParents>parent_id</NameParents>
+      <RelationType>ManyToMany</RelationType>
+    </Relation>
+    <Relation Guid="c01ab5bb-6ba8-4da2-a106-e52e4ce721c5" ClassName="RelCoursesParticipants" Namespace="MySite" TableName="rel_rel_courses_participants">
+      <ClassGuidChildren>
+        <ClassReference ClassGuid="9dacbbbc-60d9-4edc-baf0-a6cc823a528a" />
+      </ClassGuidChildren>
+      <ClassGuidParents>
+        <ClassReference ClassGuid="fdb92bac-b379-43ec-b327-02cc014b0ac5" />
+      </ClassGuidParents>
+      <NameChildren>child_id</NameChildren>
+      <NameParents>parent_id</NameParents>
+      <RelationType>ManyToMany</RelationType>
+    </Relation>
+    <Relation Guid="d0666ab0-c52e-4171-96b6-fcd818f3b4ad" ClassName="RelCoursesCategories" Namespace="MySite" TableName="rel_rel_courses_categories">
+      <ClassGuidChildren>
+        <ClassReference ClassGuid="94ce9a05-e7cd-426f-821f-967264ab6ed1" />
+      </ClassGuidChildren>
+      <ClassGuidParents>
+        <ClassReference ClassGuid="fdb92bac-b379-43ec-b327-02cc014b0ac5" />
+      </ClassGuidParents>
+      <NameChildren>child_id</NameChildren>
+      <NameParents>parent_id</NameParents>
+      <ParentByRev>True</ParentByRev>
+      <RelationType>ManyToMany</RelationType>
+    </Relation>
+  </Relations>
+  <Scripts>
+    <InternalScript Guid="87d3d975-d4ea-4cc8-8477-07153378bc4c" RunDuringSave="True" Active="True" Id="webnodes.CodeGeneration" />
+  </Scripts>
+  <Options>
+    <OData>
+      <Settings>
+        <Boolean Key="ODataExposeAllProperties" />
+        <Boolean Key="ODataExposeAllTypes" />
+        <Boolean Key="ODataEnabled" />
+      </Settings>
+    </OData>
+  </Options>
+</Definition>
