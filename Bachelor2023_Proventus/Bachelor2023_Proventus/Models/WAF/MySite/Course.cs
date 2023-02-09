@@ -35,6 +35,12 @@ namespace WAF.Engine.Content.MySite {
         set { EnsureContentDataIndependence(); DateTimePropertyValue.SetValue(WAFID.GetDataValueId("175a81fc-4c98-4809-8ca7-0ccc71620f93"), ref _end, this.Session, this.ContentId, this.ContentData.DataValueById, value); }
         }
       
+        DateTimePropertyValue _registeringDate;
+        public virtual DateTime RegisteringDate {
+        get { return DateTimePropertyValue.GetValue(WAFID.GetDataValueId("24ac8671-7e94-4e40-b9d4-547dc0fa2cc1"), ref _registeringDate, this.Session, this.ContentId, this.ContentData.DataValueById, this.ContentParentPath); }
+        set { EnsureContentDataIndependence(); DateTimePropertyValue.SetValue(WAFID.GetDataValueId("24ac8671-7e94-4e40-b9d4-547dc0fa2cc1"), ref _registeringDate, this.Session, this.ContentId, this.ContentData.DataValueById, value); }
+        }
+      
         HTMLPropertyValue _description;
         public virtual string Description {
         get { return HTMLPropertyValue.GetValue(WAFID.GetDataValueId("ee159d07-48d5-4922-a7c2-e6767ee4e468"), ref _description, this.Session, this.ContentId, this.ContentData.DataValueById, this.ContentParentPath); }
@@ -135,6 +141,18 @@ namespace WAF.Engine.Content.MySite {
         public static int DataValueIdEndEnd {
             get {
                 return WAFID.GetDataValueId("175a81fc-4c98-4809-8ca7-0ccc71620f93");
+            }
+        }
+
+        public static int PropertyIdRegisteringDate {
+            get {
+                return WAFID.GetPropertyId("e3a7c1e1-e453-4966-bd7b-c73d4537c999");
+            }
+        }
+
+        public static int DataValueIdRegisteringDateRegisteringDate {
+            get {
+                return WAFID.GetDataValueId("24ac8671-7e94-4e40-b9d4-547dc0fa2cc1");
             }
         }
 
@@ -286,6 +304,10 @@ namespace WAF.Engine.Content.MySite {
                 object init = End;
                 return _end;
             }
+            else if (propertyId == WAFID.GetPropertyId("e3a7c1e1-e453-4966-bd7b-c73d4537c999")) {
+                object init = RegisteringDate;
+                return _registeringDate;
+            }
             else if (propertyId == WAFID.GetPropertyId("1215da0f-60c3-487b-8d1a-a54f8cd1fb73")) {
                 object init = Description;
                 return _description;
@@ -335,6 +357,7 @@ namespace WAF.Engine.Content.MySite {
         protected override void ResetPropertyValues() {
             _start = null;
             _end = null;
+            _registeringDate = null;
             _description = null;
             _price = null;
             _numberOfSeats = null;
@@ -374,6 +397,12 @@ namespace WAF.Data.Query.MySite {
             public static SqlFieldDateTime End {
                 get {
                     return new SqlFieldDateTime("end", Table, WAFID.GetDataValueId("175a81fc-4c98-4809-8ca7-0ccc71620f93"));
+                }
+            }
+
+            public static SqlFieldDateTime RegisteringDate {
+                get {
+                    return new SqlFieldDateTime("registering_date", Table, WAFID.GetDataValueId("24ac8671-7e94-4e40-b9d4-547dc0fa2cc1"));
                 }
             }
 
@@ -470,6 +499,12 @@ namespace WAF.Data.Query.MySite {
         public SqlExpressionFieldDateTime End {
             get {
                 return new SqlExpressionFieldDateTime(SqlCourse.Field.End, this);
+            }
+        }
+
+        public SqlExpressionFieldDateTime RegisteringDate {
+            get {
+                return new SqlExpressionFieldDateTime(SqlCourse.Field.RegisteringDate, this);
             }
         }
 
@@ -685,6 +720,12 @@ namespace WAF.Engine.Query.MySite {
         public static AqlPropertyDateTime End {
             get {
                 return new AqlPropertyDateTime(WAF.Data.Query.MySite.SqlCourse.Field.End, WAFID.GetContentClassId("fdb92bac-b379-43ec-b327-02cc014b0ac5"));
+            }
+        }
+
+        public static AqlPropertyDateTime RegisteringDate {
+            get {
+                return new AqlPropertyDateTime(WAF.Data.Query.MySite.SqlCourse.Field.RegisteringDate, WAFID.GetContentClassId("fdb92bac-b379-43ec-b327-02cc014b0ac5"));
             }
         }
 
@@ -922,6 +963,12 @@ namespace WAF.Engine.Query.MySite {
         public AqlExpressionPropertyDateTime End {
             get {
                 return new AqlExpressionPropertyDateTime(AqlCourse.End, this);
+            }
+        }
+
+        public AqlExpressionPropertyDateTime RegisteringDate {
+            get {
+                return new AqlExpressionPropertyDateTime(AqlCourse.RegisteringDate, this);
             }
         }
 
