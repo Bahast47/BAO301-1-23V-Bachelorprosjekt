@@ -77,6 +77,7 @@
           </Settings>
         </Property>
       </Properties>
+      <IconSVG>color.comicBook</IconSVG>
       <InheritGuid>15264b6f-e646-49c4-beb8-9e4911b4f22c</InheritGuid>
     </ContentClass>
     <ContentClass Guid="1429c01d-9448-47a1-a435-3752f4231526" ClassName="Instructor" Namespace="MySite" TableName="instructor">
@@ -173,6 +174,7 @@
           </DataValues>
         </Property>
       </Properties>
+      <IconSVG>color.building</IconSVG>
       <InheritGuid>15264b6f-e646-49c4-beb8-9e4911b4f22c</InheritGuid>
     </ContentClass>
     <ContentClass Guid="94ce9a05-e7cd-426f-821f-967264ab6ed1" ClassName="Category" Namespace="MySite" TableName="category">
@@ -183,6 +185,7 @@
           </Settings>
         </Property>
       </Properties>
+      <IconSVG>color.category</IconSVG>
       <InheritGuid>15264b6f-e646-49c4-beb8-9e4911b4f22c</InheritGuid>
     </ContentClass>
   </ContentClasses>
