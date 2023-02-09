@@ -27,13 +27,6 @@ public Course(IContentDataProvider dataProvider)
         set { DataProvider.SetPropertyValue(_endGuid, value); }
         }
       
-        static Guid _registeringDateGuid = new Guid("e3a7c1e1-e453-4966-bd7b-c73d4537c999");
-        [PropertyGuid("e3a7c1e1-e453-4966-bd7b-c73d4537c999")]
-        public DateTime RegisteringDate {
-        get { return (DateTime)DataProvider.GetPropertyValue(_registeringDateGuid); }
-        set { DataProvider.SetPropertyValue(_registeringDateGuid, value); }
-        }
-      
         static Guid _descriptionGuid = new Guid("1215da0f-60c3-487b-8d1a-a54f8cd1fb73");
         [PropertyGuid("1215da0f-60c3-487b-8d1a-a54f8cd1fb73")]
         public string Description {
