@@ -1,17 +1,12 @@
 ﻿@using WAF.Engine.Content.MySite
 @inject WAF.API.Web.WAFNativeContext ctx
 @{
-	var venues = ctx.Session.Query<Venue>().Execute(); 
+	var Instructors = ctx.Session.Query<Instructor>().Execute(); 
 
 }
 
-@foreach(var venue in venues )
+@foreach(var Instructor in Instructors )
 {
-	<h2>@venue.Name</h2>
-	<div>@Html.Raw(venue.VenueAdress)</div>
-	<p><b>Instructors:</b><b/>
+	<h2>@Instructor.Name</h2>
 
-	</p>
-}
-}
 }
