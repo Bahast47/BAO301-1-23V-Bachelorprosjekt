@@ -1,0 +1,19 @@
+﻿@using WAF.Engine.Content.MySite
+@using WAF.Engine.Query.MySite;
+@inject WAF.API.Web.WAFNativeContext ctx
+@{
+    var courses = ctx.Session.Query<Course>().Where(AqlCourse.Start>DateTime.Now).OrderBy(AqlCourse.Start,false).Execute();
+
+}
+
+@foreach (var course in courses)
+{
+    <h2><a href="@ctx.GetUrl(course)">@course.Name</a></h2>
+    <div>@course.Start.ToShortDateString()</div>
+    <p>
+        <b>Instructors:</b><b />
+
+    </p>
+}
+}
+}
