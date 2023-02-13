@@ -22,6 +22,9 @@ StartUpLockFile.txt
 */StartUpLockFile.txt
 */WAF.Data
 */WAF.Server
+WAF.Data
+WAF.Server
+
 
 
 
