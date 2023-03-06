@@ -1,6 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Bachelor2023_Proventus",
+    "\\Bachelor2023_Proventus\\Bachelor2023_Proventus",
+    "\\Bachelor2023_Proventus\\Bachelor2023_Proventus\\Views",
+    "\\Bachelor2023_Proventus\\Bachelor2023_Proventus\\Views\\Course"
   ],
+  "SelectedNode": "\\Bachelor2023_Proventus\\Bachelor2023_Proventus\\Views\\Course\\List.cshtml",
   "PreviewInSolutionExplorer": false
 }
