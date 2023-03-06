@@ -16,7 +16,9 @@
 }
 
 <div class="grid-container">
-    <div class="grid-item">1</div>
+    <div class="grid-item">
+        <div class="grid-inside"></div>
+    </div>
     <div class="grid-item">2</div>
     <div class="grid-item">3</div>
     <div class="grid-item">4</div>
@@ -31,17 +33,24 @@
     
     .grid-container {
         width: 100%;
+        height: 800px;
         display: grid;
         grid-template-columns: 33% 33% 33%;
-        background-color: #2196F3;
         padding: 10px
     }
 
     .grid-item {
-        background-color: rgba(255, 255, 255, 0.8);
+        background-color: darkslategray;
         border: 1px solid rgba(0, 0, 0, 0.8);
         padding: 20px;
+        margin: 10px;
         font-size: 30px;
         text-align: center;
+    }
+
+    .grid-inside {
+        width: 50px;
+        height: 50px;
+        background-color: red;
     }
 </style>
