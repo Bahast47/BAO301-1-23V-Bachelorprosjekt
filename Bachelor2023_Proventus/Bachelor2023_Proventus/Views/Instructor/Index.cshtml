@@ -1,0 +1,24 @@
+﻿@using WAF.Engine.Content.MySite
+@inject WAF.API.Web.WAFNativeContext ctx
+
+
+@{
+	var instructors = ctx.Session.Query<Instructor>().Execute();
+
+}
+
+@foreach(var instructor in instructors )
+{
+	<div style="float:left; width:33%; height:50%; margin-top:5%;">
+		<h3>
+			@instructor.Name
+		</h3>
+		<div>
+			@if (instructor.InstructorPicture.IsImage()) {
+				<img src='@instructor.InstructorPicture.GetUrl(270, 350)' alt="@instructor.InstructorPicture.Description"/>}
+		</div>
+		<div>
+			@instructor.Description
+		</div>
+	</div>
+}
