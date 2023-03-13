@@ -1,103 +1,11 @@
 ﻿@using WAF.Engine.Content.MySite
 @inject WAF.API.Web.WAFNativeContext ctx
-@model Course
 
 
 @{
 	var instructors = ctx.Session.Query<Instructor>().Execute();
 	
 }
-
-<head>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<style>
-		.dropbtn {
-			background-color: #3498DB;
-			color: white;
-			padding: 16px;
-			font-size: 16px;
-			border: none;
-			cursor: pointer;
-		}
-
-			.dropbtn:hover, .dropbtn:focus {
-				background-color: #2980B9;
-			}
-
-		.dropdown {
-			position: relative;
-			display: inline-block;
-		}
-
-		.dropdown-content {
-			display: none;
-			position: absolute;
-			background-color: #f1f1f1;
-			min-width: 160px;
-			overflow: auto;
-			box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-			z-index: 1;
-		}
-
-			.dropdown-content a {
-				color: black;
-				padding: 12px 16px;
-				text-decoration: none;
-				display: block;
-			}
-
-		.dropdown a:hover {
-			background-color: #ddd;
-		}
-
-		.show {
-			display: block;
-		}
-	</style>
-</head>
-<body>
-
-	<script>
-		/* When the user clicks on the button,
-		toggle between hiding and showing the dropdown content */
-		function myFunction() {
-			document.getElementById("myDropdown").classList.toggle("show");
-		}
-
-		// Close the dropdown if the user clicks outside of it
-		window.onclick = function (event) {
-			if (!event.target.matches('.dropbtn')) {
-				var dropdowns = document.getElementsByClassName("dropdown-content");
-				var i;
-				for (i = 0; i < dropdowns.length; i++) {
-					var openDropdown = dropdowns[i];
-					if (openDropdown.classList.contains('show')) {
-						openDropdown.classList.remove('show');
-					}
-				}
-			}
-		}
-	</script>
-
-</body>
-
-<div class="col-md-12">
-	<h1 class="text-center">
-		Kurs Modul
-	</h1>
-
-	<div class="Instructors">
-		<button onclick="myFunction()" class="dropbtn">Dropdown</button>
-		<div id="myDropdown" class="dropdown-content">
-			@foreach (var course in courses)
-                        {
-                            <a class="morelink" href="@ctx.GetUrl(course)">@course.Name</a>
-                        }
-			<a href="#Venues">Venues</a>
-			<a href="#contact">Login</a>
-		</div>
-	</div>
-</div>
 
 @foreach(var instructor in instructors )
 {
@@ -110,7 +18,7 @@
 					<img src='@instructor.InstructorPicture.GetUrl(270, 350)' alt="@instructor.InstructorPicture.Description"/>}
 			</div>
 			<div>
-				@instructor.Description
+			@instructor.Description
 			</div>
 		</div>
 }

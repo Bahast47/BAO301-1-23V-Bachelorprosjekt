@@ -1,17 +1,53 @@
 ﻿@using WAF.Engine.Content.MySite
 @inject WAF.API.Web.WAFNativeContext ctx
-@{
-    var venues = ctx.Session.Query<Venue>().Execute(); 
+@model Course;
 
-}
 
-@foreach(var venue in venues )
-{
-    <h2>@venue.Name</h2>
-    <div>@Html.Raw(venue.VenueAdress)</div>
-    <p><b>Instructors:</b><b/>
 
-    </p>
-}
-}
-}
+<div>
+    <h1>@Model.Name</h1>
+    <div>
+        <ul>
+            <li>Start: @Model.Start</li>
+            <li>Slutt: @Model.End</li>
+            <li>Pris: @Model.Price</li>
+            @foreach (var category in Model.Categories)
+            {
+                <li>
+                    Tema: @category
+                </li>
+            }
+            <li>Plass:@Model.NumberOfSeats</li>
+            <li>PåmeldingFrist: @Model.RegistrationDeadLine</li>
+
+            @foreach (var instructor in Model.Instructors)
+            {
+                <li>
+                    Foreleser: @instructor.Name
+                </li>
+
+                <li>
+                    Foreleser Info: @instructor.Description
+                </li>
+            }
+
+            @foreach (var venue in Model.Venues)
+            {
+                <li>
+                    Sted: @venue.Name
+                </li>
+
+                <li>
+                    Adresse:@venue.VenueAdress
+                </li>
+            }
+
+
+
+
+        </ul>
+    </div>
+    <h3>@Model.Description</h3>
+    <div>  <img src="@Model.CoursePicture.GetUrl(260)" /></div>
+
+</div>

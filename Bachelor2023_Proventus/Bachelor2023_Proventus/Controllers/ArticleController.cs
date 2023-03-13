@@ -16,6 +16,7 @@ namespace App.ServerCore.Controllers
         }
         public IActionResult Index()
         {
+            //var cp = _ctx.SystemSession.GetContent<ControlPanel>();
             var c = _ctx.Request.GetContent<ArticleBase>();
             return View(c);
         }

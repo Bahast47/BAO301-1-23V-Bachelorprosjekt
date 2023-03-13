@@ -2,18 +2,64 @@
 @using WAF.Engine.Query.MySite;
 @inject WAF.API.Web.WAFNativeContext ctx
 @{
-    var courses = ctx.Session.Query<Course>().Where(AqlCourse.Start>DateTime.Now).OrderBy(AqlCourse.Start,false).Execute();
+    var courses = ctx.Session.Query<Course>().Where(AqlCourse.Start > DateTime.Now).OrderBy(AqlCourse.Start, false).Execute();
 
 }
 
 @foreach (var course in courses)
 {
-    <h2><a href="@ctx.GetUrl(course)">@course.Name</a></h2>
-    <div>@course.Start.ToShortDateString()</div>
-    <p>
-        <b>Instructors:</b><b />
+    <div class="card">
+        <a href="@ctx.GetUrl(course)">
+                <div class="cardDate">
+                    <p class="card-text">@course.Start.ToShortDateString()</p>
+                </div>
+                <div class="card-body">
+                    <div class="card-title">
+                        <h5 class="card-title">@course.Name</h5>
+                    </div>
+                    <div class="card-description">
+                        <h5 class="description-text">@Html.Raw(@course.Description)</h5>
+                    </div>
+                </div>
+        </a>
+    </div>
+}
 
-    </p>
-}
-}
-}
+
+<style>
+    .card{
+        margin-top: 20px;
+        text-decoration: none;
+        position: relative;
+    }
+
+    .card-body{
+        float: left;
+    }
+
+    .card-text{
+        float: left;
+        text-decoration: none;
+        color: red;
+    }
+
+    .card-description{
+        float: left;
+    }
+
+    .cardDate{
+
+    }
+
+    .card-text{
+        border: solid;
+        border-color: black;
+        display: flex;
+        height: auto;
+        text-decoration: none;
+    }
+
+    .description-text{
+        font-size: 15px;
+    }
+</style>

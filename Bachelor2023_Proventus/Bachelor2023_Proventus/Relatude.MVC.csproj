@@ -10,9 +10,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="NewFolder1\**" />
+    <Compile Remove="NewFolder\**" />
     <Compile Remove="WAF.Server\Common\**" />
+    <Content Remove="NewFolder1\**" />
+    <Content Remove="NewFolder\**" />
     <Content Remove="WAF.Server\Common\**" />
+    <EmbeddedResource Remove="NewFolder1\**" />
+    <EmbeddedResource Remove="NewFolder\**" />
     <EmbeddedResource Remove="WAF.Server\Common\**" />
+    <None Remove="NewFolder1\**" />
+    <None Remove="NewFolder\**" />
     <None Remove="WAF.Server\Common\**" />
   </ItemGroup>
 

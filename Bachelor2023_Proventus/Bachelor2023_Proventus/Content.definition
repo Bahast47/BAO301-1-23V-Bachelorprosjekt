@@ -188,6 +188,52 @@
       <IconSVG>color.category</IconSVG>
       <InheritGuid>15264b6f-e646-49c4-beb8-9e4911b4f22c</InheritGuid>
     </ContentClass>
+    <ContentClass Guid="d0e4c8ae-2eee-459e-8e4f-38635cc892e1" ClassName="ControlPanel" Namespace="MySite" TableName="control_panel">
+      <Properties>
+        <Property Guid="76dc9ba2-4614-4385-b08b-548811cb04dd" CodeName="CourseList" PropertyClassGuid="1d307d77-8e67-4cae-bea6-41e4e1f9c1d0">
+          <DataValues>
+            <Integer Guid="047dcb92-958f-4dd9-9e0d-9d3f4b581a45" Key="Value" Name="course_list" />
+          </DataValues>
+          <Settings>
+            <ContentClassReferences Key="ContentClasses">
+              <Classes>
+                <ClassReference ClassGuid="fdb92bac-b379-43ec-b327-02cc014b0ac5" />
+              </Classes>
+            </ContentClassReferences>
+          </Settings>
+        </Property>
+        <Property Guid="8afb227b-5619-4c02-b9a8-f9f4ba48abdc" CodeName="Venues" PropertyClassGuid="1d307d77-8e67-4cae-bea6-41e4e1f9c1d0">
+          <DataValues>
+            <Integer Guid="cb1d1895-3d94-4117-bad4-36ed28d0e1b1" Key="Value" Name="venues" />
+          </DataValues>
+          <Settings>
+            <ContentClassReferences Key="ContentClasses">
+              <Classes>
+                <ClassReference ClassGuid="5f3c2f6c-1e99-4aeb-b3f5-283252fe4387" />
+              </Classes>
+            </ContentClassReferences>
+          </Settings>
+        </Property>
+        <Property Guid="c1f1efcf-66ec-460f-8092-a0d9b98f0997" CodeName="Instructors" PropertyClassGuid="1d307d77-8e67-4cae-bea6-41e4e1f9c1d0">
+          <DataValues>
+            <Integer Guid="74fffc2a-8ac4-4cf8-9f1d-1bf9b22cdfc5" Key="Value" Name="instructors" />
+          </DataValues>
+          <Settings>
+            <ContentClassReferences Key="ContentClasses">
+              <Classes>
+                <ClassReference ClassGuid="1429c01d-9448-47a1-a435-3752f4231526" />
+              </Classes>
+            </ContentClassReferences>
+          </Settings>
+        </Property>
+      </Properties>
+      <Settings>
+        <Int Key="MinimumInstances" Value="1" />
+        <Int Key="MaximumInstances" Value="1" />
+      </Settings>
+      <IconSVG>color.settings</IconSVG>
+      <InheritGuid>15264b6f-e646-49c4-beb8-9e4911b4f22c</InheritGuid>
+    </ContentClass>
   </ContentClasses>
   <Relations>
     <Relation Guid="183be1f6-01c2-4789-8220-b0a47f0c4a32" ClassName="RelCoursesIntructors" Namespace="MySite" TableName="rel_rel_courses_intructors">

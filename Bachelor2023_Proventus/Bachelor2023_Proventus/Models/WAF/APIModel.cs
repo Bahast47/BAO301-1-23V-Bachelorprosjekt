@@ -247,3 +247,32 @@ public Category(IContentDataProvider dataProvider)
       
 }
 }
+
+namespace WAF.API.MySite {
+[ClassGuid("d0e4c8ae-2eee-459e-8e4f-38635cc892e1")]
+public class ControlPanel : WAF.API.Native.HierarchicalContent {
+public ControlPanel(IContentDataProvider dataProvider)
+: base(dataProvider) {}
+        static Guid _courseListGuid = new Guid("76dc9ba2-4614-4385-b08b-548811cb04dd");
+        [PropertyGuid("76dc9ba2-4614-4385-b08b-548811cb04dd")]
+        public WAF.API.MySite.Course CourseList{
+        get { return DataProvider.GetPropertyValue(_courseListGuid) as WAF.API.MySite.Course;}
+        set { DataProvider.SetPropertyValue(_courseListGuid, value);}
+        }
+      
+        static Guid _venuesGuid = new Guid("8afb227b-5619-4c02-b9a8-f9f4ba48abdc");
+        [PropertyGuid("8afb227b-5619-4c02-b9a8-f9f4ba48abdc")]
+        public WAF.API.MySite.Venue Venues{
+        get { return DataProvider.GetPropertyValue(_venuesGuid) as WAF.API.MySite.Venue;}
+        set { DataProvider.SetPropertyValue(_venuesGuid, value);}
+        }
+      
+        static Guid _instructorsGuid = new Guid("c1f1efcf-66ec-460f-8092-a0d9b98f0997");
+        [PropertyGuid("c1f1efcf-66ec-460f-8092-a0d9b98f0997")]
+        public WAF.API.MySite.Instructor Instructors{
+        get { return DataProvider.GetPropertyValue(_instructorsGuid) as WAF.API.MySite.Instructor;}
+        set { DataProvider.SetPropertyValue(_instructorsGuid, value);}
+        }
+      
+}
+}
