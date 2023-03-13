@@ -20,9 +20,7 @@ StartUpLockFile.txt
 */App_Data/
 */Ping.txt
 */StartUpLockFile.txt
-*/WAF.Data
 */WAF.Server
-WAF.Data
 WAF.Server
 
 
