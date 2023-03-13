@@ -347,3 +347,6 @@ public MySite_CategoryController(AdminUIAPIControllerContext ctx) : base(ctx) { 
 public class MySite_RegistrationFormsController : WAF.Server.Controllers.ContentController<WAF.API.MySite.RegistrationForms> { 
 public MySite_RegistrationFormsController(AdminUIAPIControllerContext ctx) : base(ctx) {    }
 }
+public class MySite_ControlPanelController : WAF.Server.Controllers.ContentController<WAF.API.MySite.ControlPanel> { 
+public MySite_ControlPanelController(AdminUIAPIControllerContext ctx) : base(ctx) {    }
+}

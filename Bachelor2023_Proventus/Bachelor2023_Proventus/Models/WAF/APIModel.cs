@@ -284,3 +284,25 @@ public RegistrationForms(IContentDataProvider dataProvider)
       
 }
 }
+
+namespace WAF.API.MySite {
+[ClassGuid("e72004c3-bde2-4f70-91a0-4993d0e7eebf")]
+public class ControlPanel : WAF.API.Native.HierarchicalContent {
+public ControlPanel(IContentDataProvider dataProvider)
+: base(dataProvider) {}
+        static Guid _courseGuid = new Guid("b06d0548-5c2b-48b8-adeb-7f878f0e47e6");
+        [PropertyGuid("b06d0548-5c2b-48b8-adeb-7f878f0e47e6")]
+        public WAF.API.MySite.Course Course{
+        get { return DataProvider.GetPropertyValue(_courseGuid) as WAF.API.MySite.Course;}
+        set { DataProvider.SetPropertyValue(_courseGuid, value);}
+        }
+      
+        static Guid _venueGuid = new Guid("b2e4695c-a213-464b-bf1f-5e180bc5ca0e");
+        [PropertyGuid("b2e4695c-a213-464b-bf1f-5e180bc5ca0e")]
+        public WAF.API.MySite.Venue Venue{
+        get { return DataProvider.GetPropertyValue(_venueGuid) as WAF.API.MySite.Venue;}
+        set { DataProvider.SetPropertyValue(_venueGuid, value);}
+        }
+      
+}
+}

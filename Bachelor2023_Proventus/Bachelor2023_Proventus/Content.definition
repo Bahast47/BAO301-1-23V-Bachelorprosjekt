@@ -214,6 +214,36 @@
       <IconSVG>mono.forms</IconSVG>
       <InheritGuid>15264b6f-e646-49c4-beb8-9e4911b4f22c</InheritGuid>
     </ContentClass>
+    <ContentClass Guid="e72004c3-bde2-4f70-91a0-4993d0e7eebf" ClassName="ControlPanel" Namespace="MySite" TableName="control_panel">
+      <Properties>
+        <Property Guid="b06d0548-5c2b-48b8-adeb-7f878f0e47e6" CodeName="Course" PropertyClassGuid="1d307d77-8e67-4cae-bea6-41e4e1f9c1d0">
+          <DataValues>
+            <Integer Guid="c59769d7-0316-418f-a0ca-1db011204a76" Key="Value" Name="course" />
+          </DataValues>
+          <Settings>
+            <ContentClassReferences Key="ContentClasses">
+              <Classes>
+                <ClassReference ClassGuid="fdb92bac-b379-43ec-b327-02cc014b0ac5" />
+              </Classes>
+            </ContentClassReferences>
+          </Settings>
+        </Property>
+        <Property Guid="b2e4695c-a213-464b-bf1f-5e180bc5ca0e" CodeName="Venue" PropertyClassGuid="1d307d77-8e67-4cae-bea6-41e4e1f9c1d0">
+          <DataValues>
+            <Integer Guid="7a3760fc-75df-4cbb-9886-4b03d71c9127" Key="Value" Name="venue" />
+          </DataValues>
+          <Settings>
+            <ContentClassReferences Key="ContentClasses">
+              <Classes>
+                <ClassReference ClassGuid="5f3c2f6c-1e99-4aeb-b3f5-283252fe4387" />
+              </Classes>
+            </ContentClassReferences>
+          </Settings>
+        </Property>
+      </Properties>
+      <IconSVG>color.settings</IconSVG>
+      <InheritGuid>15264b6f-e646-49c4-beb8-9e4911b4f22c</InheritGuid>
+    </ContentClass>
   </ContentClasses>
   <Relations>
     <Relation Guid="183be1f6-01c2-4789-8220-b0a47f0c4a32" ClassName="RelCoursesIntructors" Namespace="MySite" TableName="rel_rel_courses_intructors">
