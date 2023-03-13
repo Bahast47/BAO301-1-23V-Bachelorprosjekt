@@ -76,6 +76,11 @@
             <RelationReference Key="Relation" Value="572379c0-d187-46f8-851d-a874c7059c47" />
           </Settings>
         </Property>
+        <Property Guid="43c8b7de-6709-4da5-a68d-7981f06b64cd" CodeName="RegistrationForms" PropertyClassGuid="c38c7283-5478-49be-be77-69bd5a7b99a6">
+          <Settings>
+            <RelationReference Key="Relation" Value="d1057334-87a2-4433-84ab-69068e18da99" />
+          </Settings>
+        </Property>
       </Properties>
       <IconSVG>color.comicBook</IconSVG>
       <InheritGuid>15264b6f-e646-49c4-beb8-9e4911b4f22c</InheritGuid>
@@ -188,6 +193,27 @@
       <IconSVG>color.category</IconSVG>
       <InheritGuid>15264b6f-e646-49c4-beb8-9e4911b4f22c</InheritGuid>
     </ContentClass>
+    <ContentClass Guid="ba72d9fc-6643-402c-a125-f3b08362fb75" ClassName="RegistrationForms" Namespace="MySite" TableName="registration_forms">
+      <Properties>
+        <Property Guid="eaf8f447-4825-44d1-9cc8-c9b85f682b36" CodeName="FormContainer" PropertyClassGuid="004506fc-4a9f-4c0a-8bd0-bfd16fa76876">
+          <DataValues>
+            <LongString Guid="b0707483-6ad7-4073-8b1c-cc8013ddaef9" Key="Value" Name="form_container" />
+          </DataValues>
+        </Property>
+        <Property Guid="b8174d88-664d-4190-8fd5-0dc46e26949c" CodeName="SignUp" PropertyClassGuid="004506fc-4a9f-4c0a-8bd0-bfd16fa76876">
+          <DataValues>
+            <LongString Guid="2aea76c9-f493-42a4-b144-8543279dc534" Key="Value" Name="sign_up" />
+          </DataValues>
+        </Property>
+        <Property Guid="11935030-00c9-43d8-a2eb-ac0c97cdad6d" CodeName="Course" PropertyClassGuid="9e798df1-93a2-49f9-86c8-13e5bf5220f5">
+          <Settings>
+            <RelationReference Key="Relation" Value="d1057334-87a2-4433-84ab-69068e18da99" />
+          </Settings>
+        </Property>
+      </Properties>
+      <IconSVG>mono.forms</IconSVG>
+      <InheritGuid>15264b6f-e646-49c4-beb8-9e4911b4f22c</InheritGuid>
+    </ContentClass>
   </ContentClasses>
   <Relations>
     <Relation Guid="183be1f6-01c2-4789-8220-b0a47f0c4a32" ClassName="RelCoursesIntructors" Namespace="MySite" TableName="rel_rel_courses_intructors">
@@ -236,6 +262,18 @@
       <NameParents>parent_id</NameParents>
       <ParentByCult>True</ParentByCult>
       <ParentByRev>True</ParentByRev>
+      <RelationType>ManyToMany</RelationType>
+    </Relation>
+    <Relation Guid="d1057334-87a2-4433-84ab-69068e18da99" ClassName="RelCoursesRegistrationForms" Namespace="MySite" TableName="rel_rel_courses_registration_forms">
+      <ClassGuidChildren>
+        <ClassReference ClassGuid="ba72d9fc-6643-402c-a125-f3b08362fb75" />
+      </ClassGuidChildren>
+      <ClassGuidParents>
+        <ClassReference ClassGuid="fdb92bac-b379-43ec-b327-02cc014b0ac5" />
+      </ClassGuidParents>
+      <NameChildren>child_id</NameChildren>
+      <NameParents>parent_id</NameParents>
+      <ParentByCult>True</ParentByCult>
       <RelationType>ManyToMany</RelationType>
     </Relation>
   </Relations>

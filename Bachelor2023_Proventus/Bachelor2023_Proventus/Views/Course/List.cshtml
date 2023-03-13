@@ -9,7 +9,8 @@
 @foreach (var course in courses)
 {
     <h2><a href="@ctx.GetUrl(course)">@course.Name</a></h2>
-    <div>@course.Start.ToShortDateString()</div>
+	<div>@course.Start.ToShortDateString()</div>
+	<div>@course.End.ToShortDateString()</div>
     <p>
         <b>Instructors:</b><b />
 

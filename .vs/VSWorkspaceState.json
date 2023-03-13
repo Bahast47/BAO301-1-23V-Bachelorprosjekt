@@ -1,6 +1,13 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Bachelor2023_Proventus",
+    "\\Bachelor2023_Proventus\\Bachelor2023_Proventus",
+    "\\Bachelor2023_Proventus\\Bachelor2023_Proventus\\Controllers",
+    "\\Bachelor2023_Proventus\\Bachelor2023_Proventus\\Views",
+    "\\Bachelor2023_Proventus\\Bachelor2023_Proventus\\Views\\Course",
+    "\\Bachelor2023_Proventus\\Bachelor2023_Proventus\\Views\\RegistrationForm"
   ],
+  "SelectedNode": "\\Bachelor2023_Proventus\\Bachelor2023_Proventus\\Views\\RegistrationForm\\Index.cshtml",
   "PreviewInSolutionExplorer": false
 }

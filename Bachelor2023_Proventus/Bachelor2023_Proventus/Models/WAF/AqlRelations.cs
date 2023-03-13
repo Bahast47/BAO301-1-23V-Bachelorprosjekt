@@ -139,6 +139,39 @@ namespace WAF.Data.Query.MySite {
         }
     }
 }
+namespace WAF.Data.Query.MySite {
+
+    public abstract class SqlRelCoursesRegistrationForms {
+
+        public static SqlTable Table {
+            get {
+                return new SqlTable("rel_rel_courses_registration_forms", TableId.RelationAbstract);
+            }
+        }
+
+        public abstract class Field {
+
+            public static SqlFieldInteger ParentId {
+                get {
+                    return new SqlFieldPrimaryInteger("parent_id", Table);
+                }
+            }
+
+            public static SqlFieldInteger ChildId {
+                get {
+                    return new SqlFieldPrimaryInteger("child_id", Table);
+                }
+            }
+
+            public static SqlFieldInteger Listorder {
+                get {
+                    return new SqlFieldInteger("listorder", Table);
+                }
+            }
+
+        }
+    }
+}
 namespace WAF.Engine.Query.MySite{
 
     [System.Serializable]
@@ -182,6 +215,18 @@ namespace WAF.Engine.Query.MySite{
         public static AqlClassRelation Relation {
             get {
                 return new AqlClassRelation( WAFID.GetRelationId("572379c0-d187-46f8-851d-a874c7059c47") );
+            }
+        }
+
+    }
+}
+namespace WAF.Engine.Query.MySite{
+
+    [System.Serializable]
+    public abstract class AqlRelCoursesRegistrationForms{
+        public static AqlClassRelation Relation {
+            get {
+                return new AqlClassRelation( WAFID.GetRelationId("d1057334-87a2-4433-84ab-69068e18da99") );
             }
         }
 
@@ -279,6 +324,29 @@ namespace WAF.Engine.Query.MySite{
         }
     }
 }
+namespace WAF.Engine.Query.MySite{
+
+    [System.Serializable]
+    public class AqlAliasRelCoursesRegistrationForms: AqlAliasRelation {
+
+        public AqlAliasRelCoursesRegistrationForms(AqlAlias parent, AqlAlias child)
+             : base(parent, child, AqlRelCoursesRegistrationForms.Relation) {
+
+        }
+        public AqlAliasRelCoursesRegistrationForms(AqlAliasRelation parent, AqlAlias child, AqlAlias onParent)
+             : base(parent, child, AqlRelCoursesRegistrationForms.Relation, onParent ) {
+
+        }
+        public AqlAliasRelCoursesRegistrationForms(AqlAlias parent, AqlAliasRelation child, AqlAlias onChild)
+             : base(parent, child, AqlRelCoursesRegistrationForms.Relation, onChild ) {
+
+        }
+        public AqlAliasRelCoursesRegistrationForms(AqlAliasRelation parent, AqlAliasRelation child,AqlAlias onParent, AqlAlias onChild)
+             : base(parent, child, AqlRelCoursesRegistrationForms.Relation, onParent, onChild ) {
+
+        }
+    }
+}
 namespace WAF.Engine.Content.MySite{
     [System.Serializable]
     public partial class RelCoursesIntructors: WAF.Engine.Content.RelationBase {
@@ -322,6 +390,18 @@ namespace WAF.Engine.Content.MySite{
         public static int RelationId {
             get {
                 return WAFID.GetRelationId("572379c0-d187-46f8-851d-a874c7059c47");
+            }
+        }
+
+    }
+}
+namespace WAF.Engine.Content.MySite{
+    [System.Serializable]
+    public partial class RelCoursesRegistrationForms: WAF.Engine.Content.RelationBase {
+
+        public static int RelationId {
+            get {
+                return WAFID.GetRelationId("d1057334-87a2-4433-84ab-69068e18da99");
             }
         }
 
