@@ -20,9 +20,9 @@
 				</li>
 			}
 			
-			@foreach (var registrationForms in Model.RegistrationForms)
+			@foreach (var contactUs in Model.ContactUs)
 			{
-				<h2><a href="@ctx.GetUrl(registrationForms)">@Html.Raw(@registrationForms.SignUp)</a></h2>
+				<h2><a href="@ctx.GetUrl(contactUs)">@Html.Raw(@contactUs.SignUp)</a></h2>
 			}
 
 			<li>Start: 

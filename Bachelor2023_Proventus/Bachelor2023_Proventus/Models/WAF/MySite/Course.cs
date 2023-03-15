@@ -96,11 +96,6 @@ namespace WAF.Engine.Content.MySite {
         get {EnsureContentDataIndependence(); return NodeRelationsPropertyValue<WAF.Engine.Content.MySite.Venue>.GetValue(WAFID.GetDataValueId("b531a89f-4b7a-400f-ad2b-4b0daf5ea3f9"), ref _venues, this);}
         }
       
-        NodeRelationsPropertyValue<WAF.Engine.Content.MySite.RegistrationForms> _registrationForms;
-        public virtual NodeRelationsPropertyValue<WAF.Engine.Content.MySite.RegistrationForms> RegistrationForms{
-        get {EnsureContentDataIndependence(); return NodeRelationsPropertyValue<WAF.Engine.Content.MySite.RegistrationForms>.GetValue(WAFID.GetDataValueId("43c8b7de-6709-4da5-a68d-7981f06b64cd"), ref _registrationForms, this);}
-        }
-      
         public override IContent AddCulture(int lcid) {
             return _WAFSession.AddCulture<Course>(NodeId, lcid);
         }
@@ -281,12 +276,6 @@ namespace WAF.Engine.Content.MySite {
             }
         }
 
-        public static int PropertyIdRegistrationForms {
-            get {
-                return WAFID.GetPropertyId("43c8b7de-6709-4da5-a68d-7981f06b64cd");
-            }
-        }
-
         public override object GetProperty(int propertyId) {
             EnsureContentDataIndependence();
             if (propertyId == WAFID.GetPropertyId("f18db84f-6f95-4769-ac35-3e441378faa0")) {
@@ -341,10 +330,6 @@ namespace WAF.Engine.Content.MySite {
                 object init = Venues;
                 return _venues;
             }
-            else if (propertyId == WAFID.GetPropertyId("43c8b7de-6709-4da5-a68d-7981f06b64cd")) {
-                object init = RegistrationForms;
-                return _registrationForms;
-            }
             return base.GetProperty(propertyId);
         }
         protected override void ResetPropertyValues() {
@@ -361,7 +346,6 @@ namespace WAF.Engine.Content.MySite {
             _categories = null;
             _coursePicture = null;
             _venues = null;
-            _registrationForms = null;
             base.ResetPropertyValues();
         }
     }
@@ -797,12 +781,6 @@ namespace WAF.Engine.Query.MySite {
         public static AqlPropertyRelation Venues {
             get {
                 return new AqlPropertyRelation( WAFID.GetPropertyId("b531a89f-4b7a-400f-ad2b-4b0daf5ea3f9"), new AqlAliasRelation(new WAF.Engine.Query.MySite.AqlAliasCourse(), new WAF.Engine.Query.MySite.AqlAliasVenue(), WAF.Engine.Query.MySite.AqlRelCoursesVenues.Relation));
-            }
-        }
-
-        public static AqlPropertyRelation RegistrationForms {
-            get {
-                return new AqlPropertyRelation( WAFID.GetPropertyId("43c8b7de-6709-4da5-a68d-7981f06b64cd"), new AqlAliasRelation(new WAF.Engine.Query.MySite.AqlAliasCourse(), new WAF.Engine.Query.MySite.AqlAliasRegistrationForms(), WAF.Engine.Query.MySite.AqlRelCoursesRegistrationForms.Relation));
             }
         }
 

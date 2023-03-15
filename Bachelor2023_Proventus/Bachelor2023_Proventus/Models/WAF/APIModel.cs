@@ -104,13 +104,6 @@ public Course(IContentDataProvider dataProvider)
         set {DataProvider.SetPropertyValue(_venuesGuid, value);}
         }
       
-        static Guid _registrationFormsGuid = new Guid("43c8b7de-6709-4da5-a68d-7981f06b64cd");
-        [PropertyGuid("43c8b7de-6709-4da5-a68d-7981f06b64cd")]
-        public IQueryable<WAF.API.MySite.RegistrationForms> RegistrationForms {
-        get {return ((IQueryable<WAF.API.IContent>)DataProvider.GetPropertyValue(_registrationFormsGuid)).Cast<WAF.API.MySite.RegistrationForms>();}
-        set {DataProvider.SetPropertyValue(_registrationFormsGuid, value);}
-        }
-      
 }
 }
 
@@ -257,8 +250,8 @@ public Category(IContentDataProvider dataProvider)
 
 namespace WAF.API.MySite {
 [ClassGuid("ba72d9fc-6643-402c-a125-f3b08362fb75")]
-public class RegistrationForms : WAF.API.Native.HierarchicalContent {
-public RegistrationForms(IContentDataProvider dataProvider)
+public class ConatctUs : WAF.API.Native.HierarchicalContent {
+public ConatctUs(IContentDataProvider dataProvider)
 : base(dataProvider) {}
         static Guid _formContainerGuid = new Guid("eaf8f447-4825-44d1-9cc8-c9b85f682b36");
         [PropertyGuid("eaf8f447-4825-44d1-9cc8-c9b85f682b36")]
@@ -272,14 +265,6 @@ public RegistrationForms(IContentDataProvider dataProvider)
         public string SignUp {
         get { return (string)DataProvider.GetPropertyValue(_signUpGuid); }
         set { DataProvider.SetPropertyValue(_signUpGuid, value); }
-        }
-      
-        static Guid _courseGuid = new Guid("11935030-00c9-43d8-a2eb-ac0c97cdad6d");
-        [PropertyGuid("11935030-00c9-43d8-a2eb-ac0c97cdad6d")]
-        public IQueryable<WAF.API.MySite.Course>
-        Course {
-        get {return ((IQueryable<WAF.API.IContent>)DataProvider.GetPropertyValue(_courseGuid)).Cast<WAF.API.MySite.Course>();}
-        set {DataProvider.SetPropertyValue(_courseGuid, value);}
         }
       
 }
