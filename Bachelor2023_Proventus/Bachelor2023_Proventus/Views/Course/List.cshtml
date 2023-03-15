@@ -6,60 +6,135 @@
 
 }
 
+
+<div class="filters">
+	<div class="searchBar">
+		<input placeholder="Søk">
+		</div>
+	<div class="placeBar"> 
+		<input placeholder="Sted" />
+		<div class="dropdown-content">
+			<a href="#">Link 1</a>
+			<a href="#">Link 2</a>
+			<a href="#">Link 3</a>
+		</div>
+		</div>
+	<div class="CatagoryBar">
+		<input placeholder ="Katogori" />
+		<div class="dropdown-content">
+			<a href="#">Link 1</a>
+			<a href="#">Link 2</a>
+			<a href="#">Link 3</a>
+		</div>
+		</div>
+</div>
+
 @foreach (var course in courses)
 {
 	<div class="card">
 		<a href="@ctx.GetUrl(course)">
-			<div class="cardDate">
-				<p class="card-text">@course.Start.ToShortDateString()</p>
-			</div>
-			<div class="card-body">
-				<div class="card-title">
+				<div class="cardDate">
+					<p class="cardDateText">@course.Start.ToShortDateString()</p>
+				</div>
+				<div>
 					<h5 class="card-title">@course.Name</h5>
 				</div>
 				<div class="card-description">
 					<h5 class="description-text">@Html.Raw(@course.Description)</h5>
 				</div>
-			</div>
 		</a>
 	</div>
 }
 
 
+
 <style>
+
+
+	.dropdown-content {
+		display: none;
+		position: absolute;
+		background-color: #f9f9f9;
+		min-width: 160px;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		z-index: 1;
+	}
+
+		.dropdown-content a {
+			color: black;
+			padding: 12px 16px;
+			text-decoration: none;
+			display: block;
+		}
+
+			.dropdown-content a:hover {
+				background-color: #f1f1f1
+			}
+
+	.placeBar:hover .dropdown-content {
+		display: block;
+	}
+
+
+
+	.CatagoryBar:hover .dropdown-content {
+		display: block;
+	}
+
+
+
+	.filters {
+		display: grid;
+		grid-template-columns: repeat(5, 1fr);
+		grid-template-rows: repeat(5, 1fr);
+		grid-column-gap: 0px;
+		grid-row-gap: 0px;
+	}
+
+	.searchBar {
+		grid-area: 1 / 1 / 2 / 2;
+	}
+
+	.placeBar {
+		grid-area: 1 / 2 / 2 / 3;
+	}
+
+	.CatagoryBar {
+		grid-area: 1 / 3 / 2 / 4;
+	}
+
 	.card{
-		margin-top: 20px;
+		margin-bottom: 20px;
 		text-decoration: none;
 		position: relative;
+		border: solid;
+		height: 120px;
 	}
 
-	.card-body{
-		float: left;
+	.card-title{
+		margin-left: 100px;
+		font-size: 30px;
 	}
 
-	.card-text{
+	.cardDateText {
 		float: left;
-		text-decoration: none;
-		color: red;
+		color: white;
+		background-color: darkslategray;
+		height: 114px;
+		width: 90px;
+		border-right: solid;
+		border-color: black;
+		text-align-last: center;
+		font-size: 25px; 
 	}
 
 	.card-description{
 		float: left;
-	}
-
-	.cardDate{
-
-	}
-
-	.card-text{
-		border: solid;
-		border-color: black;
-		display: flex;
-		height: auto;
-		text-decoration: none;
+		
 	}
 
 	.description-text{
-		font-size: 15px;
+		margin-left: 10px;
+		font-size: 25px;
 	}
 </style>
